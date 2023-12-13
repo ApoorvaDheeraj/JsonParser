@@ -33,10 +33,8 @@ jsonParser.writeMapToFile();
 // Example usage:
 const langInstanch = new LanguageModel_1.LangParser();
 // Adding values to the map of maps
-langInstanch.addToMap("key1", new LanguageModel_1.LangModel("valueth", "valueVN"));
-langInstanch.addToMap("key2", new LanguageModel_1.LangModel("valueth", "valueVN"));
-langInstanch.addToMap("key3", new LanguageModel_1.LangModel("valueth", "valueVN"));
-langInstanch.addToMap("key4", new LanguageModel_1.LangModel("valueth", "valueVN"));
-langInstanch.addToMap("key5", new LanguageModel_1.LangModel("valueth", "valueVN"));
+jsonParser.getResultMap().forEach((value, key) => {
+    langInstanch.addToMap(key, new LanguageModel_1.LangModel(value, value));
+});
 langInstanch.writeJsonForFile();
 //# sourceMappingURL=JsonController.js.map

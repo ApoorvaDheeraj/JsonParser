@@ -78,6 +78,9 @@ class JsonParser {
             }
         });
     }
+    getResultMap() {
+        return this.resultMap;
+    }
 }
 exports.JsonParser = JsonParser;
 //# sourceMappingURL=JsonParser.js.map

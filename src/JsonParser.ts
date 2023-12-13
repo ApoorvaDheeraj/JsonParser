@@ -60,6 +60,9 @@ export class JsonParser {
                 console.log(`Content has been written to ${filePath}`);
               }
           });
+    }
 
+    getResultMap():Map<string,string>{
+        return this.resultMap;
     }
   }

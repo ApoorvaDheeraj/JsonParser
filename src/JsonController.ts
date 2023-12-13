@@ -11,13 +11,13 @@ jsonParser.writeMapToFile();
   // Example usage:
   const langInstanch = new LangParser();
   // Adding values to the map of maps
-  langInstanch.addToMap("key1", new LangModel("valueth", "valueVN"));
-  langInstanch.addToMap("key2", new LangModel("valueth", "valueVN"));
-  langInstanch.addToMap("key3", new LangModel("valueth", "valueVN"));
-  langInstanch.addToMap("key4", new LangModel("valueth", "valueVN"));
-  langInstanch.addToMap("key5", new LangModel("valueth", "valueVN"));
 
-  langInstanch.writeJsonForFile();
+
+jsonParser.getResultMap().forEach((value:string, key:string)=>{
+    langInstanch.addToMap(key, new LangModel(value, value));
+});
+
+langInstanch.writeJsonForFile();
   
 
   
