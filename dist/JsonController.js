@@ -24,16 +24,19 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs = __importStar(require("fs"));
-const LanguageModel_1 = require("./LanguageModel");
 const JsonParser_1 = require("./JsonParser");
+const LanguageModel_1 = require("./LanguageModel");
 const data = fs.readFileSync('res/stringCH.json', 'utf8');
 // Create an instance of the JsonParser
 const jsonParser = new JsonParser_1.JsonParser(data);
 jsonParser.writeMapToFile();
-let keyObjectArray = [];
-const prObj = new LanguageModel_1.ParseJson(new LanguageModel_1.LangParentKey("Dkd", "kdkd", "kdkd", "kdkd"));
-const prObj2 = new LanguageModel_1.ParseJson(new LanguageModel_1.LangParentKey("Dkd", "kdkd", "kdkd", "kdkd"));
-keyObjectArray.push(prObj);
-keyObjectArray.push(prObj2);
-console.log(JSON.stringify(keyObjectArray));
+// Example usage:
+const langInstanch = new LanguageModel_1.LangParser();
+// Adding values to the map of maps
+langInstanch.addToMap("key1", new LanguageModel_1.LangModel("valueth", "valueVN"));
+langInstanch.addToMap("key2", new LanguageModel_1.LangModel("valueth", "valueVN"));
+langInstanch.addToMap("key3", new LanguageModel_1.LangModel("valueth", "valueVN"));
+langInstanch.addToMap("key4", new LanguageModel_1.LangModel("valueth", "valueVN"));
+langInstanch.addToMap("key5", new LanguageModel_1.LangModel("valueth", "valueVN"));
+langInstanch.writeJsonForFile();
 //# sourceMappingURL=JsonController.js.map

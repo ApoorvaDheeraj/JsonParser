@@ -1,6 +1,6 @@
 import * as fs from 'fs';
-import { LangParentKey, ParseJson } from './LanguageModel';
 import { JsonParser } from './JsonParser';
+import {LangModel, LangParser} from './LanguageModel'
 
 const data = fs.readFileSync('res/stringCH.json', 'utf8');
 
@@ -8,12 +8,18 @@ const data = fs.readFileSync('res/stringCH.json', 'utf8');
 const jsonParser = new JsonParser(data);
 jsonParser.writeMapToFile();
 
-let keyObjectArray = [];
+  // Example usage:
+  const langInstanch = new LangParser();
+  // Adding values to the map of maps
+  langInstanch.addToMap("key1", new LangModel("valueth", "valueVN"));
+  langInstanch.addToMap("key2", new LangModel("valueth", "valueVN"));
+  langInstanch.addToMap("key3", new LangModel("valueth", "valueVN"));
+  langInstanch.addToMap("key4", new LangModel("valueth", "valueVN"));
+  langInstanch.addToMap("key5", new LangModel("valueth", "valueVN"));
 
-const prObj = new ParseJson(new LangParentKey("Dkd", "kdkd", "kdkd", "kdkd"));
-const prObj2 = new ParseJson(new LangParentKey("Dkd", "kdkd", "kdkd", "kdkd"));
+  langInstanch.writeJsonForFile();
+  
 
-keyObjectArray.push(prObj);
-keyObjectArray.push(prObj2);
+  
+  
 
-console.log(JSON.stringify(keyObjectArray));

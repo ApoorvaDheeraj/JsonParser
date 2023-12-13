@@ -64,10 +64,10 @@ class JsonParser {
     }
     writeMapToFile() {
         this.createMap();
-        this.resultMap.forEach((value, key) => {
-            console.log(`${key} : ${value}`);
-        });
-        const finalString = JSON.stringify(Object.fromEntries(this.resultMap));
+        // this.resultMap.forEach((value, key) => {
+        //     console.log(`${key} : ${value}`);
+        //   });
+        const finalString = JSON.stringify(Object.fromEntries(this.resultMap), null, 4);
         const filePath = "res/master.json";
         fs.writeFile(filePath, finalString, 'utf-8', (err) => {
             if (err) {
