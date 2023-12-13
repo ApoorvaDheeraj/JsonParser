@@ -34,7 +34,7 @@ jsonParser.writeMapToFile();
 const langInstanch = new LanguageModel_1.LangParser();
 // Adding values to the map of maps
 jsonParser.getResultMap().forEach((value, key) => {
-    langInstanch.addToMap(key, new LanguageModel_1.LangModel(value, value));
+    langInstanch.addToMap(key, new LanguageModel_1.LangModel(value));
 });
 langInstanch.writeJsonForFile();
 //# sourceMappingURL=JsonController.js.map

@@ -26,9 +26,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.LangParser = exports.LangModel = void 0;
 const fs = __importStar(require("fs"));
 class LangModel {
-    constructor(th, vn) {
-        this.th = th;
-        this.vn = vn;
+    constructor(ch) {
+        this.ch = ch;
     }
 }
 exports.LangModel = LangModel;
