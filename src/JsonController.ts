@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import { LangParentKey, ParseJson } from './LanguageModel';
 import { JsonParser } from './JsonParser';
 
-const data = fs.readFileSync('res/stringEN.json', 'utf8');
+const data = fs.readFileSync('res/stringCH.json', 'utf8');
 
   // Create an instance of the JsonParser
 const jsonParser = new JsonParser(data);

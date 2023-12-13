@@ -26,7 +26,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const fs = __importStar(require("fs"));
 const LanguageModel_1 = require("./LanguageModel");
 const JsonParser_1 = require("./JsonParser");
-const data = fs.readFileSync('res/stringEN.json', 'utf8');
+const data = fs.readFileSync('res/stringCH.json', 'utf8');
 // Create an instance of the JsonParser
 const jsonParser = new JsonParser_1.JsonParser(data);
 jsonParser.writeMapToFile();

@@ -1,4 +1,5 @@
 {
+  "string":{
     "number_code": {
       "-value": "号码代码"
     },
@@ -13689,4 +13690,5 @@
     "Mtt_remember_to_return": {
       "-value": "But remember to return after a 5-minute break timer to resume play in the tournament"
     }
+  }
 }
