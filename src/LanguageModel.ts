@@ -1,8 +1,12 @@
 import * as fs from 'fs';
 export class LangModel{
     ch:string;
-    constructor(ch:string){
+    en:string;
+    th:string;
+    constructor(ch:string, en:string, th:string){
         this.ch = ch;
+        this.en = en;
+        this.th = th;
     }
 }
 

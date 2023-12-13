@@ -14,7 +14,7 @@ jsonParser.writeMapToFile();
 
 
 jsonParser.getResultMap().forEach((value:string, key:string)=>{
-    langInstanch.addToMap(key, new LangModel(value));
+    langInstanch.addToMap(key, new LangModel(value, "" , ""));
 });
 
 langInstanch.writeJsonForFile();
