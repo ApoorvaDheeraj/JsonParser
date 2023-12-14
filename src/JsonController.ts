@@ -8,9 +8,7 @@ const data = fs.readFileSync('res/stringCH.json', 'utf8');
 const jsonParser = new JsonParser(data);
 jsonParser.writeMapToFile();
 
-  // Example usage:
   const langInstanch = new LangParser();
-  // Adding values to the map of maps
 
 
 jsonParser.getResultMap().forEach((value:string, key:string)=>{
