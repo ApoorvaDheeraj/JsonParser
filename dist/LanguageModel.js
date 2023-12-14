@@ -23,44 +23,13 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LangParser = exports.LangModel = exports.LANGUAGE_TYPE = void 0;
+exports.LangParser = exports.LangModel = void 0;
 const fs = __importStar(require("fs"));
-var LANGUAGE_TYPE;
-(function (LANGUAGE_TYPE) {
-    /** Hindi, Traditional Chinese - Chinese (S) */
-    LANGUAGE_TYPE["zh_CN"] = "zh_CN";
-    /** English (US) */
-    LANGUAGE_TYPE["en_US"] = "en_US";
-    /** Vietnamese */
-    LANGUAGE_TYPE["vi_VN"] = "vi_VN";
-    /** Thai (Thailand) */
-    LANGUAGE_TYPE["th_PH"] = "th_PH";
-    /** Arabic (Saudi Arabia) */
-    LANGUAGE_TYPE["ar_SA"] = "ar_SA";
-    /** Hindi (India) */
-    LANGUAGE_TYPE["hi_IN"] = "hi_IN";
-    /** Portuguese (Brazil) */
-    LANGUAGE_TYPE["pt_BR"] = "pt_BR";
-    /** French (Canada) */
-    LANGUAGE_TYPE["fr_CA"] = "fr_CA";
-    /** Spanish (Mexico) */
-    LANGUAGE_TYPE["es_MX"] = "es_MX";
-    /** Nihongo (Japan) */
-    LANGUAGE_TYPE["ja_JP"] = "ja_JP";
-    /** Korean */
-    LANGUAGE_TYPE["ko_KR"] = "ko_KR";
-})(LANGUAGE_TYPE || (exports.LANGUAGE_TYPE = LANGUAGE_TYPE = {}));
 class LangModel {
-    constructor(ch, en, vi, th, pt, fr, es, ja, ko) {
-        this.zh_CN = ch;
-        this.en_US = en;
-        this.vi_VN = vi;
-        this.th_PH = th;
-        this.pt_BR = pt;
-        this.fr_CA = fr;
-        this.es_MX = es;
-        this.ja_JP = ja;
-        this.ko_KR = ko;
+    constructor(ch, en, th) {
+        this.ch = ch;
+        this.en = en;
+        this.th = th;
     }
 }
 exports.LangModel = LangModel;
@@ -74,13 +43,19 @@ class LangParser {
         if (!this.mapOfMaps.has(key1)) {
             this.mapOfMaps.set(key1, lang);
         }
+        // Get the inner map associated with key1
+        const innerMap = this.mapOfMaps.get(key1);
+        // Add the key-value pair to the inner map
+        //   if (innerMap) {
+        //     innerMap.set(key2, value);
+        //   }
     }
     // Method to get the value from the inner map
     getValueFromMap(key1, key2) {
         const innerMap = this.mapOfMaps.get(key1);
         return innerMap;
     }
-    writeJsonToFile() {
+    writeJsonForFile() {
         const masterString = JSON.stringify(Object.fromEntries(this.mapOfMaps), null, 4);
         const fileName = "res/sample.json";
         fs.writeFile(fileName, masterString, 'utf-8', (error) => {
@@ -91,7 +66,7 @@ class LangParser {
                 console.log("File Write Successfully");
             }
         });
-        // console.log(masterString);
+        console.log(masterString);
     }
 }
 exports.LangParser = LangParser;
