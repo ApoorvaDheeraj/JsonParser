@@ -11,7 +11,6 @@ export class LangModel{
 }
 
 export class LangParser {
-    // A map where keys are strings and values are maps
     mapOfMaps: Map<string, LangModel>;
   
     constructor() {
