@@ -23,7 +23,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LangParser = exports.LangModel = exports.LANGUAGE_TYPE = void 0;
+exports.LangController = exports.LangModel = exports.LANGUAGE_TYPE = void 0;
 const fs = __importStar(require("fs"));
 var LANGUAGE_TYPE;
 (function (LANGUAGE_TYPE) {
@@ -64,7 +64,7 @@ class LangModel {
     }
 }
 exports.LangModel = LangModel;
-class LangParser {
+class LangController {
     constructor() {
         this.mapOfMaps = new Map();
     }
@@ -82,17 +82,17 @@ class LangParser {
     }
     writeJsonToFile() {
         const masterString = JSON.stringify(Object.fromEntries(this.mapOfMaps), null, 4);
-        const fileName = "res/sample.json";
-        fs.writeFile(fileName, masterString, 'utf-8', (error) => {
+        const fileName = "res/MasterLangJson.json";
+        fs.writeFile(fileName, masterString, "utf-8", (error) => {
             if (error) {
                 console.log("Error" + JSON.stringify(error));
             }
             else {
-                console.log("File Write Successfully");
+                console.log("Master Json File Write Successfully");
             }
         });
         // console.log(masterString);
     }
 }
-exports.LangParser = LangParser;
-//# sourceMappingURL=LanguageModel.js.map
+exports.LangController = LangController;
+//# sourceMappingURL=LanguaggeUtil.js.map
