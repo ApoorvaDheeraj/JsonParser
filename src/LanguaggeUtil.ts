@@ -83,7 +83,7 @@ export class LangController {
     return innerMap;
   }
 
-  writeJsonToFile() {
+  createMasterJsonFile() {
     const masterString = JSON.stringify(Object.fromEntries(this.mapOfMaps), null, 4);
     const fileName = "res/MasterLangJson.json";
     fs.writeFile(fileName, masterString, "utf-8", (error) => {

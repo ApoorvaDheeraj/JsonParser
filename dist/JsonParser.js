@@ -111,6 +111,18 @@ class JsonParser {
         }
         return value;
     }
+    missingKeyForLangFile() {
+        const finalString = JSON.stringify(this.missingKeyArray, null, 4);
+        const filePath = "res/missingKey/" + this.fileName;
+        fs.writeFile(filePath, finalString, "utf-8", (err) => {
+            if (err) {
+                console.error("Error writing to file:", err);
+            }
+            else {
+                console.log(`Content has been written to ${filePath}`);
+            }
+        });
+    }
 }
 exports.JsonParser = JsonParser;
 //# sourceMappingURL=JsonParser.js.map
