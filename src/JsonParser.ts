@@ -9,6 +9,7 @@ export class JsonParser {
 
   private resultMap = new Map<string, string>();
   private missingKeyArray: string[] = [];
+  private keysArray: string[] = [];
   private fileName: string;
   private LANG_FILE_PATH:string = "res/langFiles/"
 
@@ -17,6 +18,12 @@ export class JsonParser {
     this.readJsonFile();
     // Initilize map with Json String File
     this.createMap();
+  }
+  private assignKeysForArray(){
+    this.keysArray = Array.from(this.resultMap.keys());
+  }
+  public getKeysArray():string[]{
+    return this.keysArray;
   }
 
   private writeMapToFile() {
@@ -74,6 +81,7 @@ export class JsonParser {
     //   }
 
     // this.writeMapToFile();
+    this.assignKeysForArray();
   }
 
   iterateCreatedMapForFile() {
@@ -104,6 +112,19 @@ export class JsonParser {
     const finalString = JSON.stringify(this.missingKeyArray, null, 4);
     const filePath = "res/missingKey/" + this.fileName;
     fs.writeFile(filePath, finalString, "utf-8", (err) => {
+      if (err) {
+        console.error("Error writing to file:", err);
+      } else {
+        console.log(`Content has been written to ${filePath}`);
+      }
+    });
+  }
+
+  writeKeysForJson(){
+    const keyArrayStr = JSON.stringify(this.keysArray, null, 4);
+
+    const filePath = "res/keysJson/" + this.fileName;
+    fs.writeFile(filePath, keyArrayStr, "utf-8", (err) => {
       if (err) {
         console.error("Error writing to file:", err);
       } else {

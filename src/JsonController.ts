@@ -8,16 +8,28 @@ let jsonParserRecord = new Map<string, JsonParser>();
 // Create EN instance of the JsonParser
 const enJsonParser = new JsonParser("stringEN.json");
 jsonParserRecord.set("en", enJsonParser);
+
 const enKeyItr = enJsonParser.getResultMap().keys();
+enJsonParser.writeKeysForJson();
 
 const langInstanch = new LangController();
 
 // Fill JsonParser Object with key value pair
 let fileArrayIndex = 0;
 countryCode.forEach(function (value) {
-  jsonParserRecord.set(value, new JsonParser(langFileArray.at(fileArrayIndex)!));
+  const jsonParserObj = new JsonParser(langFileArray.at(fileArrayIndex)!);
+  jsonParserRecord.set(value, jsonParserObj);
   fileArrayIndex++;
+
+  // jsonParserObj.writeKeysForJson();
+
 });
+
+// let missing = a1.filter(item => a2.indexOf(item) < 0);
+// console.log(missing);
+// let missingKey = enJsonParser.getKeysArray().filter(value => (jsonParserRecord.get("es")?.getKeysArray().indexOf(value)!) < 0)
+let missingKey = jsonParserRecord.get("vn")?.getKeysArray().filter(value => (enJsonParser.getKeysArray().indexOf(value)!) < 0)
+console.log(JSON.stringify(missingKey, null, 4));
 
 for (const keyValue of enKeyItr) {
   // console.log(`Value for ${keyValue} = ${jsonParser.getResultMap().get(keyValue)}`);
@@ -35,18 +47,13 @@ for (const keyValue of enKeyItr) {
   //   `Value for Key ${keyValue} = ${enValueForKey}, ${zhValueForKey}, ${vnValueForKey},${thValueForKey},${ptValueForKey},${frValueForKey},${esValueForKey},${jpValueForKey},${koValueForKey},`
   // );
 
-  langInstanch.addToMap(keyValue, new LangModel(zhValueForKey,enValueForKey,vnValueForKey,thValueForKey,ptValueForKey,frValueForKey,esValueForKey,jpValueForKey,koValueForKey));
+  // langInstanch.addToMap(keyValue, new LangModel(zhValueForKey,enValueForKey,vnValueForKey,thValueForKey,ptValueForKey,frValueForKey,esValueForKey,jpValueForKey,koValueForKey));
 }
 
-langInstanch.createMasterJsonFile();
+// langInstanch.createMasterJsonFile();
 
 // Fill JsonParser Object with key value pair
-let missingArrayIndex = 0;
 countryCode.forEach(function (value) {
-  jsonParserRecord.get(value)?.missingKeyForLangFile();
+  // jsonParserRecord.get(value)?.missingKeyForLangFile();
   fileArrayIndex++;
 });
-
-// enJsonParser.getResultMap().forEach((value: string, key: string) => {
-//   // langInstanch.addToMap(key, new LangModel(value, "" , ""));
-// });
