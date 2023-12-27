@@ -2,7 +2,9 @@
 var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
 Object.defineProperty(exports, "__esModule", { value: true });
 const JsonParser_1 = require("./JsonParser");
+const LangData_1 = require("./LangData");
 const LanguaggeUtil_1 = require("./LanguaggeUtil");
+const MTTParser_1 = require("./MTTParser");
 const langFileArray = ["stringCH.json", "stringVN.json", "stringTH.json", "stringPT.json", "stringFR.json", "stringES.json", "stringJP.json", "stringKO.json"];
 const countryCode = ["ch", "vn", "th", "pt", "fr", "es", "jp", "ko"];
 let jsonParserRecord = new Map();
@@ -47,4 +49,6 @@ countryCode.forEach(function (value) {
     // jsonParserRecord.get(value)?.missingKeyForLangFile();
     fileArrayIndex++;
 });
+const mttParserObj = new MTTParser_1.MTTParser();
+mttParserObj.loopTranslationJson(LangData_1.Translation);
 //# sourceMappingURL=JsonController.js.map

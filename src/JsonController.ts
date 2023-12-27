@@ -1,5 +1,7 @@
 import { JsonParser } from "./JsonParser";
+import { Translation } from "./LangData";
 import { LangModel, LangController } from "./LanguaggeUtil";
+import { MTTParser } from "./MTTParser";
 
 const langFileArray = ["stringCH.json", "stringVN.json", "stringTH.json", "stringPT.json", "stringFR.json", "stringES.json", "stringJP.json", "stringKO.json"];
 const countryCode = ["ch", "vn", "th", "pt", "fr", "es", "jp", "ko"];
@@ -57,3 +59,8 @@ countryCode.forEach(function (value) {
   // jsonParserRecord.get(value)?.missingKeyForLangFile();
   fileArrayIndex++;
 });
+
+
+
+const mttParserObj = new MTTParser();
+mttParserObj.loopTranslationJson(Translation);
