@@ -12,9 +12,11 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/dist/JsonController.js",
+            // "program": "${workspaceFolder}/src/Test.js",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
-            ]
+            ],
+            "runtimeExecutable": "/usr/local/bin/node"
         }
     ]
 }

@@ -93,6 +93,17 @@ class LangController {
         });
         // console.log(masterString);
     }
+    writeKeysForJson(objArray, fileName) {
+        const keyArrayStr = JSON.stringify(objArray, null, 4);
+        fs.writeFile(fileName, keyArrayStr, "utf-8", (err) => {
+            if (err) {
+                console.error("Error writing to file:", err);
+            }
+            else {
+                console.log(`Content has been written to ${fileName}`);
+            }
+        });
+    }
 }
 exports.LangController = LangController;
 //# sourceMappingURL=LanguaggeUtil.js.map

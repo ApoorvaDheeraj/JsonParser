@@ -63,4 +63,7 @@ countryCode.forEach(function (value) {
 
 
 const mttParserObj = new MTTParser();
-mttParserObj.loopTranslationJson(Translation);
+let result = mttParserObj.flattenObject(Translation);
+
+langInstanch.writeKeysForJson(mttParserObj.nestedKey, "res/mtt/nested.json");
+langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json")

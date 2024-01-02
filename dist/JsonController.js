@@ -50,5 +50,7 @@ countryCode.forEach(function (value) {
     fileArrayIndex++;
 });
 const mttParserObj = new MTTParser_1.MTTParser();
-mttParserObj.loopTranslationJson(LangData_1.Translation);
+let result = mttParserObj.flattenObject(LangData_1.Translation);
+langInstanch.writeKeysForJson(mttParserObj.nestedKey, "res/mtt/nested.json");
+langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json");
 //# sourceMappingURL=JsonController.js.map
