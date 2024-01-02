@@ -1,7 +1,9 @@
+import { FormattedMTT_Translation } from "./FormattedMTTLang";
 import { JsonParser } from "./JsonParser";
 import { Translation } from "./LangData";
 import { LangModel, LangController } from "./LanguaggeUtil";
 import { MTTParser } from "./MTTParser";
+import { Translate } from "./Translator";
 
 const langFileArray = ["stringCH.json", "stringVN.json", "stringTH.json", "stringPT.json", "stringFR.json", "stringES.json", "stringJP.json", "stringKO.json"];
 const countryCode = ["ch", "vn", "th", "pt", "fr", "es", "jp", "ko"];
@@ -66,4 +68,9 @@ const mttParserObj = new MTTParser();
 let result = mttParserObj.flattenObject(Translation);
 
 langInstanch.writeKeysForJson(mttParserObj.nestedKey, "res/mtt/nested.json");
-langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json")
+langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json");
+
+
+console.log(Translate(Translation.LOTTERY.CONGRATULATION_SELF));
+console.log(Translate(Translation['LOTTERY']['CONGRATULATION_SELF']));
+console.log(Translate(FormattedMTT_Translation['LOTTERY.CONGRATULATION_SELF']));
