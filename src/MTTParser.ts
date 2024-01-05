@@ -42,10 +42,10 @@ export class MTTParser {
     for (const key in obj) {
       if (this.countryArray.includes(key)) {
         if (this.isNested(obj)) {
-          const newKey = parentKey ? `${parentKey}.${key}` : key;
+          const nestedNewKey = parentKey ? `${parentKey}.${key}` : key;
           if (typeof obj[key] === "object" && obj !== null) {
-            const flattened = this.flattenObject(obj[key], newKey);
-            result = { ...result, ...flattened };
+            const nestedflattened = this.flattenObject(obj[key], nestedNewKey);
+            result = { ...result, ...nestedflattened };
           }else{
             result[parentKey] = this.getSingleJSONObj(obj);
             // this.nestedKey[parentKey] = this.getSingleJSONObj(obj);

@@ -5,6 +5,7 @@ const FormattedMTTLang_1 = require("./FormattedMTTLang");
 const JsonParser_1 = require("./JsonParser");
 const LangData_1 = require("./LangData");
 const LanguaggeUtil_1 = require("./LanguaggeUtil");
+const MTTLocController_1 = require("./MTTLocController");
 const MTTParser_1 = require("./MTTParser");
 const Translator_1 = require("./Translator");
 const langFileArray = ["stringCH.json", "stringVN.json", "stringTH.json", "stringPT.json", "stringFR.json", "stringES.json", "stringJP.json", "stringKO.json"];
@@ -52,10 +53,12 @@ countryCode.forEach(function (value) {
     fileArrayIndex++;
 });
 const mttParserObj = new MTTParser_1.MTTParser();
-let result = mttParserObj.flattenObject(LangData_1.Translation);
-langInstanch.writeKeysForJson(mttParserObj.nestedKey, "res/mtt/nested.json");
-langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json");
+// let result = mttParserObj.flattenObject(Translation);
+// langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json");
 console.log((0, Translator_1.Translate)(LangData_1.Translation.LOTTERY.CONGRATULATION_SELF));
 console.log((0, Translator_1.Translate)(LangData_1.Translation['LOTTERY']['CONGRATULATION_SELF']));
 console.log((0, Translator_1.Translate)(FormattedMTTLang_1.FormattedMTT_Translation['LOTTERY.CONGRATULATION_SELF']));
+const langString = "ko";
+let mttResult = MTTLocController_1.MTTLocController.getInstance().loadLocStringsFromResources(langString);
+langInstanch.writeKeysForJson(mttResult, `res/mtt/${langString}.json`);
 //# sourceMappingURL=JsonController.js.map

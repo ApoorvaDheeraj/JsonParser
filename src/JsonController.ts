@@ -2,6 +2,7 @@ import { FormattedMTT_Translation } from "./FormattedMTTLang";
 import { JsonParser } from "./JsonParser";
 import { Translation } from "./LangData";
 import { LangModel, LangController } from "./LanguaggeUtil";
+import { MTTLocController } from "./MTTLocController";
 import { MTTParser } from "./MTTParser";
 import { Translate } from "./Translator";
 
@@ -65,12 +66,15 @@ countryCode.forEach(function (value) {
 
 
 const mttParserObj = new MTTParser();
-let result = mttParserObj.flattenObject(Translation);
+// let result = mttParserObj.flattenObject(Translation);
 
-langInstanch.writeKeysForJson(mttParserObj.nestedKey, "res/mtt/nested.json");
-langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json");
+// langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json");
 
 
 console.log(Translate(Translation.LOTTERY.CONGRATULATION_SELF));
 console.log(Translate(Translation['LOTTERY']['CONGRATULATION_SELF']));
 console.log(Translate(FormattedMTT_Translation['LOTTERY.CONGRATULATION_SELF']));
+
+const langString = "ko";
+let mttResult = MTTLocController.getInstance().loadLocStringsFromResources(langString);
+langInstanch.writeKeysForJson(mttResult, `res/mtt/${langString}.json`);
