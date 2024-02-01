@@ -26,7 +26,7 @@ countryCode.forEach(function (value) {
   jsonParserRecord.set(value, jsonParserObj);
   fileArrayIndex++;
 
-  // jsonParserObj.writeKeysForJson();
+  jsonParserObj.writeKeysForJson();
 
 });
 
@@ -48,14 +48,14 @@ for (const keyValue of enKeyItr) {
   const jpValueForKey = jsonParserRecord.get("jp")?.getValueForKey(keyValue);
   const koValueForKey = jsonParserRecord.get("ko")?.getValueForKey(keyValue);
 
-  // console.log(
-  //   `Value for Key ${keyValue} = ${enValueForKey}, ${zhValueForKey}, ${vnValueForKey},${thValueForKey},${ptValueForKey},${frValueForKey},${esValueForKey},${jpValueForKey},${koValueForKey},`
-  // );
+  console.log(
+    `Value for Key ${keyValue} = ${enValueForKey}, ${zhValueForKey}, ${vnValueForKey},${thValueForKey},${ptValueForKey},${frValueForKey},${esValueForKey},${jpValueForKey},${koValueForKey},`
+  );
 
-  // langInstanch.addToMap(keyValue, new LangModel(zhValueForKey,enValueForKey,vnValueForKey,thValueForKey,ptValueForKey,frValueForKey,esValueForKey,jpValueForKey,koValueForKey));
+  langInstanch.addToMap(keyValue, new LangModel(zhValueForKey,enValueForKey,vnValueForKey,thValueForKey,ptValueForKey,frValueForKey,esValueForKey,jpValueForKey,koValueForKey));
 }
 
-// langInstanch.createMasterJsonFile();
+langInstanch.createMasterJsonFile();
 
 // Fill JsonParser Object with key value pair
 countryCode.forEach(function (value) {
@@ -70,11 +70,9 @@ const mttParserObj = new MTTParser();
 
 // langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json");
 
-
-console.log(Translate(Translation.LOTTERY.CONGRATULATION_SELF));
-console.log(Translate(Translation['LOTTERY']['CONGRATULATION_SELF']));
-console.log(Translate(FormattedMTT_Translation['LOTTERY.CONGRATULATION_SELF']));
-
-const langString = "ko";
-let mttResult = MTTLocController.getInstance().loadLocStringsFromResources(langString);
-langInstanch.writeKeysForJson(mttResult, `res/mtt/${langString}.json`);
+// Iterate Array and Write File
+const langArray:string[] = ["tc", "ru", "sc","en", "es", "fr", "ja", "ko", "vn", "th", "hi", ]
+for(const langKey in langArray){
+  let mttResult = MTTLocController.getInstance().loadLocStringsFromResources(langArray[langKey]);
+  // langInstanch.writeKeysForJson(mttResult, `res/mtt/${langArray[langKey]}.json`);
+}

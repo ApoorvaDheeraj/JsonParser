@@ -1,13 +1,10 @@
 "use strict";
 var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
 Object.defineProperty(exports, "__esModule", { value: true });
-const FormattedMTTLang_1 = require("./FormattedMTTLang");
 const JsonParser_1 = require("./JsonParser");
-const LangData_1 = require("./LangData");
 const LanguaggeUtil_1 = require("./LanguaggeUtil");
 const MTTLocController_1 = require("./MTTLocController");
 const MTTParser_1 = require("./MTTParser");
-const Translator_1 = require("./Translator");
 const langFileArray = ["stringCH.json", "stringVN.json", "stringTH.json", "stringPT.json", "stringFR.json", "stringES.json", "stringJP.json", "stringKO.json"];
 const countryCode = ["ch", "vn", "th", "pt", "fr", "es", "jp", "ko"];
 let jsonParserRecord = new Map();
@@ -23,7 +20,7 @@ countryCode.forEach(function (value) {
     const jsonParserObj = new JsonParser_1.JsonParser(langFileArray.at(fileArrayIndex));
     jsonParserRecord.set(value, jsonParserObj);
     fileArrayIndex++;
-    // jsonParserObj.writeKeysForJson();
+    jsonParserObj.writeKeysForJson();
 });
 // let missing = a1.filter(item => a2.indexOf(item) < 0);
 // console.log(missing);
@@ -41,12 +38,10 @@ for (const keyValue of enKeyItr) {
     const esValueForKey = (_h = jsonParserRecord.get("es")) === null || _h === void 0 ? void 0 : _h.getValueForKey(keyValue);
     const jpValueForKey = (_j = jsonParserRecord.get("jp")) === null || _j === void 0 ? void 0 : _j.getValueForKey(keyValue);
     const koValueForKey = (_k = jsonParserRecord.get("ko")) === null || _k === void 0 ? void 0 : _k.getValueForKey(keyValue);
-    // console.log(
-    //   `Value for Key ${keyValue} = ${enValueForKey}, ${zhValueForKey}, ${vnValueForKey},${thValueForKey},${ptValueForKey},${frValueForKey},${esValueForKey},${jpValueForKey},${koValueForKey},`
-    // );
-    // langInstanch.addToMap(keyValue, new LangModel(zhValueForKey,enValueForKey,vnValueForKey,thValueForKey,ptValueForKey,frValueForKey,esValueForKey,jpValueForKey,koValueForKey));
+    console.log(`Value for Key ${keyValue} = ${enValueForKey}, ${zhValueForKey}, ${vnValueForKey},${thValueForKey},${ptValueForKey},${frValueForKey},${esValueForKey},${jpValueForKey},${koValueForKey},`);
+    langInstanch.addToMap(keyValue, new LanguaggeUtil_1.LangModel(zhValueForKey, enValueForKey, vnValueForKey, thValueForKey, ptValueForKey, frValueForKey, esValueForKey, jpValueForKey, koValueForKey));
 }
-// langInstanch.createMasterJsonFile();
+langInstanch.createMasterJsonFile();
 // Fill JsonParser Object with key value pair
 countryCode.forEach(function (value) {
     // jsonParserRecord.get(value)?.missingKeyForLangFile();
@@ -55,10 +50,10 @@ countryCode.forEach(function (value) {
 const mttParserObj = new MTTParser_1.MTTParser();
 // let result = mttParserObj.flattenObject(Translation);
 // langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json");
-console.log((0, Translator_1.Translate)(LangData_1.Translation.LOTTERY.CONGRATULATION_SELF));
-console.log((0, Translator_1.Translate)(LangData_1.Translation['LOTTERY']['CONGRATULATION_SELF']));
-console.log((0, Translator_1.Translate)(FormattedMTTLang_1.FormattedMTT_Translation['LOTTERY.CONGRATULATION_SELF']));
-const langString = "ko";
-let mttResult = MTTLocController_1.MTTLocController.getInstance().loadLocStringsFromResources(langString);
-langInstanch.writeKeysForJson(mttResult, `res/mtt/${langString}.json`);
+// Iterate Array and Write File
+const langArray = ["tc", "ru", "sc", "en", "es", "fr", "ja", "ko", "vn", "th", "hi",];
+for (const langKey in langArray) {
+    let mttResult = MTTLocController_1.MTTLocController.getInstance().loadLocStringsFromResources(langArray[langKey]);
+    // langInstanch.writeKeysForJson(mttResult, `res/mtt/${langArray[langKey]}.json`);
+}
 //# sourceMappingURL=JsonController.js.map
