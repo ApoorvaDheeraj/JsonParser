@@ -44,6 +44,7 @@ export class JsonParser {
     this.jsonData = JSON.parse(data);
   }
 
+  // Create and Write Map to File
   private createMap() {
     if (!this.jsonData) console.log(`Unable to read Json Data for file ${this.fileName}`);
 

@@ -62,6 +62,7 @@ class JsonParser {
         const data = fs.readFileSync(filePath, "utf8");
         this.jsonData = JSON.parse(data);
     }
+    // Create and Write Map to File
     createMap() {
         if (!this.jsonData)
             console.log(`Unable to read Json Data for file ${this.fileName}`);

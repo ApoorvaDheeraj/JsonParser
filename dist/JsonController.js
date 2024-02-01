@@ -38,10 +38,13 @@ for (const keyValue of enKeyItr) {
     const esValueForKey = (_h = jsonParserRecord.get("es")) === null || _h === void 0 ? void 0 : _h.getValueForKey(keyValue);
     const jpValueForKey = (_j = jsonParserRecord.get("jp")) === null || _j === void 0 ? void 0 : _j.getValueForKey(keyValue);
     const koValueForKey = (_k = jsonParserRecord.get("ko")) === null || _k === void 0 ? void 0 : _k.getValueForKey(keyValue);
-    console.log(`Value for Key ${keyValue} = ${enValueForKey}, ${zhValueForKey}, ${vnValueForKey},${thValueForKey},${ptValueForKey},${frValueForKey},${esValueForKey},${jpValueForKey},${koValueForKey},`);
-    langInstanch.addToMap(keyValue, new LanguaggeUtil_1.LangModel(zhValueForKey, enValueForKey, vnValueForKey, thValueForKey, ptValueForKey, frValueForKey, esValueForKey, jpValueForKey, koValueForKey));
+    // console.log(
+    //   `Value for Key ${keyValue} = ${enValueForKey}, ${zhValueForKey}, ${vnValueForKey},${thValueForKey},${ptValueForKey},${frValueForKey},${esValueForKey},${jpValueForKey},${koValueForKey},`
+    // );
+    // langInstanch.addToMap(keyValue, new LangModel(zhValueForKey,enValueForKey,vnValueForKey,thValueForKey,ptValueForKey,frValueForKey,esValueForKey,jpValueForKey,koValueForKey));
 }
-langInstanch.createMasterJsonFile();
+// Create Master Lang file for String.EN ... JSONS
+// langInstanch.createMasterJsonFile();
 // Fill JsonParser Object with key value pair
 countryCode.forEach(function (value) {
     // jsonParserRecord.get(value)?.missingKeyForLangFile();
