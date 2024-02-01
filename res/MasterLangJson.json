@@ -10263,15 +10263,15 @@
         "ko_KR": "투르크메니스탄,TM*993"
     },
     "areaCode203": {
-        "zh_CN": "土克斯及开科斯群岛,TC*1809",
-        "en_US": "Turks and Caicos Islands,TC*1809",
-        "vi_VN": "Quần đảo Turks và Caicos,TC*1809",
-        "th_PH": "หมู่เกาะเติกส์และหมู่เกาะเคคอส,TC*1809",
-        "pt_BR": "Ilhas Turks e Caicos,TC*1809",
-        "fr_CA": "Îles Turks et Caïques,TC*1809",
-        "es_MX": "Islas Turcas y Caicos,TC*1809",
-        "ja_JP": "タークス・カイコス諸島,TC*1809",
-        "ko_KR": "터크 케이커스 제도,TC*1809"
+        "zh_CN": "土克斯及开科斯群岛,TC*1649",
+        "en_US": "Turks and Caicos Islands,TC*1649",
+        "vi_VN": "Quần đảo Turks và Caicos,TC*1649",
+        "th_PH": "หมู่เกาะเติกส์และหมู่เกาะเคคอส,TC*1649",
+        "pt_BR": "Ilhas Turks e Caicos,TC*1649",
+        "fr_CA": "Îles Turks et Caïques,TC*1649",
+        "es_MX": "Islas Turcas y Caicos,TC*1649",
+        "ja_JP": "タークス・カイコス諸島,TC*1649",
+        "ko_KR": "터크 케이커스 제도,TC*1649"
     },
     "areaCode204": {
         "zh_CN": "图瓦卢,TV*688",
@@ -10613,6 +10613,39 @@
         "es_MX": "Isle of Man,IM*44",
         "ja_JP": "マン島,IM*44",
         "ko_KR": "맨섬,IM*44"
+    },
+    "areaCode235": {
+        "zh_CN": "多明尼加共和國,DO*1809",
+        "en_US": "Dominican Republic,DO*1809",
+        "vi_VN": "Cộng hòa Dominica,DO*1809",
+        "th_PH": "สาธารณรัฐโดมินิกัน,DO*1809",
+        "pt_BR": "República Dominicana,DO*1809",
+        "fr_CA": "République Dominicaine,DO*1809",
+        "es_MX": "República Dominicana,DO*1809",
+        "ja_JP": "ドミニカ共和国,DO*1809",
+        "ko_KR": "도미니카 공화국,DO*1809"
+    },
+    "areaCode236": {
+        "zh_CN": "多明尼加共和國,DO*1829",
+        "en_US": "Dominican Republic,DO*1829",
+        "vi_VN": "Cộng hòa Dominica,DO*1829",
+        "th_PH": "สาธารณรัฐโดมินิกัน,DO*1829",
+        "pt_BR": "República Dominicana,DO*1829",
+        "fr_CA": "République Dominicaine,DO*1829",
+        "es_MX": "República Dominicana,DO*1829",
+        "ja_JP": "ドミニカ共和国,DO*1829",
+        "ko_KR": "도미니카 공화국,DO*1829"
+    },
+    "areaCode237": {
+        "zh_CN": "多明尼加共和國,DO*1849",
+        "en_US": "Dominican Republic,DO*1849",
+        "vi_VN": "Cộng hòa Dominica,DO*1849",
+        "th_PH": "สาธารณรัฐโดมินิกัน,DO*1849",
+        "pt_BR": "República Dominicana,DO*1849",
+        "fr_CA": "République Dominicaine,DO*1849",
+        "es_MX": "República Dominicana,DO*1849",
+        "ja_JP": "ドミニカ共和国,DO*1849",
+        "ko_KR": "도미니카 공화국,DO*1849"
     },
     "country_AF": {
         "zh_CN": "阿富汗",
@@ -11316,7 +11349,7 @@
         "fr_CA": "République Dominicaine",
         "es_MX": "República Dominicana",
         "ja_JP": "ドミニカ共和国",
-        "ko_KR": "Dominican Republic"
+        "ko_KR": "도미니카 공화국"
     },
     "country_TL": {
         "zh_CN": "东帝汶",
@@ -27252,6 +27285,17 @@
         "ja_JP": "サウンドエフェクト",
         "ko_KR": "사운드 효과"
     },
+    "Setting_Muck_Hands_Title": {
+        "zh_CN": "Muck Losing Hands",
+        "en_US": "Muck Losing Hands",
+        "vi_VN": "Úp bài thua",
+        "th_PH": "ทิ้งมือที่แพ้",
+        "pt_BR": "Mãos perdidas por descartar",
+        "fr_CA": "Défausser les mains perdantes",
+        "es_MX": "Ocultar manos perdedoras",
+        "ja_JP": "負けたハンドを伏せる",
+        "ko_KR": "핸드를 잃은 먹"
+    },
     "Setting_AutoFocus_Title": {
         "zh_CN": "Turn on auto-focus on mobile",
         "en_US": "Turn on auto-focus on mobile",
@@ -29400,12 +29444,12 @@
     "CowboyRule_cowboy_poker_title": {
         "zh_CN": "扑克翻转",
         "en_US": "Poker Flips",
-        "vi_VN": "Lật Xì tố",
+        "vi_VN": "Lật Xì Tố",
         "th_PH": "โป๊กเกอร์ฟลิป",
-        "pt_BR": "Poker Flips",
+        "pt_BR": "Flips de Poker",
         "fr_CA": "Poker Flips",
-        "es_MX": "Poker Flips",
-        "ja_JP": "ポーカーフリップス",
+        "es_MX": "Póker Flips",
+        "ja_JP": "ポーカーフリップ",
         "ko_KR": "포커 플립"
     },
     "CowboyRule_cowboy_poker_desc": {
@@ -29565,7 +29609,7 @@
     "CowboyRule_anyone_holecards_desc_1": {
         "zh_CN": "玩家可以下注三类任何人的底牌；\na) 同花、连牌、同花连牌；\nb) 一对；\nc) 一对 A",
         "en_US": "Players can bet three categories of Anyone's Holdcards;\na) Suited, Connected, Suited Connector;\nb) One Pair;\nc) Pair of Aces",
-        "vi_VN": "Người chơi có thể cược bất kỳ ba loạ Bài riêng của bất kỳ ai;\na)Đồng chất, Liên tiếp, Đồng chất liên tiếp;\nb) Một đôi;\nc) Đôi át",
+        "vi_VN": "Người chơi có thể cược bất kỳ ba loại Bài riêng của bất kỳ ai;\na)Đồng chất, Liên tiếp, Đồng chất liên tiếp;\nb) Một đôi;\nc) Đôi át",
         "th_PH": "ผู้เล่นสามารถเดิมพันไพ่โฮลด์การ์ดของใครก็ได้สามประเภท\n a) ไพ่ดอกเหมือน, เชื่อมต่อกัน, คอนเน็กเตอร์ดอกเหมือน;\nb) ไพ่คู่หนึ่ง;\nc) ไพ่คู่เอซ",
         "pt_BR": "Os jogadores podem apostar três categorias de Holdcards de qualquer pessoa;\na) Suited (cartas do mesmo naipe), Connected (cartas vizinhas), e Suited Connector (cartas do mesmo naipe e vizinhas);\b) um par;\nc) par de Ases",
         "fr_CA": "Les joueurs peuvent miser sur trois catégories de cartes secrètes de quiconque;\na) Assorti, connecteur et connecteur assorti;\nb) Une paire;\nc) Paire d’as",
@@ -31753,7 +31797,7 @@
     },
     "PokerMaster_tips_insure_other_squint_0": {
         "zh_CN": "大师正在眯牌，请等待 (%d)",
-        "en_US": "Master peeling them cards，pleas wait (%d)",
+        "en_US": "The river card is being shown (%d)",
         "vi_VN": "Master đang xem hé bài，vui lòng đợi (%d)",
         "th_PH": "อาจารย์ปอกไพ่พวกเขา，ได้โปรดรอก่อน (%d)",
         "pt_BR": "O Mestre está descascando as cartas. Espere. (%d)",
@@ -31764,7 +31808,7 @@
     },
     "PokerMaster_tips_insure_other_squint_1": {
         "zh_CN": "玩家正在眯牌，请等待 (%d)",
-        "en_US": " Player peeling them cards，pleas wait (%d)",
+        "en_US": "The river card is being shown (%d)",
         "vi_VN": " Người chơi đang xem hé bài，vui lòng đợi (%d)",
         "th_PH": " ผู้เล่นปอกไพ่ได้，ขอร้องละ รอแปปนะ (%d)",
         "pt_BR": " O Jogador está descascando as cartas. Espere. (%d)",
@@ -31787,7 +31831,7 @@
     "PokerMaster_tips_choose_your_box": {
         "zh_CN": "Please choose your lucky box",
         "en_US": "Please choose your lucky box",
-        "vi_VN": "Hãy chọn hộp may mắn của bạn",
+        "vi_VN": "Please choose your lucky box",
         "th_PH": "Please choose your lucky box",
         "pt_BR": "Please choose your lucky box",
         "fr_CA": "Please choose your lucky box",
@@ -32348,11 +32392,11 @@
     "PokerMasterRule_Name": {
         "zh_CN": "Poker Master",
         "en_US": "Poker Master",
-        "vi_VN": "Poker Master",
+        "vi_VN": "Trùm Xì Tố",
         "th_PH": "โป๊กเกอร์มาสเตอร์",
-        "pt_BR": "Poker Master",
+        "pt_BR": "Mestre do Poker",
         "fr_CA": "Poker Master",
-        "es_MX": "Poker Master",
+        "es_MX": "Póker Master",
         "ja_JP": "ポーカーマスター",
         "ko_KR": "포커 마스터"
     },
@@ -32501,7 +32545,7 @@
     },
     "PokerMasterRule_LuckyHitInfo": {
         "zh_CN": "Winning hand betting area, consist of five options - High card/One Pair; Two Pair; Three of a Kind/Straight/ Flush; Full House; Four of a kind/Straight flush'Royal Flush. The player reward is based on the corrsponding odds of the correct bet. ",
-        "en_US": "Winning hand betting area, consist of five options - High card/One Pair; Two Pair; Three of a Kind/Straight/ Flush; Full House; Four of a kind/Straight flush'Royal Flush. The player reward is based on the corresponding odds of the correct bet. ",
+        "en_US": "Winning hand betting area, consist of five options - High card/One Pair; Two Pair; Three of a Kind/Straight/ Flush; Full House; Four of a kind/Straight flush/Royal Flush. The player reward is based on the corresponding odds of the correct bet. ",
         "vi_VN": "Khu vực đặt cược tay bài thắng, bao gồm năm tùy chọn – Mậu Thầu/Một Đôi; Hai Đôi; Sám Cô/Sảnh/Thùng; Cù Lũ; Tứ Quý/Thùng Phá Sảnh/Sảnh Chúa. Giải thưởng cho người chơi dựa trên tỷ lệ cược tương ứng của lượt cược chính xác.",
         "th_PH": "พื้นที่ลงเดิมพันของมือที่ชนะรางวัลประกอบด้วยห้าตัวเลือก - ไพ่สูง/หนึ่งคู่; สองคู่; ไพ่ตอง/สเตรท/ฟลัช; ฟูลเฮาส์; ไพ่สี่ใบเหมือน/สเตรทฟลัช/รอยัลฟลัช รางวัลของผู้เล่นจะเป็นไปตามอัตราต่อรองที่เกี่ยวข้องของเดิมพันที่ถูกต้อง",
         "pt_BR": "A área de apostas da mão vencedora consiste em cinco opções: Carta mais alta/Um par; Dois pares; Trinca/Sequência/Flush; Full House; Quadra/Sequência de mesmo naipe/Royal Flush. A recompensa do jogador é baseada nas cotações correspondentes da aposta correta.",
@@ -32611,36 +32655,36 @@
     },
     "PokerMasterRule_RewardTableLimitInfo_01": {
         "zh_CN": "Odds 10 times or less 100 000 Gold Coins",
-        "en_US": "Odds 10 times or less 100 000 Gold Coins",
-        "vi_VN": "Tỷ lệ cược 10 lần trở xuống: 100.000 Xu Vàng",
-        "th_PH": "อัตราต่อรอง 10 เท่าหรือน้อยกว่า: 100,000 เหรียญทอง",
-        "pt_BR": "Cotações menores ou iguais a 10 vezes: 100.000 moedas de ouro",
-        "fr_CA": "Cotes 10 fois ou moins : 100 000 pièces d’or",
-        "es_MX": "Cuando las probabilidades sean de 10 veces o menos: 100.000 monedas de oro",
-        "ja_JP": "10倍以下のオッズ：100,000ゴールドコイン",
-        "ko_KR": "배당률 10배 이하: 100,000개 골드 코인"
+        "en_US": "Odds 9 times or less: 100 000 Gold Coins",
+        "vi_VN": "Tỷ lệ cược 9 lần trở xuống: 100.000 Xu Vàng",
+        "th_PH": "อัตราต่อรอง 9 เท่าหรือน้อยกว่า: 100,000 เหรียญทอง",
+        "pt_BR": "Cotações menores ou iguais a 9 vezes: 100.000 moedas de ouro",
+        "fr_CA": "Cotes 9 fois ou moins : 100 000 pièces d’or",
+        "es_MX": "Cuando las probabilidades sean de 9 veces o menos: 100.000 monedas de oro",
+        "ja_JP": "9倍以下のオッズ：100,000ゴールドコイン",
+        "ko_KR": "배당률 9 배 이하: 100,000개 골드 코인"
     },
     "PokerMasterRule_RewardTableLimitInfo_02": {
         "zh_CN": "Odds 10-15 times: 50 000 Gold Coins",
-        "en_US": "Odds 10-15 times: 50 000 Gold Coins",
-        "vi_VN": "Tỷ lệ cược 10 – 15 lần: 50.000 Xu Vàng",
-        "th_PH": "อัตราต่อรอง 10-15 เท่า: 50,000 เหรียญทอง",
-        "pt_BR": "Cotações entre 10 e 15 vezes: 50.000 moedas de ouro",
-        "fr_CA": "Cotes 10-15 fois : 50 000 pièces d’or",
-        "es_MX": "Cuando las probabilidades sean entre 10 y 15 veces: 50.000 monedas de oro",
-        "ja_JP": "10~15倍のオッズ：50,000ゴールドコイン",
-        "ko_KR": "배당률 10~15배: 50,000개 골드 코인"
+        "en_US": "Odds 10-14 times: 50 000 Gold Coins",
+        "vi_VN": "Tỷ lệ cược 10 – 14 lần: 50.000 Xu Vàng",
+        "th_PH": "อัตราต่อรอง 10-14 เท่า: 50,000 เหรียญทอง",
+        "pt_BR": "Cotações entre 10 e 14 vezes: 50.000 moedas de ouro",
+        "fr_CA": "Cotes 10-14 fois : 50 000 pièces d’or",
+        "es_MX": "Cuando las probabilidades sean entre 10 y 14 veces: 50.000 monedas de oro",
+        "ja_JP": "10~14倍のオッズ：50,000ゴールドコイン",
+        "ko_KR": "배당률 10~14배: 50,000개 골드 코인"
     },
     "PokerMasterRule_RewardTableLimitInfo_03": {
         "zh_CN": "Odds 20-100 times: 10 000 Gold Coins",
-        "en_US": "Odds 20-100 times: 10 000 Gold Coins",
-        "vi_VN": "Tỷ lệ cược 20 – 100 lần: 10.000 Xu Vàng",
-        "th_PH": "อัตราต่อรอง 20-100 เท่า: 10,000 เหรียญทอง",
-        "pt_BR": "Cotações entre 20 e 100 vezes: 10.000 moedas de ouro",
-        "fr_CA": "Cotes 20-100 fois : 10 000 pièces d’or",
-        "es_MX": "Cuando las probabilidades sean entre 20 y 100 veces: 10.000 monedas de oro",
-        "ja_JP": "20~100倍のオッズ：10,000ゴールドコイン",
-        "ko_KR": "배당률 20~100배: 10,000개 골드 코인"
+        "en_US": "Odds 15-99 times: 10 000 Gold Coins",
+        "vi_VN": "Tỷ lệ cược 15 – 99 lần: 10.000 Xu Vàng",
+        "th_PH": "อัตราต่อรอง 15-99 เท่า: 10,000 เหรียญทอง",
+        "pt_BR": "Cotações entre 15 e 99 vezes: 10.000 moedas de ouro",
+        "fr_CA": "Cotes 15-99 fois : 10 000 pièces d’or",
+        "es_MX": "Cuando las probabilidades sean entre 15 y 99 veces: 10.000 monedas de oro",
+        "ja_JP": "15~99倍のオッズ：10,000ゴールドコイン",
+        "ko_KR": "배당률 15~99배: 10,000개 골드 코인"
     },
     "PokerMasterRule_RewardTableLimitInfo_04": {
         "zh_CN": "Odds 100 times or more: 2000 Gold Coins",
@@ -34500,6 +34544,17 @@
         "es_MX": "MTT no se ha cargado, ¿deseas volver a cargar?",
         "ja_JP": "MTTの読み込みに失敗しました、再読み込みしますか？",
         "ko_KR": "MTT를 로드하지 못했습니다. 다시 로드하시겠습니까?"
+    },
+    "minigamecombo_popup_choose_game": {
+        "zh_CN": "选择游戏",
+        "en_US": "Choose Game",
+        "vi_VN": "Chọn trò chơi của bạn",
+        "th_PH": "เลือกเกมของคุณ",
+        "pt_BR": "Escolha seu jogo",
+        "fr_CA": "Choisissez votre jeu",
+        "es_MX": "Seleccione su juego",
+        "ja_JP": "ゲームを選択",
+        "ko_KR": "게임 선택"
     },
     "minigame_score_lab": {
         "zh_CN": "房间底分：",
@@ -43478,11 +43533,11 @@
     "CasinoCoins_title": {
         "zh_CN": "小游戏币",
         "en_US": "Casino Coins",
-        "vi_VN": "Xu Casino",
+        "vi_VN": "Xu sòng bạc",
         "th_PH": "เหรียญคาสิโน",
-        "pt_BR": "Moedas do Cassino",
-        "fr_CA": "Des pièces de casino",
-        "es_MX": "Monedas de casino",
+        "pt_BR": "Dinheiro de Cassino",
+        "fr_CA": "Jeton de Casino",
+        "es_MX": "Moneda Casino",
         "ja_JP": "カジノコイン",
         "ko_KR": "카지노 코인"
     },
@@ -43553,6 +43608,17 @@
             "플레이어가 게임에서 카지노 코인에 베팅하고 승리하는 경우, 승리 금액은 자동으로 골드 코인으로 변환됩니다."
         ]
     },
+    "CasinoCoin_tooltip": {
+        "zh_CN": "You can use Casino Coin to play Poker Flips and Poker Master",
+        "en_US": "You can use Casino Coin to play Poker Flips and Poker Master",
+        "vi_VN": "Bạn có thể sử dụng nó để chơi Lật Xì Tố và Trùm Xì Tố",
+        "th_PH": "คุณสามารถใช้มันเพื่อเล่นโป๊กเกอร์ฟลิปและโป๊กเกอร์มาสเตอร์ได้",
+        "pt_BR": "Você pode usá-lo para jogar Poker Flip e Poker Master",
+        "fr_CA": "Vous pouvez les utiliser pour jouer à Poker Flips et à Poker Master",
+        "es_MX": "Puede usarla para jugar a Poker Flips y a Poker Master",
+        "ja_JP": "ポーカーフリップスやポーカーマスターでご利用可能です。",
+        "ko_KR": "포커 플립과 포커 마스터를 플레이하는데 사용할 수 있습니다."
+    },
     "CasinoPoints_title": {
         "zh_CN": "积分",
         "en_US": "Points",
@@ -43561,8 +43627,8 @@
         "pt_BR": "Pontos",
         "fr_CA": "Points",
         "es_MX": "Puntos",
-        "ja_JP": "ポイント",
-        "ko_KR": "포인트"
+        "ja_JP": "カジノ コイン",
+        "ko_KR": "카지노 코인"
     },
     "CasinoPoints_subtitle": {
         "zh_CN": "什么是积分？",
@@ -44104,6 +44170,17 @@
         "es_MX": "Chatee con nosotros",
         "ja_JP": "チャットでのお問い合わせ",
         "ko_KR": "채팅 상담"
+    },
+    "FAQ_button_text_KR": {
+        "zh_CN": "通过 Telegram 联系我们 - @wptgkr",
+        "en_US": "Contact us on Telegram - @wptgkr",
+        "vi_VN": "Liên hệ với chúng tôi trên Telegram - @wptgkr",
+        "th_PH": "ติดต่อเราทางโทรเลข - @wptgkr",
+        "pt_BR": "Contate-nos no Telegram - @wptgkr",
+        "fr_CA": "Contactez-nous sur Telegram - @wptgkr",
+        "es_MX": "Contacta con nosotros en Telegram - @wptgkr",
+        "ja_JP": "テレグラムでお問い合わせください - @wptgkr",
+        "ko_KR": "텔레그램 고객센터 문의 : @wptgkr"
     },
     "PlayerComplaint_main_Info": {
         "zh_CN": "请在网站上查看我们的常见问题解答。 如果找不到问题的答案，请联系我们的支持部门之一。",
@@ -48349,34 +48426,34 @@
     "Server_Unreachable": {
         "zh_CN": "应用程序当前因短期维护而关闭.感谢您的耐心等待, 请尽快回来查看!",
         "en_US": "The Application is currently down for a short maintenance period. Thanks for your patience and please check back soon!",
-        "vi_VN": "Ứng dụng hiện đang ngừng hoạt động để bảo trì trong một thời gian ngắn. Cảm ơn bạn đã kiên nhẫn. Vui lòng đăng nhập lại sau!",
-        "th_PH": "แอปพลิเคชันถูกยกเลิกในช่วงเวลาการบำรุงรักษาสั้น ๆ ขอบคุณสําหรับความอดทนของคุณและโปรดตรวจสอบอีกครั้งในเร็ว ๆ นี้!",
-        "pt_BR": "O Aplicativo está atualmente em baixa por um curto período de manutenção. Obrigado por sua paciência e por favor, volte logo!",
-        "fr_CA": "L’application est actuellement en panne pour une courte période de maintenance. Merci pour votre patience et s’il vous plaît revenez bientôt!",
-        "es_MX": "La aplicación está actualmente inactiva por un corto período de mantenimiento. ¡Gracias por su paciencia y por favor vuelva pronto!",
-        "ja_JP": "現在、アプリケーションは短いメンテナンス期間のために停止しています。ご迷惑をおかけしますが、よろしくお願いします。",
-        "ko_KR": "애플리케이션이 현재 짧은 유지 관리 기간 동안 중지되었습니다. 기다려 주셔서 감사합니다. 잠시 후에 다시 확인해 주세요!"
+        "vi_VN": "Ứng dụng hiện đang ngừng hoạt động để bảo trì trong một thời gian ngắn. Cảm ơn sự kiên nhẫn của bạn và xin vui lòng kiểm tra lại sớm!",
+        "th_PH": "แอปพลิเคชันไม่พร้อมใช้งานในช่วงเวลาการบำรุงรักษาสั้น ๆ ขอบคุณสําหรับความอดทนของคุณ และโปรดกลับมาตรวจสอบอีกครั้งในเร็ว ๆ นี้!",
+        "pt_BR": "A Aplicação está atualmente inativa por um curto período de manutenção. Agradecemos a sua paciência e consulte novamente em breve!",
+        "fr_CA": "L’application est actuellement indisponible pour une courte période de maintenance. Merci de votre patience et revenez bientôt!",
+        "es_MX": "La aplicación se encuentra inactiva por un breve período de mantenimiento. Gracias por su paciencia. ¡Vuelva a intentarlo pronto!",
+        "ja_JP": "現在、アプリケーションは、短期間のメンテナンス中のため、停止中です。ご迷惑をおかけしますが、今しばらくお待ちください！",
+        "ko_KR": "애플리케이션이 현재 짧은 점검 기간 동안 가동 중지되었습니다. 양해해 주셔서 감사합니다. 곧 다시 확인해주세요!"
     },
     "Server_Unreachable_Title": {
         "zh_CN": "当前不可用",
         "en_US": "Currently Not Available",
         "vi_VN": "Hiện không khả dụng",
         "th_PH": "ยังไม่พร้อมใช้งานในขณะนี้",
-        "pt_BR": "Atualmente não disponível",
-        "fr_CA": "Actuellement non disponible",
-        "es_MX": "Actualmente no disponible",
-        "ja_JP": "現在、入手不可",
+        "pt_BR": "Atualmente indisponível",
+        "fr_CA": "Actuellement indisponible",
+        "es_MX": "No disponible actualmente",
+        "ja_JP": "現在利用できません",
         "ko_KR": "현재 사용할 수 없음"
     },
     "Server_Unreachable_SubTitle": {
         "zh_CN": "很抱歉!",
         "en_US": "We are sorry!",
         "vi_VN": "Rất tiếc!",
-        "th_PH": "เราขออภัย!",
-        "pt_BR": "Nós sentimos muito!",
-        "fr_CA": "Nous sommes désolés!",
+        "th_PH": "ขออภัย!",
+        "pt_BR": "Pedimos desculpas! ",
+        "fr_CA": "Nous nous excusons de l’inconvénient! ",
         "es_MX": "¡Lo sentimos!",
-        "ja_JP": "申し訳ございませんでした!",
+        "ja_JP": "申し訳ありません！",
         "ko_KR": "죄송합니다!"
     },
     "Invite_Friend_Referrel_Code": {
@@ -48505,10 +48582,10 @@
         "en_US": "The ${cv.appConfig.getAppTitle()} Team",
         "vi_VN": "Đội ngũ ${cv.appConfig.getAppTitle()}",
         "th_PH": "ทีม ${cv.appConfig.getAppTitle()}",
-        "pt_BR": "A Equipe ${cv.appConfig.getAppTitle()}",
-        "fr_CA": "L'équipe ${cv.appConfig.getAppTitle()}",
+        "pt_BR": "Equipe do ${cv.appConfig.getAppTitle()}",
+        "fr_CA": "L’équipe ${cv.appConfig.getAppTitle()}",
         "es_MX": "El equipo de ${cv.appConfig.getAppTitle()}",
-        "ja_JP": "The ${cv.appConfig.getAppTitle()} Team",
+        "ja_JP": "${cv.appConfig.getAppTitle()} チーム",
         "ko_KR": "${cv.appConfig.getAppTitle()} 팀"
     },
     "Got_It": {
@@ -48706,7 +48783,7 @@
     "Rules_Cash_Game_Common_P3_Desc2": {
         "zh_CN": "Three face-up community cards are dealt (the \"flop\"). Starting with the player closest to the dealer, players again act in turn clockwise to check, bet, raise a previous bet or fold. If more than one player remains active at the end of this round, the turn is dealt.",
         "en_US": "Three face-up community cards are dealt (the \"flop\"). Starting with the player closest to the dealer, players again act in turn clockwise to check, bet, raise a previous bet or fold. If more than one player remains active at the end of this round, the turn is dealt.",
-        "vi_VN": "Ba lá bài chung ngửa được chia (“flop”). Bắt đầu từ người chơi gần người chia bìa nhất, các người chơi lại kiểm tra, đặt cược, tố tiền cược hoặc bỏ bài trước đó lần lượt theo chiều kim đồng hồ. Nếu có hơn một người chơi vẫn hoạt động ở cuối vòng chơi này, turn sẽ được chia.",
+        "vi_VN": "Ba lá bài chung ngửa được chia (“flop”). Bắt đầu từ người chơi gần người chia bài nhất, các người chơi lại kiểm tra, đặt cược, tố tiền cược hoặc bỏ bài trước đó lần lượt theo chiều kim đồng hồ. Nếu có hơn một người chơi vẫn hoạt động ở cuối vòng chơi này, turn sẽ được chia.",
         "th_PH": "จะมีการแจกไพ่กองกลางสามใบแบบหงายหน้าขึ้น (\"ฟล็อป\") เริ่มจากผู้เล่นที่อยู่ใกล้กับเจ้ามือที่สุด ผู้เล่นจะทำตามเข็มนาฬิกาเพื่อตรวจสอบ เดิมพัน เกทับเดิมพันก่อนหน้า หรือหมอบ หากมีผู้เล่นมากกว่าหนึ่งคนที่ยังทำงานอยู่เมื่อจบรอบเกมนี้ จะมีการแจกไพ่เทิร์นให้",
         "pt_BR": "São distribuídas três cartas comunitárias abertas (o \"flop\"). Começando com o jogador mais próximo do Dealer, os jogadores jogam novamente no sentido horário para passar a vez, apostar, aumentar uma aposta anterior ou desistir da mão. Se mais de um jogador permanecer ativo no final desta rodada, ela será distribuída.",
         "fr_CA": "Trois cartes communes retournées sont distribuées (le « flop »). En commençant par le joueur le plus proche du donneur, les joueurs checkent, misent, relancent ou se couchent tour à tour dans le sens des aiguilles d'une montre. Si plusieurs joueurs restent actifs (ont des cartes cachées) à la fin de cette manche, le tournant est distribué.",
@@ -51650,6 +51727,17 @@
         "ja_JP": "休憩中にハンドをプレイしますか？",
         "ko_KR": "휴식 시간에 플레이하십니까?"
     },
+    "Remember_return_game": {
+        "zh_CN": "但记得在5分钟的休息时间后返回，继续参加锦标赛的比赛。",
+        "en_US": "But remember to return after a 5-minute break timer to resume play in the tournament",
+        "vi_VN": "Nhưng hãy nhớ quay lại sau thời gian nghỉ giải lao 5 phút để tiếp tục chơi trong giải đấu",
+        "th_PH": "แต่อย่าลืมกลับมาหลังจากครบเวลาหยุดพัก 5 นาทีเพื่อเล่นต่อในการแข่งขัน",
+        "pt_BR": "Mas lembre-se de retornar após um intervalo de 5 minutos para retomar o jogo no torneio",
+        "fr_CA": "N’oubliez pas de revenir après une pause de 5 minutes pour recommencer à jouer dans le tournoi",
+        "es_MX": "Pero recuerde regresar después de un descanso de 5 minutos para continuar la partida del torneo",
+        "ja_JP": "ただし、トーナメントでプレイを再開するには、5分間の休憩タイマー終了後に必ず戻るようにしてください",
+        "ko_KR": "하지만 토너먼트에서 플레이를 계속하려면 5분 휴식 타이머가 끝나고 돌아와야 합니다"
+    },
     "Casino_Games": {
         "zh_CN": "赌场游戏",
         "en_US": "Casino Games",
@@ -53810,6 +53898,17 @@
         "ja_JP": "貴社のユーザーはポーカーフリップ をご利用いただけません。詳細についてはカスタマーサービスにお問い合わせください。",
         "ko_KR": "사용자가 포커 플립스를 사용할 수 없습니다. 자세한 정보는 고객 서비스팀에 문의하십시오."
     },
+    "WorldServerError_Block_Poker_Master_Player_Locked": {
+        "zh_CN": "Poker Master is not available for your user, please contact customer services for more details.",
+        "en_US": "Poker Master is not available for your user, please contact customer services for more details.",
+        "vi_VN": "Poker Master không khả dụng cho người dùng của bạn, vui lòng liên hệ bộ phận dịch vụ khách hàng để biết thêm chi tiết.",
+        "th_PH": "Poker Master ไม่พร้อมใช้งานสำหรับบัญชีของคุณ โปรดติดต่อฝ่ายบริการลูกค้าสำหรับรายละเอียดเพิ่มเติม",
+        "pt_BR": "Poker Master não está disponível para o seu usuário, entre em contato com o serviço de apoio ao cliente para obter mais informações.",
+        "fr_CA": "Votre compte utilisateur ne peut pas effectuer de Poker Master. Veuillez communiquer avec le service à la clientèle pour obtenir plus d’informations.",
+        "es_MX": "Póker Master no se encuentra disponible para su usuario. Contacte al servicio de atención al cliente para obtener más información.",
+        "ja_JP": "ユーザーはポーカー マスターを利用できません。 詳細については、カスタマーサービスにお問い合わせください。",
+        "ko_KR": "포커 마스터는 사용자가 사용할 수 없습니다. 자세한 내용은 고객 서비스 팀에 문의하세요."
+    },
     "Cashier_Payment_Support_Popup": {
         "zh_CN": "Deposit Support",
         "en_US": "Deposit Support",
@@ -54142,14 +54241,14 @@
     },
     "minigame_intro_2": {
         "zh_CN": "<color=#DDC3C3>When you open Poker Flips, your whole</color> WPT® Global balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don't forget to close this Poker Flips table first.</color>",
-        "en_US": "<color=#DDC3C3>When you open Poker Flips, your whole</color> WPT® Global balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don't forget to close this Poker Flips table first.</color>",
-        "vi_VN": "<color=#DDC3C3>Khi bạn mở trò chơi Poker Flips, toàn bộ số dư</color> WPT® Global của bạn được chuyển đổi thành các Xu Vàng, <color=#DDC3C3>vì vậy nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Poker Flips này trước.</color>",
-        "th_PH": "<color=#DDC3C3>เมื่อคุณเปิดโป๊กเกอร์ฟลิป ยอดคงเหลือ WPT® Global ทั้งหมดของคุณจะถูกแปลงเป็นเหรียญทอง ดังนั้น หากคุณต้องการเสี่ยงโชคที่อื่นในคาสิโนหรือที่โต๊ะโป๊กเกอร์ อย่าลืมปิดโต๊ะโป๊กเกอร์ฟลิปนี้ก่อน</color>",
-        "pt_BR": "Quando você abre o Poker Flips, todo o seu saldo do WPT® Global é convertido em Moedas de Ouro, por isso, se quiser tentar a sua sorte em outro jogo do cassino ou nas mesas de pôquer, não se esqueça de fechar esta mesa do Poker Flips primeiro.",
-        "fr_CA": "Lorsque vous accédez à Poker Flips, le solde de votre compte WPT® Global est converti en Jetons d’or. Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Flips.",
-        "es_MX": "Cuando abra Póker Flips, todo su saldo de WPT® Global se convertirá en Monedas de Oro, así que si desea probar su suerte en algún otro juego del casino o en las mesas de póker, no se olvide de cerrar esta mesa de Póker Flips primero.",
-        "ja_JP": "ポーカーフリップを開くと、WPT® Globalの残高が全てゴールドコインに変換されます。従って、カジノやポーカーテーブルの他の場所で運試しをしたいのであれば、忘れずに最初にこのポーカーフリップのテーブルを閉じるようにしてください。",
-        "ko_KR": "포커 플립을 열면 WPT® Global의 전체 잔액이 황금 코인으로 전환됩니다. 다른 카지노 게임 또는 포커 테이블에서 플레이를 하고 싶은 경우엔 포커 플립 테이블을 닫아야 다른 게임을 즐길 수 있습니다."
+        "en_US": "<color=#DDC3C3>When you open Poker Flips, your whole</color> WPT® Global cash balance and Casino coin balance are converted into Gold Coins. <color=#DDC3C3>If you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Flips table first.</color>",
+        "vi_VN": "<color=#DDC3C3>Khi bạn mở trò chơi Lật Xì Tố, toàn bộ</color> số dư tiền mặt WPT® Global và số dư xu Sòng bạc của bạn được chuyển đổi thành Xu Vàng. \n<color=#DDC3C3>Nếu bạn muốn thử vận may ở nơi khác trong sòng bạc hoặc tại các bàn xì tố, đừng quên đóng bàn chơi Lật Xì Tố này trước.</color>",
+        "th_PH": "<color=#DDC3C3>เมื่อคุณเปิดโป๊กเกอร์ฟลิป ยอดเงินสด</color> WPT® Global ทั้งหมดของคุณและยอดเหรียญคาสิโนจะถูกแปลงเป็นเหรียญทอง <color=#DDC3C3>หากคุณต้องการเสี่ยงโชคที่อื่นในคาสิโนหรือที่โต๊ะโป๊กเกอร์ อย่าลืมปิดโต๊ะโป๊กเกอร์ฟลิปนี้ก่อน</color>",
+        "pt_BR": "<color=#DDC3C3>Quando você abre o Flips de Poker, todo</color> o seu saldo de caixa WPT® Global e o seu saldo de moedas do cassino são convertidos em Moedas de Ouro. <color=#DDC3C3>Se você quiser tentar a sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa de Flips de Poker primeiro.</color>",
+        "fr_CA": "<color=#DDC3C3>Lorsque vous accédez à Poker Flips, le solde</color> en argent de votre compte WPT® Global et le solde de vos Jetons de Casino sont convertis en Jetons d’or. <color=#DDC3C3>Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Flips.</color>",
+        "es_MX": "<color=#DDC3C3>Cuando abras Póker Flips, todo</color> tu saldo en efectivo de WPT® Global y tu saldo de monedas del Casino se convertirán en Monedas de Oro. <color=#DDC3C3>Así que, si deseas probar suerte en algún otro juego del casino o en las mesas de póker, no te olvides de cerrar esta mesa de Póker Flips primero.</color>",
+        "ja_JP": "<color=#DDC3C3>ポーカーフリップを開くと、</color>WPT® Globalのキャッシュ残高とカジノコイン残高のすべてがゴールドコインに変換されます。<color=#DDC3C3>カジノやポーカーテーブルの他の場所で運試しをしたい場合は、忘れずに最初にこのポーカーフリップのテーブルを閉じるようにしてください。</color>",
+        "ko_KR": "<color=#DDC3C3>포커 플립을 열면 전체</color> WPT® Global 현금 잔액과 카지노 코인 잔액이 골드 코인으로 전환됩니다. <color=#DDC3C3>카지노의 다른 곳이나 포커 테이블에서 행운을 시험해보고 싶다면 이 포커 플립 테이블을 먼저 닫아야 한다는 것을 잊지 마세요.</color>"
     },
     "minigame_intro_3": {
         "zh_CN": "<color=#DDC3C3>You now have the chance to compare your skills to Poker Flips players from across the world - keep an eye on </color>our leaderboard to see how you measure up!",
@@ -54179,8 +54278,8 @@
         "vi_VN": "Tỷ giá ngoại hối hàng ngày: $1 = %s",
         "th_PH": "อัตราแลกเปลี่ยนรายวัน: $1 = %s",
         "pt_BR": "Taxa de conversão diária: $1 = %s",
-        "fr_CA": "Frais de conversion quotidiens: $1 = %s",
-        "es_MX": "Tipo de cambio diario: $1 = %s",
+        "fr_CA": "Taux de conversion quotidien : $1 = %s",
+        "es_MX": "Tasa de cambio diaria: $1 = %s",
         "ja_JP": "日次換算レート: $1 = %s",
         "ko_KR": "일일 환율: $1 = %s"
     },
@@ -54219,14 +54318,14 @@
     },
     "minigame_pokermaster_intro_2": {
         "zh_CN": "<color=#DDC3C3>When you open Poker Master, your whole</color> WPT® Global balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Master table first.</color>",
-        "en_US": "<color=#DDC3C3>When you open Poker Master, your whole</color> WPT® Global balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Master table first.</color>",
-        "vi_VN": "<color=#DDC3C3>Khi bạn mở trò chơi Poker Master, toàn bộ số dư WPT® Global của bạn được chuyển đổi thành các Xu Vàng, vì vậy nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Poker Master này trước.</color>",
-        "th_PH": "<color=#DDC3C3>เมื่อคุณเปิดโป๊กเกอร์มาสเตอร์ ยอดคงเหลือ WPT® Global ทั้งหมดของคุณจะถูกแปลงเป็นเหรียญทอง ดังนั้นแล้ว หากคุณต้องการเสี่ยงโชคกับเกมอื่นในคาสิโนหรือที่โต๊ะโป๊กเกอร์ อย่าลืมปิดโต๊ะโป๊กเกอร์มาสเตอร์นี้ก่อน</color>",
-        "pt_BR": "<color=#DDC3C3>Quando você abre o Poker Master, todo o seu saldo do WPT® Global é convertido em Moedas de Ouro, por isso, se quiser tentar a sua sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa do Poker Master primeiro.</color>",
-        "fr_CA": "<color=#DDC3C3>Lorsque vous accédez à Poker Master, le solde de votre compte WPT® Global est converti en Jetons d’or. Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Master.</color>",
-        "es_MX": "<color=#DDC3C3>Cuando abra Póker Máster, todo su saldo de WPT® Global se convertirá en Monedas de Oro, así que, si desea probar su suerte en algún otro juego del casino o en las mesas de póker, no se olvide de cerrar esta mesa de Póker Máster primero.</color>",
-        "ja_JP": "<color=#DDC3C3>ポーカーフリップを開くと、WPT® Globalの残高が全てゴールドコインに変換されます。従って、カジノやポーカーテーブルの他の場所で運試しをしたいのであれば、忘れずに最初にこのポーカーマスターのテーブルを閉じるようにしてください。</color>",
-        "ko_KR": "<color=#DDC3C3>포커 마스터를 열면 전체 WPT® Global의 전체 잔액이 황금 코인으로 전환됩니다. 다른 카지노 게임이나 포커 테이블에서 플레이를 하고 싶은 경우엔 포커 마스터 테이블을 닫아야 다른 게임을 즐길 수 있습니다.</color>"
+        "en_US": "<color=#DDC3C3>When you open Poker Master, your whole</color> WPT® Global cash balance and Casino coin balance are converted into Gold Coins. <color=#DDC3C3>If you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Master table first.</color>",
+        "vi_VN": "<color=#DDC3C3>Khi bạn mở trò chơi Trùm Xì Tố, toàn bộ</color> số dư tiền mặt WPT® Global và số dư xu Sòng bạc của bạn được chuyển đổi thành Xu Vàng.\n<color=#DDC3C3>Nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Trùm Xì Tố này trước.</color>",
+        "th_PH": "<color=#DDC3C3>เมื่อคุณเปิดโป๊กเกอร์มาสเตอร์ ยอดคงเหลือ</color> WPT® Global ทั้งหมดของคุณและยอดเหรียญคาสิโนจะถูกแปลงเป็นเหรียญทอง <color=#DDC3C3>หากคุณต้องการเสี่ยงโชคกับเกมอื่นในคาสิโนหรือที่โต๊ะโป๊กเกอร์ อย่าลืมปิดโต๊ะโป๊กเกอร์มาสเตอร์นี้ก่อน</color>",
+        "pt_BR": "<color=#DDC3C3>Quando você abre o Poker Master, todo</color> o seu saldo de caixa WPT® Global e o seu saldo de moedas do cassino são convertidos em Moedas de Ouro. <color=#DDC3C3>Se você quiser tentar a sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa de Poker Master primeiro.",
+        "fr_CA": "<color=#DDC3C3>Lorsque vous accédez à Poker Master, le solde</color> en argent de votre compte WPT® Global et le solde de vos Jetons de Casino sont convertis en Jetons d’or. <color=#DDC3C3>Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Master.</color>",
+        "es_MX": "<color=#DDC3C3>Cuando abras Póker Máster, todo</color> tu saldo en efectivo de WPT® Global y tu saldo de monedas del Casino se convertirán en Monedas de Oro. <color=#DDC3C3>Así que, si deseas probar tu suerte en algún otro juego del casino o en las mesas de póker, no te olvides de cerrar esta mesa de Póker Máster primero.</color>",
+        "ja_JP": "<color=#DDC3C3>ポーカーマスターを開くと、</color>WPT® Globalのキャッシュ残高とカジノコイン残高のすべてがゴールドコインに変換されます。<color=#DDC3C3>カジノやポーカーテーブルの他の場所で運試しをしたい場合は、忘れずに最初にこのポーカーマスターのテーブルを閉じるようにしてください。</color>",
+        "ko_KR": "<color=#DDC3C3>포커 마스터를 열면 전체</color> WPT® Global 현금 잔액과 카지노 코인 잔액이 골드 코인으로 전환됩니다. <color=#DDC3C3>카지노의 다른 곳이나 포커 테이블에서 행운을 시험해보고 싶다면 포커 마스터를 테이블을 먼저 닫아야 한다는 것을 잊지 마세요.</color>"
     },
     "minigame_pokermaster_intro_3": {
         "zh_CN": "<color=#DDC3C3>You now have the chance to compare your skills to Poker Master players from across the world - keep an eye on </color>our leaderboard to see how you measure up!",
@@ -54305,48 +54404,37 @@
         "ja_JP": "Table Closed",
         "ko_KR": "Table Closed"
     },
-    "New_Cowboy_Promo_Promo_Title": {
-        "zh_CN": "",
-        "en_US": "WIN YOUR WAY TO THE <color=#FFC246>$40M</color> GUARANTEED WPT WORLD CHAMPIONSHIP",
-        "vi_VN": "",
-        "th_PH": "",
-        "pt_BR": "",
-        "fr_CA": "",
-        "es_MX": "",
-        "ja_JP": "",
-        "ko_KR": ""
+    "Pokermaster_FloatingIcon_tooltip_title": {
+        "zh_CN": "Want to play some Poker Master?",
+        "en_US": "Want to play some Poker Master?",
+        "vi_VN": "Bạn muốn chơi vài ván Trùm Xì Tố?",
+        "th_PH": "อยากเล่นโป๊กเกอร์มาสเตอร์มั้ย?",
+        "pt_BR": "Quer jogar um pouco de Poker Master?",
+        "fr_CA": "Voulez-vous jouer à Poker Master?",
+        "es_MX": "¿Quieres jugar a Póker Master?",
+        "ja_JP": "ポーカーマスターをプレイしますか？",
+        "ko_KR": "포커 마스터를 플레이하고 싶으신가요?"
     },
-    "New_Cowboy_Promo_Banner_Title": {
-        "zh_CN": "Win Your Way To The <color=#FFC246>$40m</color> Guaranteed WPT World Championship",
-        "en_US": "Win Your Way To The <color=#FFC246>$40m</color> Guaranteed WPT World Championship",
-        "vi_VN": "Giành chiến thắng để tham gia Giải vô địch Thế giới WPT với tổng giải thưởng bảo đảm trị giá <color=#FFC246>40 triệu $</color>",
-        "th_PH": "คว้าชัยชนะเพื่อเข้าร่วมการแข่งขัน WPT World Championship\nที่รับประกันเงินรางวัล <color=#FFC246>$40 ล้าน</color>",
-        "pt_BR": "Conquiste sua vaga para o Campeonato Mundial do\nWPT com<color=#FFC246>\n$40 milhões</color> garantidos",
-        "fr_CA": "Frayez-vous un chemin\njusqu’au Championnat Mondial WPT avec une garantie de <color=#FFC246>40 millions de dollars</color>",
-        "es_MX": "Gane un lugar en el Campeonato Mundial\nWPT de <color=#FFC246>USD 40 millones</color> garantizados",
-        "ja_JP": "<color=#FFC246>$4,000万</color>保証付き\nWPT ワールド\nチャンピオンシップへ\nの道を勝ち取ろう",
-        "ko_KR": "<color=#FFC246>$40,000,000를</color> 보장하는 WPT 월드 챔피언십에 도전하\n세요"
+    "Pokermaster_FloatingIcon_tooltip": {
+        "zh_CN": "You currently have a cash game poker table open - to play Poker Master, you will need to exit this table.",
+        "en_US": "You currently have a cash game poker table open - to play Poker Master, you will need to exit this table.",
+        "vi_VN": "Bạn hiện đang mở một bàn ván chơi tiền mặt xì tố – để chơi Trùm Xì Tố, bạn sẽ cần phải thoát khỏi bàn này.",
+        "th_PH": "ในขณะนี้ คุณมีโต๊ะโป๊กเกอร์เกมเงินสดที่เปิดอยู่ - เพื่อที่จะเล่นโป๊กเกอร์มาสเตอร์ คุณจะต้องออกจากโต๊ะนี้",
+        "pt_BR": "Você tem atualmente uma mesa de poker a dinheiro aberta. Para jogar Poker Master, você precisará sair desta mesa.",
+        "fr_CA": "Vous avez actuellement une partie libre de poker ouverte; pour jouer à Poker Master, vous devrez quitter cette table.",
+        "es_MX": "En este momento, tienes una mesa de póker con dinero en efectivo abierta. Para jugar a Póker Master, primero debes salir de esta mesa.",
+        "ja_JP": "現在、キャッシュゲームのポーカーテーブルが開いています。ポーカーマスターをプレイするには、このテーブルから退出する必要があります。",
+        "ko_KR": "현재 현금 게임 포커 테이블이 열려 있습니다. 포커 마스터를 플레이하려면 이 테이블에서 나가야 합니다."
     },
-    "banner_pick_winning_hand": {
-        "zh_CN": "Pick the Winning Hand",
-        "en_US": "Pick the Winning Hand",
-        "vi_VN": "Pick the Winning Hand",
-        "th_PH": "Pick the Winning Hand",
-        "pt_BR": "Pick the Winning Hand",
-        "fr_CA": "Pick the Winning Hand",
-        "es_MX": "Pick the Winning Hand",
-        "ja_JP": "Pick the Winning Hand",
-        "ko_KR": "Pick the Winning Hand"
-    },
-    "Mtt_remember_to_return": {
-        "zh_CN": "But remember to return after a 5-minute break timer to resume play in the tournament",
-        "en_US": "But remember to return after a 5-minute break timer to resume play in the tournament",
-        "vi_VN": "Nhưng hãy nhớ quay lại sau thời gian nghỉ giải lao 5 phút để tiếp tục chơi trong giải đấu",
-        "th_PH": "แต่อย่าลืมกลับมาหลังจากครบเวลาหยุดพัก 5 นาทีเพื่อเล่นต่อในการแข่งขัน",
-        "pt_BR": "Mas lembre-se de retornar após um intervalo de 5 minutos para retomar o jogo no torneio",
-        "fr_CA": "N’oubliez pas de revenir après une pause de 5 minutes pour recommencer à jouer dans le tournoi",
-        "es_MX": "Pero recuerde regresar después de un descanso de 5 minutos para continuar la partida del torneo",
-        "ja_JP": "ただし、トーナメントでプレイを再開するには、5分間の休憩タイマー終了後に必ず戻るようにしてください",
-        "ko_KR": "하지만 토너먼트에서 플레이를 계속하려면 5분 휴식 타이머가 끝나고 돌아와야 합니다"
+    "ServerErrorCode515_low_re_buyin": {
+        "zh_CN": "In order to protect game integrity you must buy-in with same amount or more than you left with. Otherwise you must wait 30 minutes to join again.",
+        "en_US": "In order to protect game integrity you must buy-in with same amount or more than you left with. Otherwise you must wait 30 minutes to join again.",
+        "vi_VN": "Để bảo vệ tính toàn vẹn của trò chơi, bạn phải buy-in với số tiền bằng hoặc nhiều hơn số tiền bạn còn lại. Nếu không, bạn phải đợi 30 phút để tham gia lại.",
+        "th_PH": "เพื่อปกป้องความมั่นคงสมบูรณ์ของเกม คุณต้องซื้อเงินแรกเข้าด้วยจำนวนเท่ากันหรือมากกว่าที่คุณเหลืออยู่ มิฉะนั้นคุณต้องรอ 30 นาทีเพื่อเข้าร่วมอีกครั้ง",
+        "pt_BR": "Para proteger a integridade do jogo, você deve fazer um buy-in de valor igual ou superior ao que deixou. Caso contrário, você deve esperar 30 minutos para participar novamente.",
+        "fr_CA": "Afin de protéger l’intégrité du jeu, vous devez acheter un Buy-in d’un montant égal ou supérieur au montant avec lequel vous avez quitté le jeu. Sinon, vous devez attendre 30 minutes pour vous joindre à nouveau.",
+        "es_MX": "Para proteger la integridad del juego, debe volver a entrar con la misma cantidad de dinero con la que se marchó o más. De lo contrario, debe esperar 30 minutos para volver a unirse.",
+        "ja_JP": "ゲームの完全性を守るために、残った金額と同額以上でバイインする必要があります。それ以外の場合、再度参加するには30分間待つ必要があります。",
+        "ko_KR": "게임 무결성을 보호하기 위해 바이인할 때 남은 금액과 동일한 금액 이상으로 바이인해야 합니다. 그렇지 않으면 30분 동안 기다렸다가 다시 참여해야 합니다."
     }
 }

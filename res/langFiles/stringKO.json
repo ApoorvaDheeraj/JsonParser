@@ -2800,7 +2800,7 @@
       "-value": "투르크메니스탄,TM*993"
     },
     "areaCode203": {
-      "-value": "터크 케이커스 제도,TC*1809"
+      "-value": "터크 케이커스 제도,TC*1649"
     },
     "areaCode204": {
       "-value": "투발루,TV*688"
@@ -2895,6 +2895,15 @@
     "areaCode234": {
       "-value": "맨섬,IM*44"
     },
+    "areaCode235": {
+      "-value": "도미니카 공화국,DO*1809"
+    },
+    "areaCode236": {
+      "-value": "도미니카 공화국,DO*1829"
+    },
+    "areaCode237": {
+      "-value": "도미니카 공화국,DO*1849"
+    },
     "country_AF": { "-value": "Afghanistan" },
     "country_AL": { "-value": "Albania" },
     "country_DZ": { "-value": "Algeria" },
@@ -2958,7 +2967,7 @@
     "country_VG": { "-value": "British Virgin Islands" },
     "country_DJ": { "-value": "Djibouti" },
     "country_DM": { "-value": "Dominica" },
-    "country_DO": { "-value": "Dominican Republic" },
+    "country_DO": { "-value": "도미니카 공화국" },
     "country_TL": { "-value": "East Timor" },
     "country_EC": { "-value": "Ecuador" },
     "country_EG": { "-value": "Egypt" },
@@ -6889,6 +6898,9 @@
     "Setting_Sound_Title": {
       "-value": "사운드 효과"
     },
+    "Setting_Muck_Hands_Title": {
+      "-value": "핸드를 잃은 먹"
+    },
     "Setting_AutoFocus_Title": {
       "-value": "모바일 자동 초점 기능 켜기"
     },
@@ -8351,13 +8363,13 @@
       "-value": "보상 테이블 한도"
     },
     "PokerMasterRule_RewardTableLimitInfo_01": {
-      "-value": "배당률 10배 이하: 100,000개 골드 코인"
+      "-value": "배당률 9 배 이하: 100,000개 골드 코인"
     },
     "PokerMasterRule_RewardTableLimitInfo_02": {
-      "-value": "배당률 10~15배: 50,000개 골드 코인"
+      "-value": "배당률 10~14배: 50,000개 골드 코인"
     },
     "PokerMasterRule_RewardTableLimitInfo_03": {
-      "-value": "배당률 20~100배: 10,000개 골드 코인"
+      "-value": "배당률 15~99배: 10,000개 골드 코인"
     },
     "PokerMasterRule_RewardTableLimitInfo_04": {
       "-value": "배당률 100배 이상: 2000개 골드 코인"
@@ -8865,6 +8877,9 @@
     },
     "MTT_Load_failed": {
       "-value": "MTT를 로드하지 못했습니다. 다시 로드하시겠습니까?"
+    },
+    "minigamecombo_popup_choose_game": {
+      "-value": "게임 선택"
     },
     "minigame_score_lab": {
       "-value": "최저 베팅："
@@ -11291,8 +11306,11 @@
         "플레이어가 게임에서 카지노 코인에 베팅하고 승리하는 경우, 승리 금액은 자동으로 골드 코인으로 변환됩니다."
       ]
     },
+    "CasinoCoin_tooltip": {
+      "-value": "포커 플립과 포커 마스터를 플레이하는데 사용할 수 있습니다."
+    },
     "CasinoPoints_title": {
-      "-value": "포인트"
+      "-value": "카지노 코인"
     },
     "CasinoPoints_subtitle": {
       "-value": "포인트란?"
@@ -11410,6 +11428,9 @@
     },
     "FAQ_button_text_VN": {
       "-value": "채팅 상담"
+    },
+    "FAQ_button_text_KR":{
+      "-value":"텔레그램 고객센터 문의 : @wptgkr"
     },
     "PlayerComplaint_main_Info": {
       "-value": "웹 사이트에서 자주 묻는 질문을 참조하십시오. 질문에 대한 답변을 찾을 수 없는 경우, 지원 부서에 문의하세요."
@@ -12557,7 +12578,7 @@
       "-value": "서버에 연결할 수 없습니다. 문제를 해결하기 위해 지금 작업 중입니다. 나중에 다시 확인하세요."
     },
     "Server_Unreachable": {
-      "-value": "애플리케이션이 현재 짧은 유지 관리 기간 동안 중지되었습니다. 기다려 주셔서 감사합니다. 잠시 후에 다시 확인해 주세요!"
+      "-value": "애플리케이션이 현재 짧은 점검 기간 동안 가동 중지되었습니다. 양해해 주셔서 감사합니다. 곧 다시 확인해주세요!"
     },
     "Server_Unreachable_Title": {
       "-value": "현재 사용할 수 없음"
@@ -13077,6 +13098,9 @@
     },
     "Play_Some_Hand_In_Break": {
       "-value": "휴식 시간에 플레이하십니까?"
+    },
+    "Remember_return_game":{
+      "-value": "하지만 토너먼트에서 플레이를 계속하려면 5분 휴식 타이머가 끝나고 돌아와야 합니다"
     },
     "Casino_Games": {
       "-value": "카지노 게임"
@@ -13600,6 +13624,9 @@
     "WorldServerError_Block_Poker_Flips_Player_Locked": {
       "-value": "사용자가 포커 플립스를 사용할 수 없습니다. 자세한 정보는 고객 서비스팀에 문의하십시오."
     },
+    "WorldServerError_Block_Poker_Master_Player_Locked": {
+      "-value": "포커 마스터는 사용자가 사용할 수 없습니다. 자세한 내용은 고객 서비스 팀에 문의하세요."
+    },
     "Cashier_Payment_Support_Popup" :{
       "-value" : "입금 지원"
     },
@@ -13691,7 +13718,7 @@
       "-value": "본 게임은 이제 고유 통화인 황금 코인으로 플레이됩니다(일일 환율 적용)."
     },
     "minigame_intro_2": {
-      "-value": "포커 플립을 열면 WPT® Global의 전체 잔액이 황금 코인으로 전환됩니다. 다른 카지노 게임 또는 포커 테이블에서 플레이를 하고 싶은 경우엔 포커 플립 테이블을 닫아야 다른 게임을 즐길 수 있습니다."
+      "-value": "<color=#DDC3C3>포커 플립을 열면 전체</color> WPT® Global 현금 잔액과 카지노 코인 잔액이 골드 코인으로 전환됩니다. <color=#DDC3C3>카지노의 다른 곳이나 포커 테이블에서 행운을 시험해보고 싶다면 이 포커 플립 테이블을 먼저 닫아야 한다는 것을 잊지 마세요.</color>"
     },
     "minigame_intro_3": {
       "-value": "이제 전 세계 포커 플립 플레이어와 실력을 겨뤄볼 수 있게 되었습니다. 리더보드를 계속 주시하면서 자신의 실력을 확인해 보세요!"
@@ -13712,7 +13739,7 @@
       "-value": "<color=#DDC3C3>본 게임은 고유 통화인 황금 코인으로 진행됩니다.</color>"
     },
     "minigame_pokermaster_intro_2": {
-      "-value": "<color=#DDC3C3>포커 마스터를 열면 전체 WPT® Global의 전체 잔액이 황금 코인으로 전환됩니다. 다른 카지노 게임이나 포커 테이블에서 플레이를 하고 싶은 경우엔 포커 마스터 테이블을 닫아야 다른 게임을 즐길 수 있습니다.</color>"
+      "-value": "<color=#DDC3C3>포커 마스터를 열면 전체</color> WPT® Global 현금 잔액과 카지노 코인 잔액이 골드 코인으로 전환됩니다. <color=#DDC3C3>카지노의 다른 곳이나 포커 테이블에서 행운을 시험해보고 싶다면 포커 마스터를 테이블을 먼저 닫아야 한다는 것을 잊지 마세요.</color>"
     },
     "minigame_pokermaster_intro_3": {
       "-value": "<color=#DDC3C3>전 세계 포커 마스터 플레이어와 실력을 겨뤄볼 수 있게 되었습니다. 리더보드를 계속 주시하면서 자신의 실력을 확인해 보세요!</color>"
@@ -13735,17 +13762,14 @@
     "MiniGames_Switch_content": {
       "-value": "Table Closed"
     },
-    "New_Cowboy_Promo_Popup_Title": {
-      "-value": "<color=#FFC246>$40,000,000를</color> 보장하는\nWPT 월드 챔피언십에 도전하\n세요"
+    "Pokermaster_FloatingIcon_tooltip_title": {
+      "-value": "포커 마스터를 플레이하고 싶으신가요?"
     },
-    "New_Cowboy_Promo_Banner_Title": {
-      "-value": "<color=#FFC246>$40,000,000를</color> 보장하는 WPT 월드 챔피언십에 도전하\n세요"
+    "Pokermaster_FloatingIcon_tooltip": {
+      "-value": "현재 현금 게임 포커 테이블이 열려 있습니다. 포커 마스터를 플레이하려면 이 테이블에서 나가야 합니다."
     },
-    "banner_pick_winning_hand":{
-      "-value": "Pick the Winning Hand"
-    },
-    "Mtt_remember_to_return": {
-      "-value": "하지만 토너먼트에서 플레이를 계속하려면 5분 휴식 타이머가 끝나고 돌아와야 합니다"
+    "ServerErrorCode515_low_re_buyin": {
+      "-value": "게임 무결성을 보호하기 위해 바이인할 때 남은 금액과 동일한 금액 이상으로 바이인해야 합니다. 그렇지 않으면 30분 동안 기다렸다가 다시 참여해야 합니다."
     }
   }
 }

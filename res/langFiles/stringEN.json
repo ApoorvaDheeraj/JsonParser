@@ -2800,7 +2800,7 @@
       "-value": "Turkmenistan,TM*993"
     },
     "areaCode203": {
-      "-value": "Turks and Caicos Islands,TC*1809"
+      "-value": "Turks and Caicos Islands,TC*1649"
     },
     "areaCode204": {
       "-value": "Tuvalu,TV*688"
@@ -2894,6 +2894,15 @@
     },
     "areaCode234": {
       "-value": "Isle of Man,IM*44"
+    },
+    "areaCode235": {
+      "-value": "Dominican Republic,DO*1809"
+    },
+    "areaCode236": {
+      "-value": "Dominican Republic,DO*1829"
+    },
+    "areaCode237": {
+      "-value": "Dominican Republic,DO*1849"
     },
     "country_AF": { "-value": "Afghanistan" },
     "country_AL": { "-value": "Albania" },
@@ -6913,6 +6922,9 @@
     "Setting_Sound_Title": {
       "-value": "Sound Effects"
     },
+    "Setting_Muck_Hands_Title": {
+      "-value": "Muck Losing Hands"
+    },
     "Setting_AutoFocus_Title": {
       "-value": "Turn on auto-focus on mobile"
     },
@@ -8141,10 +8153,10 @@
       "-value": "Waiting for results (%d)"
     },
     "PokerMaster_tips_insure_other_squint_0": {
-      "-value": "Master peeling them cards，pleas wait (%d)"
+      "-value": "The river card is being shown (%d)"
     },
     "PokerMaster_tips_insure_other_squint_1": {
-      "-value": " Player peeling them cards，pleas wait (%d)"
+      "-value": "The river card is being shown (%d)"
     },
     "PokerMaster_tips_insure_self_squint": {
       "-value": "The river card is being shown (%d)"
@@ -8345,7 +8357,7 @@
       "-value": "Lucky hit "
     },
     "PokerMasterRule_LuckyHitInfo": {
-      "-value": "Winning hand betting area, consist of five options - High card/One Pair; Two Pair; Three of a Kind/Straight/ Flush; Full House; Four of a kind/Straight flush'Royal Flush. The player reward is based on the corresponding odds of the correct bet. "
+      "-value": "Winning hand betting area, consist of five options - High card/One Pair; Two Pair; Three of a Kind/Straight/ Flush; Full House; Four of a kind/Straight flush/Royal Flush. The player reward is based on the corresponding odds of the correct bet. "
     },
     "PokerMasterRule_WinningHands": {
       "-value": "Winning Hands"
@@ -8375,13 +8387,13 @@
       "-value": "Reward table limit"
     },
     "PokerMasterRule_RewardTableLimitInfo_01": {
-      "-value": "Odds 10 times or less 100 000 Gold Coins"
+      "-value": "Odds 9 times or less: 100 000 Gold Coins"
     },
     "PokerMasterRule_RewardTableLimitInfo_02": {
-      "-value": "Odds 10-15 times: 50 000 Gold Coins"
+      "-value": "Odds 10-14 times: 50 000 Gold Coins"
     },
     "PokerMasterRule_RewardTableLimitInfo_03": {
-      "-value": "Odds 20-100 times: 10 000 Gold Coins"
+      "-value": "Odds 15-99 times: 10 000 Gold Coins"
     },
     "PokerMasterRule_RewardTableLimitInfo_04": {
       "-value": "Odds 100 times or more: 2000 Gold Coins"
@@ -8889,6 +8901,9 @@
     },
     "MTT_Load_failed": {
       "-value": "MTT has failed to load, would you like to reload"
+    },
+    "minigamecombo_popup_choose_game": {
+        "-value": "Choose Game"
     },
     "minigame_score_lab": {
       "-value": "Lowest Bet："
@@ -11270,6 +11285,9 @@
         "If a player bets Casino coins in the game and wins, the winning amount automatically gets converted to Gold coins."
       ]
     },
+    "CasinoCoin_tooltip": {
+      "-value": "You can use Casino Coin to play Poker Flips and Poker Master"
+    },
     "CasinoPoints_title": {
       "-value": "Points"
     },
@@ -11389,6 +11407,9 @@
     },
     "FAQ_button_text_VN":{
       "-value":"Chat with us"
+    },
+    "FAQ_button_text_KR":{
+      "-value":"Contact us on Telegram - @wptgkr"
     },
     "PlayerComplaint_main_Info": {
       "-value":  "Please see our frequently asked questions on the website. If you don't find the answer to your question, please reach out to one of our support departments."
@@ -13057,6 +13078,9 @@
     "Play_Some_Hand_In_Break":{
       "-value": "Play some hands in the break?"
     },
+    "Remember_return_game":{
+      "-value": "But remember to return after a 5-minute break timer to resume play in the tournament"
+    },
     "Casino_Games":{
       "-value": "Casino Games"
     },
@@ -13600,6 +13624,9 @@
     "WorldServerError_Block_Poker_Flips_Player_Locked": {
       "-value": "Poker Flips is not available for your user, please contact customer services for more details."
     },
+    "WorldServerError_Block_Poker_Master_Player_Locked": {
+      "-value": "Poker Master is not available for your user, please contact customer services for more details."
+    },
     "Cashier_Payment_Support_Popup" :{
       "-value" : "Deposit Support"
     },
@@ -13691,7 +13718,7 @@
       "-value": "<color=#DDC3C3>This game is now played in </color>Gold Coins<color=#DDC3C3>, its own unique currency.</color>"
     },
     "minigame_intro_2": {
-      "-value": "<color=#DDC3C3>When you open Poker Flips, your whole</color> WPT® Global balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don't forget to close this Poker Flips table first.</color>"
+      "-value": "<color=#DDC3C3>When you open Poker Flips, your whole</color> WPT® Global cash balance and Casino coin balance are converted into Gold Coins. <color=#DDC3C3>If you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Flips table first.</color>"
     },
     "minigame_intro_3": {
       "-value": "<color=#DDC3C3>You now have the chance to compare your skills to Poker Flips players from across the world - keep an eye on </color>our leaderboard to see how you measure up!"
@@ -13712,7 +13739,7 @@
       "-value": "<color=#DDC3C3>This game is played in </color>Gold Coins<color=#DDC3C3>, its own unique currency.</color>"
     },
     "minigame_pokermaster_intro_2": {
-      "-value": "<color=#DDC3C3>When you open Poker Master, your whole</color> WPT® Global balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Master table first.</color>"
+      "-value": "<color=#DDC3C3>When you open Poker Master, your whole</color> WPT® Global cash balance and Casino coin balance are converted into Gold Coins. <color=#DDC3C3>If you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Master table first.</color>"
     },
     "minigame_pokermaster_intro_3": {
       "-value": "<color=#DDC3C3>You have the chance to compare your skills to Poker Master players from across the world - keep an eye on </color>our leaderboard to see how you measure up!"
@@ -13735,17 +13762,14 @@
     "MiniGames_Switch_content": {
       "-value": "Table Closed"
     },
-    "New_Cowboy_Promo_Promo_Title": {
-      "-value": "WIN YOUR WAY TO THE <color=#FFC246>$40M</color> GUARANTEED WPT WORLD CHAMPIONSHIP"
+    "Pokermaster_FloatingIcon_tooltip_title": {
+      "-value": "Want to play some Poker Master?"
     },
-    "New_Cowboy_Promo_Banner_Title": {
-      "-value": "Win Your Way To The <color=#FFC246>$40m</color> Guaranteed WPT World Championship"
+    "Pokermaster_FloatingIcon_tooltip": {
+      "-value": "You currently have a cash game poker table open - to play Poker Master, you will need to exit this table."
     },
-    "banner_pick_winning_hand":{
-      "-value": "Pick the Winning Hand"
-    },
-    "Mtt_remember_to_return": {
-      "-value": "But remember to return after a 5-minute break timer to resume play in the tournament"
+    "ServerErrorCode515_low_re_buyin": {
+      "-value": "In order to protect game integrity you must buy-in with same amount or more than you left with. Otherwise you must wait 30 minutes to join again."
     }
   }
 }

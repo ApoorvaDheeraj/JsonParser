@@ -2800,7 +2800,7 @@
       "-value": "トルクメニスタン,TM*993"
     },
     "areaCode203": {
-      "-value": "タークス・カイコス諸島,TC*1809"
+      "-value": "タークス・カイコス諸島,TC*1649"
     },
     "areaCode204": {
       "-value": "ツバル,TV*688"
@@ -2894,6 +2894,15 @@
     },
     "areaCode234": {
       "-value": "マン島,IM*44"
+    },
+    "areaCode235": {
+      "-value": "ドミニカ共和国,DO*1809"
+    },
+    "areaCode236": {
+      "-value": "ドミニカ共和国,DO*1829"
+    },
+    "areaCode237": {
+      "-value": "ドミニカ共和国,DO*1849"
     },
     "country_AF": { "-value": "アフガニスタン" },
     "country_AL": { "-value": "アルバニア" },
@@ -6931,6 +6940,9 @@
     "Setting_Sound_Title": {
       "-value": "サウンドエフェクト"
     },
+    "Setting_Muck_Hands_Title": {
+      "-value": "負けたハンドを伏せる"
+    },
     "Setting_AutoFocus_Title": {
       "-value": "モバイルでオートフォーカスをオンにする"
     },
@@ -7517,7 +7529,7 @@
       "-value": "ハンドランキング"
     },
     "CowboyRule_cowboy_poker_title": {
-      "-value": "ポーカーフリップス"
+      "-value": "ポーカーフリップ"
     },
     "CowboyRule_cowboy_poker_desc": {
       "-value": "52枚のデッキを使ったテキサスホールデムポーカーのルールです。"
@@ -8393,13 +8405,13 @@
       "-value": "報酬テーブルの上限"
     },
     "PokerMasterRule_RewardTableLimitInfo_01": {
-      "-value": "10倍以下のオッズ：100,000ゴールドコイン"
+      "-value": "9倍以下のオッズ：100,000ゴールドコイン"
     },
     "PokerMasterRule_RewardTableLimitInfo_02": {
-      "-value": "10~15倍のオッズ：50,000ゴールドコイン"
+      "-value": "10~14倍のオッズ：50,000ゴールドコイン"
     },
     "PokerMasterRule_RewardTableLimitInfo_03": {
-      "-value": "20~100倍のオッズ：10,000ゴールドコイン"
+      "-value": "15~99倍のオッズ：10,000ゴールドコイン"
     },
     "PokerMasterRule_RewardTableLimitInfo_04": {
       "-value": "100倍以上のオッズ：2,000ゴールドコイン"
@@ -8907,6 +8919,9 @@
     },
     "MTT_Load_failed": {
       "-value": "MTTの読み込みに失敗しました、再読み込みしますか？"
+    },
+    "minigamecombo_popup_choose_game": {
+      "-value": "ゲームを選択"
     },
     "minigame_score_lab": {
       "-value": "最低ベット額："
@@ -11288,8 +11303,11 @@
         "ゲーム内でカジノコインをベットし、勝利した場合、勝利額は自動的にゴールドコインに変換されます。"
       ]
     },
+    "CasinoCoin_tooltip": {
+      "-value": "ポーカーフリップスやポーカーマスターでご利用可能です。"
+    },
     "CasinoPoints_title": {
-      "-value": "ポイント"
+      "-value": "カジノ コイン"
     },
     "CasinoPoints_subtitle": {
       "-value": "ポイントとは何ですか？"
@@ -11414,6 +11432,9 @@
     "FAQ_button_text_VN":{
       "-value":"チャットでのお問い合わせ"
    },
+    "FAQ_button_text_KR":{
+      "-value":"テレグラムでお問い合わせください - @wptgkr"
+    },
     "PlayerComplaint_main_Info": {
       "-value":  "ウェブサイトでよくある質問をご覧ください。ご質問に関する回答が見つからない場合は、サポートチームにお問い合わせください。"
     },
@@ -12551,13 +12572,13 @@
       "-value": "サーバーにアクセスできません。現在、修正作業中です。後ほどご確認ください。"
     },
     "Server_Unreachable": {
-      "-value": "現在、アプリケーションは短いメンテナンス期間のために停止しています。ご迷惑をおかけしますが、よろしくお願いします。"
+      "-value": "現在、アプリケーションは、短期間のメンテナンス中のため、停止中です。ご迷惑をおかけしますが、今しばらくお待ちください！"
     },
     "Server_Unreachable_Title": {
-      "-value": "現在、入手不可"
+      "-value": "現在利用できません"
     },
     "Server_Unreachable_SubTitle": {
-      "-value": "申し訳ございませんでした!"
+      "-value": "申し訳ありません！"
     },
     "Invite_Friend_Referrel_Code": {
       "-value": "紹介コード"
@@ -12593,7 +12614,7 @@
       "-value": "支払い方法"
     },
     "TheAppTeam": {
-      "-value": "The ${cv.appConfig.getAppTitle()} Team"
+      "-value": "${cv.appConfig.getAppTitle()} チーム"
     },
     "Got_It": {
       "-value": "了解"
@@ -13059,6 +13080,9 @@
     },
     "Play_Some_Hand_In_Break":{
       "-value": "休憩中にハンドをプレイしますか？"
+    },
+    "Remember_return_game":{
+      "-value": "ただし、トーナメントでプレイを再開するには、5分間の休憩タイマー終了後に必ず戻るようにしてください"
     },
     "Casino_Games":{
       "-value": "カジノゲーム"
@@ -13624,6 +13648,9 @@
     "WorldServerError_Block_Poker_Flips_Player_Locked": {
       "-value": "貴社のユーザーはポーカーフリップ をご利用いただけません。詳細についてはカスタマーサービスにお問い合わせください。"
     },
+    "WorldServerError_Block_Poker_Master_Player_Locked": {
+      "-value": "ユーザーはポーカー マスターを利用できません。 詳細については、カスタマーサービスにお問い合わせください。"
+    },
     "Cashier_Payment_Support_Popup" :{
       "-value" : "入金サポート"
     },
@@ -13715,7 +13742,7 @@
       "-value": "このゲームは、独自の通貨であるゴールドコインでプレイできるようになりました。"
     },
     "minigame_intro_2": {
-      "-value": "ポーカーフリップを開くと、WPT® Globalの残高が全てゴールドコインに変換されます。従って、カジノやポーカーテーブルの他の場所で運試しをしたいのであれば、忘れずに最初にこのポーカーフリップのテーブルを閉じるようにしてください。"
+      "-value": "<color=#DDC3C3>ポーカーフリップを開くと、</color>WPT® Globalのキャッシュ残高とカジノコイン残高のすべてがゴールドコインに変換されます。<color=#DDC3C3>カジノやポーカーテーブルの他の場所で運試しをしたい場合は、忘れずに最初にこのポーカーフリップのテーブルを閉じるようにしてください。</color>"
     },
     "minigame_intro_3": {
       "-value": "世界中のポーカーフリップのプレイヤーと腕を競い合うチャンスです。当カジノのリーダーボードを見守り、スキルをチェックしましょう！"
@@ -13736,7 +13763,7 @@
       "-value": "<color=#DDC3C3>このゲームは、独自の通貨であるゴールドコインでプレイされます。</color>"
     },
     "minigame_pokermaster_intro_2": {
-      "-value": "<color=#DDC3C3>ポーカーフリップを開くと、WPT® Globalの残高が全てゴールドコインに変換されます。従って、カジノやポーカーテーブルの他の場所で運試しをしたいのであれば、忘れずに最初にこのポーカーマスターのテーブルを閉じるようにしてください。</color>"
+      "-value": "<color=#DDC3C3>ポーカーマスターを開くと、</color>WPT® Globalのキャッシュ残高とカジノコイン残高のすべてがゴールドコインに変換されます。<color=#DDC3C3>カジノやポーカーテーブルの他の場所で運試しをしたい場合は、忘れずに最初にこのポーカーマスターのテーブルを閉じるようにしてください。</color>"
     },
     "minigame_pokermaster_intro_3": {
       "-value": "<color=#DDC3C3>世界中のポーカーマスターのプレイヤーと腕を競い合うチャンスです。当カジノのリーダーボードを見守り、スキルをチェックしましょう！</color>"
@@ -13759,17 +13786,14 @@
     "MiniGames_Switch_content": {
       "-value": "Table Closed"
     },
-    "New_Cowboy_Promo_Popup_Title": {
-      "-value": "<color=#FFC246>$4,000万</color>保証付き\nWPT ワールド\nチャンピオンシップへ\nの道を勝ち取ろう"
+    "Pokermaster_FloatingIcon_tooltip_title": {
+      "-value": "ポーカーマスターをプレイしますか？"
     },
-    "New_Cowboy_Promo_Banner_Title": {
-      "-value": "<color=#FFC246>$4,000万</color>保証付き\nWPT ワールド\nチャンピオンシップへ\nの道を勝ち取ろう"
+    "Pokermaster_FloatingIcon_tooltip": {
+      "-value": "現在、キャッシュゲームのポーカーテーブルが開いています。ポーカーマスターをプレイするには、このテーブルから退出する必要があります。"
     },
-    "banner_pick_winning_hand":{
-      "-value": "Pick the Winning Hand"
-    },
-    "Mtt_remember_to_return": {
-      "-value": "ただし、トーナメントでプレイを再開するには、5分間の休憩タイマー終了後に必ず戻るようにしてください"
+    "ServerErrorCode515_low_re_buyin": {
+      "-value": "ゲームの完全性を守るために、残った金額と同額以上でバイインする必要があります。それ以外の場合、再度参加するには30分間待つ必要があります。"
     }
   }
 }

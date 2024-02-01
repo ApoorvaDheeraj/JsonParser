@@ -1,5 +1,5 @@
 {
-  "string":{
+  "string": {
     "number_code": {
       "-value": "号码代码"
     },
@@ -2794,7 +2794,7 @@
       "-value": "土库曼,TM*993"
     },
     "areaCode203": {
-      "-value": "土克斯及开科斯群岛,TC*1809"
+      "-value": "土克斯及开科斯群岛,TC*1649"
     },
     "areaCode204": {
       "-value": "图瓦卢,TV*688"
@@ -2888,6 +2888,15 @@
     },
     "areaCode234": {
       "-value": "马恩岛,IM*44"
+    },
+    "areaCode235": {
+      "-value": "多明尼加共和國,DO*1809"
+    },
+    "areaCode236": {
+      "-value": "多明尼加共和國,DO*1829"
+    },
+    "areaCode237": {
+      "-value": "多明尼加共和國,DO*1849"
     },
     "country_AF": { "-value": "阿富汗" },
     "country_AL": { "-value": "阿尔巴尼亚" },
@@ -6898,6 +6907,9 @@
     "Setting_Sound_Title": {
       "-value": "开启 音效"
     },
+    "Setting_Muck_Hands_Title": {
+      "-value": "Muck Losing Hands"
+    },
     "Setting_AutoFocus_Title": {
       "-value": "Turn on auto-focus on mobile"
     },
@@ -8874,6 +8886,9 @@
     },
     "MTT_Load_failed": {
       "-value": "MTT加载失败，是否重试加载"
+    },
+    "minigamecombo_popup_choose_game": {
+      "-value": "选择游戏"
     },
     "minigame_score_lab": {
       "-value": "房间底分："
@@ -11246,6 +11261,9 @@
         "如果玩家在游戏中下注小游戏币并获胜，则获胜金额将自动转换为金币。"
       ]
     },
+    "CasinoCoin_tooltip": {
+      "-value": "You can use Casino Coin to play Poker Flips and Poker Master"
+    },
     "CasinoPoints_title": {
       "-value": "积分"
     },
@@ -11375,6 +11393,9 @@
     "FAQ_button_text_VN":{
       "-value":"与我们聊天"
    },
+    "FAQ_button_text_KR":{
+      "-value":"通过 Telegram 联系我们 - @wptgkr"
+    },
     "PlayerComplaint_main_Info": {
       "-value":  "请在网站上查看我们的常见问题解答。 如果找不到问题的答案，请联系我们的支持部门之一。"
     },
@@ -13030,6 +13051,9 @@
     "Play_Some_Hand_In_Break":{
       "-value": "Play some hands in the break?"
     },
+    "Remember_return_game":{
+      "-value": "但记得在5分钟的休息时间后返回，继续参加锦标赛的比赛。"
+    },
     "Casino_Games":{
       "-value": "赌场游戏"
     },
@@ -13543,6 +13567,9 @@
     "WorldServerError_Block_Poker_Flips_Player_Locked": {
       "-value": "Poker Flips is not available for your user, please contact customer services for more details."
     },
+    "WorldServerError_Block_Poker_Master_Player_Locked": {
+      "-value": "Poker Master is not available for your user, please contact customer services for more details."
+    },
     "Cashier_Payment_Support_Popup" :{
       "-value" : "Deposit Support"
     },
@@ -13678,17 +13705,14 @@
     "MiniGames_Switch_content": {
       "-value": "Table Closed"
     },
-    "New_Cowboy_Promo_Popup_Title": {
-      "-value": "WIN YOUR WAY TO THE <color=#FFC246>$40M</color> GUARANTEED WPT WORLD CHAMPIONSHIP"
+    "Pokermaster_FloatingIcon_tooltip_title": {
+      "-value": "Want to play some Poker Master?"
     },
-    "New_Cowboy_Promo_Banner_Title": {
-      "-value": "Win Your Way To The <color=#FFC246>$40m</color> Guaranteed WPT World Championship"
+    "Pokermaster_FloatingIcon_tooltip": {
+      "-value": "You currently have a cash game poker table open - to play Poker Master, you will need to exit this table."
     },
-    "banner_pick_winning_hand":{
-      "-value": "Pick the Winning Hand"
-    },
-    "Mtt_remember_to_return": {
-      "-value": "But remember to return after a 5-minute break timer to resume play in the tournament"
+    "ServerErrorCode515_low_re_buyin": {
+      "-value": "In order to protect game integrity you must buy-in with same amount or more than you left with. Otherwise you must wait 30 minutes to join again."
     }
   }
 }

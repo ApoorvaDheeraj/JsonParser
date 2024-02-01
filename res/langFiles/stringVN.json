@@ -2800,7 +2800,7 @@
       "-value": "Turkmenistan,TM*993"
     },
     "areaCode203": {
-      "-value": "Quần đảo Turks và Caicos,TC*1809"
+      "-value": "Quần đảo Turks và Caicos,TC*1649"
     },
     "areaCode204": {
       "-value": "Tuvalu,TV*688"
@@ -2894,6 +2894,15 @@
     },
     "areaCode234": {
       "-value": "Đảo Man,IM*44"
+    },
+    "areaCode235": {
+      "-value": "Cộng hòa Dominica,DO*1809"
+    },
+    "areaCode236": {
+      "-value": "Cộng hòa Dominica,DO*1829"
+    },
+    "areaCode237": {
+      "-value": "Cộng hòa Dominica,DO*1849"
     },
     "country_AF": { "-value": "Afganistan" },
     "country_AL": { "-value": "Albania" },
@@ -6898,6 +6907,9 @@
     "Setting_Sound_Title": {
       "-value": "Hiệu ứng âm thanh"
     },
+    "Setting_Muck_Hands_Title": {
+      "-value": "Úp bài thua"
+    },
     "Setting_AutoFocus_Title": {
       "-value": "Bật tính năng tự động lấy nét trên thiết bị di động"
     },
@@ -7460,7 +7472,7 @@
       "-value": "XẾP HẠNG VÁN BÀI"
     },
     "CowboyRule_cowboy_poker_title": {
-      "-value": "Lật Xì tố"
+      "-value": "Lật Xì Tố"
     },
     "CowboyRule_cowboy_poker_desc": {
       "-value": "Luật chơi Texas Hold'em poker sử dụng một bộ bài 52 lá."
@@ -7505,7 +7517,7 @@
       "-value": "Bài riêng của bất kỳ ai"
     },
     "CowboyRule_anyone_holecards_desc_1": {
-      "-value": "Người chơi có thể cược bất kỳ ba loạ Bài riêng của bất kỳ ai;\na)Đồng chất, Liên tiếp, Đồng chất liên tiếp;\nb) Một đôi;\nc) Đôi át"
+      "-value": "Người chơi có thể cược bất kỳ ba loại Bài riêng của bất kỳ ai;\na)Đồng chất, Liên tiếp, Đồng chất liên tiếp;\nb) Một đôi;\nc) Đôi át"
     },
     "CowboyRule_anyone_holecards_desc_2": {
       "-value": "Cả hai tay nhân vật đều chơi ở đây.\nChỉ một ván bài được tính nếu ván bài của nhân vật hòa."
@@ -8111,7 +8123,7 @@
       "-value": "Vui lòng xem hé bài (%d)"
     },
     "PokerMaster_tips_choose_your_box": {
-      "-value": "Hãy chọn hộp may mắn của bạn"
+      "-value": "Please choose your lucky box"
     },
     "PokerMaster_totalbet_txt": {
       "-value": "Tổng cược: "
@@ -8264,7 +8276,7 @@
       "-value": "Bạn đang đặt cược. Vui lòng đợi đến khi ván này kết thúc."
     },
     "PokerMasterRule_Name": {
-      "-value": "Poker Master"
+      "-value": "Trùm Xì Tố"
     },
     "PokerMasterRule_Info": {
       "-value": "Hãy chọn tổ hợp chiến thắng trong trò chơi dựa trên luật chơi Texas Hold'em này."
@@ -8336,13 +8348,13 @@
       "-value": "Giới hạn bàn chơi thưởng"
     },
     "PokerMasterRule_RewardTableLimitInfo_01": {
-      "-value": "Tỷ lệ cược 10 lần trở xuống: 100.000 Xu Vàng"
+      "-value": "Tỷ lệ cược 9 lần trở xuống: 100.000 Xu Vàng"
     },
     "PokerMasterRule_RewardTableLimitInfo_02": {
-      "-value": "Tỷ lệ cược 10 – 15 lần: 50.000 Xu Vàng"
+      "-value": "Tỷ lệ cược 10 – 14 lần: 50.000 Xu Vàng"
     },
     "PokerMasterRule_RewardTableLimitInfo_03": {
-      "-value": "Tỷ lệ cược 20 – 100 lần: 10.000 Xu Vàng"
+      "-value": "Tỷ lệ cược 15 – 99 lần: 10.000 Xu Vàng"
     },
     "PokerMasterRule_RewardTableLimitInfo_04": {
       "-value": "Tỷ lệ cược 100 lần trở lên: 2.000 Xu Vàng"
@@ -8850,6 +8862,9 @@
     },
     "MTT_Load_failed": {
       "-value": "MTT tải không thành công, bạn có muốn tải lại"
+    },
+    "minigamecombo_popup_choose_game": {
+      "-value": "Chọn trò chơi của bạn"
     },
     "minigame_score_lab": {
       "-value": "Mức cược thấp nhất："
@@ -11212,7 +11227,7 @@
       "-value": "Tự loại không thành công"
     },
     "CasinoCoins_title": {
-      "-value": "Xu Casino"
+      "-value": "Xu sòng bạc"
     },
     "CasinoCoins_subtitle": {
       "-value": "Xu Casino là gì?"
@@ -11224,6 +11239,9 @@
         "Không được dùng xu Casino để rút tiền.\n\n",
         "Nếu một người chơi đặt cược xu Casino trong game và thắng, số tiền thắng sẽ tự động được đổi thành Xu vàng."
       ]
+    },
+    "CasinoCoin_tooltip": {
+      "-value": "Bạn có thể sử dụng nó để chơi Lật Xì Tố và Trùm Xì Tố"
     },
     "CasinoPoints_title": {
       "-value": "Điểm"
@@ -12479,7 +12497,7 @@
       "-value": "Không thể kết nối với máy chủ, chúng tôi đang khắc phục sự cố. Vui lòng kiểm tra lại sau."
     },
     "Server_Unreachable": {
-      "-value": "Ứng dụng hiện đang ngừng hoạt động để bảo trì trong một thời gian ngắn. Cảm ơn bạn đã kiên nhẫn. Vui lòng đăng nhập lại sau!"
+      "-value": "Ứng dụng hiện đang ngừng hoạt động để bảo trì trong một thời gian ngắn. Cảm ơn sự kiên nhẫn của bạn và xin vui lòng kiểm tra lại sớm!"
     },
     "Server_Unreachable_Title": {
       "-value": "Hiện không khả dụng"
@@ -12572,7 +12590,7 @@
       "-value": "Flop"
     },
     "Rules_Cash_Game_Common_P3_Desc2": {
-      "-value": "Ba lá bài chung ngửa được chia (“flop”). Bắt đầu từ người chơi gần người chia bìa nhất, các người chơi lại kiểm tra, đặt cược, tố tiền cược hoặc bỏ bài trước đó lần lượt theo chiều kim đồng hồ. Nếu có hơn một người chơi vẫn hoạt động ở cuối vòng chơi này, turn sẽ được chia."
+      "-value": "Ba lá bài chung ngửa được chia (“flop”). Bắt đầu từ người chơi gần người chia bài nhất, các người chơi lại kiểm tra, đặt cược, tố tiền cược hoặc bỏ bài trước đó lần lượt theo chiều kim đồng hồ. Nếu có hơn một người chơi vẫn hoạt động ở cuối vòng chơi này, turn sẽ được chia."
     },
     "Rules_Cash_Game_Common_P3_SubTitle3": {
       "-value": "Turn"
@@ -12988,6 +13006,9 @@
     "Play_Some_Hand_In_Break":{
       "-value": "Chơi vài ván trong giờ nghỉ?"
     },
+    "Remember_return_game":{
+      "-value": "Nhưng hãy nhớ quay lại sau thời gian nghỉ giải lao 5 phút để tiếp tục chơi trong giải đấu"
+    },
     "Casino_Games":{
       "-value": "Trò chơi Casino"
     },
@@ -13054,6 +13075,9 @@
    "FAQ_button_text_VN":{
     "-value":"Trò chuyện với chúng tôi"
    },
+    "FAQ_button_text_KR":{
+      "-value":"Liên hệ với chúng tôi trên Telegram - @wptgkr"
+    },
    "PKWMTT_LIST_TABNAME_MY_MTT":{
       "-value":"MY MTT’s"
    },
@@ -13612,6 +13636,9 @@
     "WorldServerError_Block_Poker_Flips_Player_Locked": {
       "-value": "Poker Flips không khả dụng cho người dùng của bạn, vui lòng liên hệ bộ phận dịch vụ khách hàng để biết thêm chi tiết."
     },
+    "WorldServerError_Block_Poker_Master_Player_Locked": {
+      "-value": "Poker Master không khả dụng cho người dùng của bạn, vui lòng liên hệ bộ phận dịch vụ khách hàng để biết thêm chi tiết."
+    },
     "Cashier_Payment_Support_Popup" :{
       "-value" : "Hỗ trợ gửi tiền"
     },
@@ -13703,7 +13730,7 @@
       "-value": "<color=#DDC3C3>Trò chơi này hiện được chơi bằng </color>Xu Vàng<color=#DDC3C3>, đơn vị tiền tệ độc nhất riêng của trò chơi.</color>"
     },
     "minigame_intro_2": {
-      "-value": "<color=#DDC3C3>Khi bạn mở trò chơi Poker Flips, toàn bộ số dư</color> WPT® Global của bạn được chuyển đổi thành các Xu Vàng, <color=#DDC3C3>vì vậy nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Poker Flips này trước.</color>"
+      "-value": "<color=#DDC3C3>Khi bạn mở trò chơi Lật Xì Tố, toàn bộ</color> số dư tiền mặt WPT® Global và số dư xu Sòng bạc của bạn được chuyển đổi thành Xu Vàng. \n<color=#DDC3C3>Nếu bạn muốn thử vận may ở nơi khác trong sòng bạc hoặc tại các bàn xì tố, đừng quên đóng bàn chơi Lật Xì Tố này trước.</color>"
     },
     "minigame_intro_3": {
       "-value": "<color=#DDC3C3>Bạn hiện có cơ hội so sánh kỹ năng của mình với các người chơi Poker Flips từ khắp nơi trên thế giới - hãy theo dõi </color>bảng xếp hạng của chúng tôi để biết trình độ của bạn như thế nào!"
@@ -13724,7 +13751,7 @@
       "-value": "<color=#DDC3C3>Trò chơi này được chơi bằng Xu Vàng, đơn vị tiền tệ độc nhất riêng của trò chơi.</color>"
     },
     "minigame_pokermaster_intro_2": {
-      "-value": "<color=#DDC3C3>Khi bạn mở trò chơi Poker Master, toàn bộ số dư WPT® Global của bạn được chuyển đổi thành các Xu Vàng, vì vậy nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Poker Master này trước.</color>"
+      "-value": "<color=#DDC3C3>Khi bạn mở trò chơi Trùm Xì Tố, toàn bộ</color> số dư tiền mặt WPT® Global và số dư xu Sòng bạc của bạn được chuyển đổi thành Xu Vàng.\n<color=#DDC3C3>Nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Trùm Xì Tố này trước.</color>"
     },
     "minigame_pokermaster_intro_3": {
       "-value": "<color=#DDC3C3>Bạn có cơ hội so sánh kỹ năng của mình với các người chơi Poker Master từ khắp nơi trên thế giới – hãy theo dõi bảng xếp hạng của chúng tôi để biết trình độ của bạn như thế nào!</color>"
@@ -13747,17 +13774,14 @@
     "MiniGames_Switch_content": {
       "-value": "Table Closed"
     },
-    "New_Cowboy_Promo_Popup_Title": {
-      "-value": "GIÀNH CHIẾN THẮNG ĐỂ THAM GIA GIẢI VÔ ĐỊCH\nTHẾ GIỚI WPT VỚI TỔNG\nGIẢI THƯỞNG BẢO ĐẢM\nTRỊ GIÁ <color=#FFC246>40 TRIỆU $</color>"
+    "Pokermaster_FloatingIcon_tooltip_title": {
+      "-value": "Bạn muốn chơi vài ván Trùm Xì Tố?"
     },
-    "New_Cowboy_Promo_Banner_Title": {
-      "-value": "Giành chiến thắng để tham gia Giải vô địch Thế giới WPT với tổng giải thưởng bảo đảm trị giá <color=#FFC246>40 triệu $</color>"
+    "Pokermaster_FloatingIcon_tooltip": {
+      "-value": "Bạn hiện đang mở một bàn ván chơi tiền mặt xì tố – để chơi Trùm Xì Tố, bạn sẽ cần phải thoát khỏi bàn này."
     },
-    "banner_pick_winning_hand":{
-      "-value": "Pick the Winning Hand"
-    },
-    "Mtt_remember_to_return": {
-      "-value": "Nhưng hãy nhớ quay lại sau thời gian nghỉ giải lao 5 phút để tiếp tục chơi trong giải đấu"
+    "ServerErrorCode515_low_re_buyin": {
+      "-value": "Để bảo vệ tính toàn vẹn của trò chơi, bạn phải buy-in với số tiền bằng hoặc nhiều hơn số tiền bạn còn lại. Nếu không, bạn phải đợi 30 phút để tham gia lại."
     }
   }
 }

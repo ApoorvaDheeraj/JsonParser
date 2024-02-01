@@ -2800,7 +2800,7 @@
       "-value": "Turcomenistão,TM*993"
     },
     "areaCode203": {
-      "-value": "Ilhas Turks e Caicos,TC*1809"
+      "-value": "Ilhas Turks e Caicos,TC*1649"
     },
     "areaCode204": {
       "-value": "Tuvalu,TV*688"
@@ -2894,6 +2894,15 @@
     },
     "areaCode234": {
       "-value": "Ilha de Man,IM*44"
+    },
+    "areaCode235": {
+      "-value": "República Dominicana,DO*1809"
+    },
+    "areaCode236": {
+      "-value": "República Dominicana,DO*1829"
+    },
+    "areaCode237": {
+      "-value": "República Dominicana,DO*1849"
     },
     "country_AF": {
       "-value": "Afeganistão"
@@ -7382,6 +7391,9 @@
     "Setting_Sound_Title": {
       "-value": "Efeitos sonoros"
     },
+    "Setting_Muck_Hands_Title": {
+      "-value": "Mãos perdidas por descartar"
+    },
     "Setting_AutoFocus_Title": {
       "-value": "Ativar o foco automático no celular"
     },
@@ -7968,7 +7980,7 @@
       "-value": "Mãos Ganhadoras"
     },
     "CowboyRule_cowboy_poker_title": {
-      "-value": "Poker Flips"
+      "-value": "Flips de Poker"
     },
     "CowboyRule_cowboy_poker_desc": {
       "-value": "Regras do pôquer Texas Hold'em usando um baralho de 52 cartas."
@@ -8772,7 +8784,7 @@
       "-value": "Você fez uma aposta. Aguarde até que a rodada atual termine antes de sair."
     },
     "PokerMasterRule_Name": {
-      "-value": "Poker Master"
+      "-value": "Mestre do Poker"
     },
     "PokerMasterRule_Info": {
       "-value": "Escolha a combinação vencedora neste jogo baseado nas regras do Texas Hold'em."
@@ -8844,13 +8856,13 @@
       "-value": "Limite da tabela de recompensas"
     },
     "PokerMasterRule_RewardTableLimitInfo_01": {
-      "-value": "Cotações menores ou iguais a 10 vezes: 100.000 moedas de ouro"
+      "-value": "Cotações menores ou iguais a 9 vezes: 100.000 moedas de ouro"
     },
     "PokerMasterRule_RewardTableLimitInfo_02": {
-      "-value": "Cotações entre 10 e 15 vezes: 50.000 moedas de ouro"
+      "-value": "Cotações entre 10 e 14 vezes: 50.000 moedas de ouro"
     },
     "PokerMasterRule_RewardTableLimitInfo_03": {
-      "-value": "Cotações entre 20 e 100 vezes: 10.000 moedas de ouro"
+      "-value": "Cotações entre 15 e 99 vezes: 10.000 moedas de ouro"
     },
     "PokerMasterRule_RewardTableLimitInfo_04": {
       "-value": "Cotações maiores ou iguais a 100 vezes: 2.000 moedas de ouro"
@@ -9358,6 +9370,9 @@
     },
     "MTT_Load_failed": {
       "-value": "Não foi possível carregar o MTT. Deseja recarregar?"
+    },
+    "minigamecombo_popup_choose_game": {
+      "-value": "Escolha seu jogo"
     },
     "minigame_score_lab": {
       "-value": "Aposta mais baixa:"
@@ -11726,7 +11741,7 @@
       "-value": "Não foi possível fazer a autoexclusão"
     },
     "CasinoCoins_title": {
-      "-value": "Moedas do Cassino"
+      "-value": "Dinheiro de Cassino"
     },
     "CasinoCoins_subtitle": {
       "-value": "O que são Moedas do Cassino?"
@@ -11738,6 +11753,9 @@
         "Não é permitido fazer retirada das Moedas do Cassino.\r\n\r\n",
         "Se um jogador apostar Moedas do Cassino no jogo e vencer, o valor vencedor será automaticamente convertido em Moedas de Ouro."
       ]
+    },
+    "CasinoCoin_tooltip": {
+      "-value": "Você pode usá-lo para jogar Poker Flip e Poker Master"
     },
     "CasinoPoints_title": {
       "-value": "Pontos"
@@ -11865,6 +11883,9 @@
     "FAQ_button_text_VN":{
       "-value":"Converse conosco"
    },
+    "FAQ_button_text_KR":{
+      "-value":"Contate-nos no Telegram - @wptgkr"
+    },
     "PlayerComplaint_main_Info": {
       "-value":  "Consulte nossas perguntas frequentes no site. Se você não encontrar a resposta para sua pergunta, entre em contato com um de nossos departamentos de suporte."
     },
@@ -13005,13 +13026,13 @@
       "-value": "O servidor é inalcançável, estamos trabalhando agora para corrigi-lo. Por favor, volte depois."
     },
     "Server_Unreachable": {
-      "-value": "O Aplicativo está atualmente em baixa por um curto período de manutenção. Obrigado por sua paciência e por favor, volte logo!"
+      "-value": "A Aplicação está atualmente inativa por um curto período de manutenção. Agradecemos a sua paciência e consulte novamente em breve!"
     },
     "Server_Unreachable_Title": {
-      "-value": "Atualmente não disponível"
+      "-value": "Atualmente indisponível"
     },
     "Server_Unreachable_SubTitle": {
-      "-value": "Nós sentimos muito!"
+      "-value": "Pedimos desculpas! "
     },
     "Invite_Friend_Referrel_Code": {
       "-value": "Código de Referencia"
@@ -13047,7 +13068,7 @@
       "-value": "Opções de pagamento"
     },
     "TheAppTeam": {
-      "-value": "A Equipe ${cv.appConfig.getAppTitle()}"
+      "-value": "Equipe do ${cv.appConfig.getAppTitle()}"
     },
     "Got_It": {
       "-value": "Entendi"
@@ -13525,6 +13546,9 @@
     },
     "Play_Some_Hand_In_Break":{
       "-value": "Quer jogar algumas partidas no intervalo?"
+    },
+    "Remember_return_game":{
+      "-value": "Mas lembre-se de retornar após um intervalo de 5 minutos para retomar o jogo no torneio"
     },
     "Casino_Games":{
       "-value": "Jogos de cassino"
@@ -14069,6 +14093,9 @@
     "WorldServerError_Block_Poker_Flips_Player_Locked": {
       "-value": "Poker Flips não está disponível para o seu usuário, entre em contato com o serviço de apoio ao cliente para obter mais informações."
     },
+    "WorldServerError_Block_Poker_Master_Player_Locked": {
+      "-value": "Poker Master não está disponível para o seu usuário, entre em contato com o serviço de apoio ao cliente para obter mais informações."
+    },
     "Cashier_Payment_Support_Popup" :{
       "-value" : "Suporte de Depósito"
     },
@@ -14160,7 +14187,7 @@
       "-value": "Este jogo agora é jogado em Moedas de Ouro, sua própria moeda exclusiva ."
     },
     "minigame_intro_2": {
-      "-value": "Quando você abre o Poker Flips, todo o seu saldo do WPT® Global é convertido em Moedas de Ouro, por isso, se quiser tentar a sua sorte em outro jogo do cassino ou nas mesas de pôquer, não se esqueça de fechar esta mesa do Poker Flips primeiro."
+      "-value": "<color=#DDC3C3>Quando você abre o Flips de Poker, todo</color> o seu saldo de caixa WPT® Global e o seu saldo de moedas do cassino são convertidos em Moedas de Ouro. <color=#DDC3C3>Se você quiser tentar a sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa de Flips de Poker primeiro.</color>"
     },
     "minigame_intro_3": {
       "-value": "Agora você tem a oportunidade de comparar as suas habilidades com as de jogadores de Poker Flips do mundo todo. Fique de olho na nossa tabela de classificação para ver como você está se saindo!"
@@ -14181,7 +14208,7 @@
       "-value": "<color=#DDC3C3>Este jogo é jogado em Moedas de Ouro, sua própria moeda exclusiva.</color>"
     },
     "minigame_pokermaster_intro_2": {
-      "-value": "<color=#DDC3C3>Quando você abre o Poker Master, todo o seu saldo do WPT® Global é convertido em Moedas de Ouro, por isso, se quiser tentar a sua sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa do Poker Master primeiro.</color>"
+      "-value": "<color=#DDC3C3>Quando você abre o Poker Master, todo</color> o seu saldo de caixa WPT® Global e o seu saldo de moedas do cassino são convertidos em Moedas de Ouro. <color=#DDC3C3>Se você quiser tentar a sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa de Poker Master primeiro."
     },
     "minigame_pokermaster_intro_3": {
       "-value": "<color=#DDC3C3>Você tem a oportunidade de comparar as suas habilidades com as de jogadores de Poker Master do mundo todo. Fique de olho na nossa tabela de classificação para ver como você está se saindo!</color>"
@@ -14204,17 +14231,14 @@
     "MiniGames_Switch_content": {
       "-value": "Table Closed"
     },
-    "New_Cowboy_Promo_Popup_Title": {
-      "-value": "CONQUISTE SUA VAGA PARA O CAMPEONATO MUNDIAL\nDO WPT COM<color=#FFC246>\n$40 MILHÕES</color> GARANTIDOS"
+    "Pokermaster_FloatingIcon_tooltip_title": {
+      "-value": "Quer jogar um pouco de Poker Master?"
     },
-    "New_Cowboy_Promo_Banner_Title": {
-      "-value": "Conquiste sua vaga para o Campeonato Mundial do\nWPT com<color=#FFC246>\n$40 milhões</color> garantidos"
+    "Pokermaster_FloatingIcon_tooltip": {
+      "-value": "Você tem atualmente uma mesa de poker a dinheiro aberta. Para jogar Poker Master, você precisará sair desta mesa."
     },
-    "banner_pick_winning_hand":{
-      "-value": "Pick the Winning Hand"
-    },
-    "Mtt_remember_to_return": {
-      "-value": "Mas lembre-se de retornar após um intervalo de 5 minutos para retomar o jogo no torneio"
+    "ServerErrorCode515_low_re_buyin": {
+      "-value": "Para proteger a integridade do jogo, você deve fazer um buy-in de valor igual ou superior ao que deixou. Caso contrário, você deve esperar 30 minutos para participar novamente."
     }
   }
 }
