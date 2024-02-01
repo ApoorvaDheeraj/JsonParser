@@ -81,7 +81,7 @@ export class JsonParser {
     //     }
     //   }
 
-    this.writeMapToFile();
+    // this.writeMapToFile();
     this.assignKeysForArray();
   }
 

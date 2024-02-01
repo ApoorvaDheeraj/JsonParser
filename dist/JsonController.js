@@ -2,6 +2,7 @@
 var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
 Object.defineProperty(exports, "__esModule", { value: true });
 const JsonParser_1 = require("./JsonParser");
+const LangData_1 = require("./LangData");
 const LanguaggeUtil_1 = require("./LanguaggeUtil");
 const MTTLocController_1 = require("./MTTLocController");
 const MTTParser_1 = require("./MTTParser");
@@ -20,7 +21,8 @@ countryCode.forEach(function (value) {
     const jsonParserObj = new JsonParser_1.JsonParser(langFileArray.at(fileArrayIndex));
     jsonParserRecord.set(value, jsonParserObj);
     fileArrayIndex++;
-    jsonParserObj.writeKeysForJson();
+    // Write StringEN.. Keys Only to file
+    // jsonParserObj.writeKeysForJson();
 });
 // let missing = a1.filter(item => a2.indexOf(item) < 0);
 // console.log(missing);
@@ -51,12 +53,12 @@ countryCode.forEach(function (value) {
     fileArrayIndex++;
 });
 const mttParserObj = new MTTParser_1.MTTParser();
-// let result = mttParserObj.flattenObject(Translation);
+let result = mttParserObj.flattenObject(LangData_1.Translation);
 // langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json");
 // Iterate Array and Write File
 const langArray = ["tc", "ru", "sc", "en", "es", "fr", "ja", "ko", "vn", "th", "hi",];
 for (const langKey in langArray) {
     let mttResult = MTTLocController_1.MTTLocController.getInstance().loadLocStringsFromResources(langArray[langKey]);
-    // langInstanch.writeKeysForJson(mttResult, `res/mtt/${langArray[langKey]}.json`);
+    langInstanch.writeKeysForJson(mttResult, `res/mtt/${langArray[langKey]}.json`);
 }
 //# sourceMappingURL=JsonController.js.map

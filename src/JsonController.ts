@@ -26,7 +26,8 @@ countryCode.forEach(function (value) {
   jsonParserRecord.set(value, jsonParserObj);
   fileArrayIndex++;
 
-  jsonParserObj.writeKeysForJson();
+  // Write StringEN.. Keys Only to file
+  // jsonParserObj.writeKeysForJson();
 
 });
 
@@ -67,7 +68,7 @@ countryCode.forEach(function (value) {
 
 
 const mttParserObj = new MTTParser();
-// let result = mttParserObj.flattenObject(Translation);
+let result = mttParserObj.flattenObject(Translation);
 
 // langInstanch.writeKeysForJson(result, "res/mtt/flattenMTT_Translation.json");
 
@@ -75,5 +76,5 @@ const mttParserObj = new MTTParser();
 const langArray:string[] = ["tc", "ru", "sc","en", "es", "fr", "ja", "ko", "vn", "th", "hi", ]
 for(const langKey in langArray){
   let mttResult = MTTLocController.getInstance().loadLocStringsFromResources(langArray[langKey]);
-  // langInstanch.writeKeysForJson(mttResult, `res/mtt/${langArray[langKey]}.json`);
+  langInstanch.writeKeysForJson(mttResult, `res/mtt/${langArray[langKey]}.json`);
 }

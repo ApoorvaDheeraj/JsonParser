@@ -4900,6 +4900,14 @@ export const Translation = {
             "ja": "まだ開かれていません",
             "ko": "아직 열리지 않음"
         },
+        "TOURNAMENT_STATUS_AUTO_FEED": {
+            "en": "Auto Feed",
+            "sc": "已自动报名, 不可取消",
+            "tc": "已自動報名, 不可取消",
+            "vn": "Auto Feed",
+            "th": "Auto Feed",
+            "hi": "Auto Feed"
+        },
         "TOURNAMENT_SETTING_FINAL_SHOW_RECORD": {
             "th": "แสดงชุดไพ่",
             "sc": "手牌公示",
@@ -9337,6 +9345,34 @@ export const Translation = {
             "ja": "登録の取り消し",
             "ko": "등록 취소"
         },
+        "DO_NOT_CANCEL": {
+            "th": "ไม่ยกเลิก",
+            "sc": "不取消",
+            "tc": "不取消",
+            "vn": "Không Hủy",
+            "en": "Don't Cancel",
+            "hi": "रद्द न करें",
+            "es": "No cancelar",
+            "fr": "Ne pas annuler",
+            "pt": "Não cancelar",
+            "ru": "Не отменять",
+            "ja": "キャンセルしないでください",
+            "ko": "취소하지 마세요"
+        },
+        "CONFIRM_CANCEL_REGISTRATION": {
+            "th": "คุณแน่ใจหรือว่าต้องการยกเลิกการลงทะเบียน? เงินทั้งหมดจะถูกคืนไปยังบัญชีของคุณ",
+            "sc": "您确定要取消注册吗？所有款项将退还到您的帐户",
+            "tc": "您確定要取消註冊嗎？所有款項將退還到您的帳戶",
+            "vn": "Bạn có chắc chắn muốn hủy đăng ký không? Tất cả các khoản tiền sẽ được hoàn trả vào tài khoản của bạn",
+            "en": "Are you sure you want to cancel registration? All funds will be returned to your account",
+            "hi": "क्या आप निश्चित हैं कि आप पंजीकरण रद्द करना चाहते हैं? सभी फंड आपके खाते में वापस कर दिए जाएंगे",
+            "es": "¿Estás seguro de que quieres cancelar la inscripción? Todos los fondos se devolverán a tu cuenta",
+            "fr": "Êtes-vous sûr de vouloir annuler l'inscription ? Tous les fonds seront retournés sur votre compte",
+            "pt": "Você tem certeza de que deseja cancelar o registro? Todos os fundos serão devolvidos à sua conta",
+            "ru": "Вы уверены, что хотите отменить регистрацию? Все средства будут возвращены на ваш счет",
+            "ja": "登録をキャンセルしてもよろしいですか？すべての資金はあなたのアカウントに返金されます",
+            "ko": "등록을 취소하시겠습니까? 모든 자금이 귀하의 계정으로 반환됩니다"
+        },
         "TOURNAMENT_DETAIL": {
             "th": "รายละเอียดทัวร์นาเมนต์",
             "sc": "赛事详情",
@@ -10066,7 +10102,7 @@ export const Translation = {
             "fr": "Cagnotte des prix",
             "pt": "Premiação",
             "ru": "Призовой фонд",
-            "ja": "プリズプール",
+            "ja": "賞金プール",
             "ko": "상금풀"
         },
         "REWARD_CIRCLE": {
@@ -10396,7 +10432,7 @@ export const Translation = {
             "fr": "Cagnotte des prix",
             "pt": "Premiação",
             "ru": "Призовой фонд",
-            "ja": "プリズプール",
+            "ja": "賞金プール",
             "ko": "상금풀"
         },
         "PROFIT_GAME": {
@@ -11677,7 +11713,7 @@ export const Translation = {
             "fr": "CAGNOTTE",
             "pt": "PREMIAÇÃO",
             "ru": "ПРИЗОВОЙ ФОНД",
-            "ja": "プリズポール",
+            "ja": "賞金プール",
             "ko": "상금풀"
         },
         "BOUNTY_POOL": {
@@ -17305,6 +17341,34 @@ export const Translation = {
                 "ru": "Вы были исключены",
                 "ja": "あなたは排除されました",
                 "ko": "제거되었습니다"
+            },
+            "REGISTERING": {
+                "th": "การลงทะเบียน",
+                "sc": "注册",
+                "tc": "註冊",
+                "vn": "ĐANG ĐĂNG KÝ",
+                "en": "REGISTERING",
+                "hi": "दर्ज की",
+                "es": "REGISTRARSE",
+                "fr": "ENREGISTREMENT",
+                "pt": "INSCRIÇÃO",
+                "ru": "РЕГИСТРАЦИЯ",
+                "ja": "登録する",
+                "ko": "등록 중"
+            },
+            "CANCELLING_REGISTER": {
+                "th": "การยกเลิกการลงทะเบียน",
+                "sc": "取消注册",
+                "tc": "取消註冊",
+                "vn": "HỦY ĐĂNG KÝ",
+                "en": "CANCELING REGISTER",
+                "hi": "पंजीकरण रद्द किया जा रहा है",
+                "es": "CANCELAR REGISTRO",
+                "fr": "ANNULATION DE REGISTRE",
+                "pt": "CANCELANDO REGISTRO",
+                "ru": "ОТМЕНА РЕГИСТРАЦИИ",
+                "ja": "登録のキャンセル",
+                "ko": "등록 취소 중"
             },
             "GAME_PAUSE": {
                 "th": "เกมหยุดชั่วคราว",
@@ -23190,18 +23254,18 @@ export const Translation = {
             "ko": "서버가 이미 있음"
         },
         "20": {
-            "th": "ระบบเข้าสู่การบำรุงรักษา โปรดเล่นในภายหลัง",
+            "th": "ระบบอยู่ระหว่างการบำรุงรักษา กรุณาลองใหม่อีกครั้งในภายหลัง",
             "sc": "系统进入维护，请稍后再进行游戏",
             "tc": "系統進入維護，請稍後再進行遊戲",
-            "vn": "Hệ thống đang bảo trì, vui lòng chơi sau.",
-            "en": "System enters maintenance, please play later.",
+            "vn": "Hệ thống đang được bảo trì. Vui lòng thử lại sau.",
+            "en": "The system is undergoing maintenance. Please try again later.",
             "hi": "सिस्टम रखरखाव चरण में पहुँच गया है, कृपया बाद में खेलें।",
-            "es": "El sistema entra en mantenimiento, juegue más tarde.",
-            "fr": "Le système entre en mode de maintenance, veuillez la lire plus tard.",
-            "pt": "O sistema entra em manutenção. Jogue mais tarde.",
+            "es": "El sistema está en mantenimiento. Inténtalo de nuevo más tarde.",
+            "fr": "Le système est en cours de maintenance. Veuillez réessayer plus tard.",
+            "pt": "O sistema está em manutenção. Tente novamente mais tarde.",
             "ru": "Идет обслуживание системы, зайдите в игру позже.",
-            "ja": "システムがメンテナンスに入ったので、後で再生してください。",
-            "ko": "시스템이 유지 관리에 진입했습니다. 나중에 플레이하세요."
+            "ja": "システムはメンテナンス作業中です。後ほどもう一度お試しください。",
+            "ko": "시스템 점검 중입니다. 나중에 다시 시도하세요."
         },
         "100": {
             "th": "เซิร์ฟเวอร์เกิดข้อผิดพลาด โปรดลองใหม่อีกครั้งในภายหลัง",
@@ -23272,6 +23336,20 @@ export const Translation = {
             "ru": "Не найдено",
             "ja": "不明",
             "ko": "찾을 수 없음"
+        },
+        "4507": {
+            "th": "ระบบกำลังจะดำเนินการบำรุงรักษา กรุณาคลิกยืนยันเพื่อรับเงินคืนแล้วลองใหม่อีกครั้งในภายหลัง",
+            "sc": "游戏即将进行维护，点确定退款并关闭牌桌。",
+            "tc": "遊戲即將進行維護，點確定退款並關閉牌桌。",
+            "vn": "Hệ thống sắp được bảo trì. Vui lòng nhấp vào xác nhận để được hoàn tiền và thử lại sau.",
+            "en": "The system is about to undergo maintenance. Please click confirm to receive a refund, and try again later.",
+            "hi": "खेल का रखरखाव होने वाला है। कृपया पुष्टि करें और रिफंड प्राप्त करें।",
+            "es": "El sistema estará en mantenimiento a la brevedad. Haz clic en Confirmar para recibir un reembolso e inténtalo de nuevo más tarde.",
+            "fr": "Le système est sur le point de procéder à une maintenance. Veuillez cliquer sur Confirmer pour recevoir un remboursement et réessayer plus tard.",
+            "pt": "O sistema está prestes a entrar em manutenção. Clique em confirmar para receber um reembolso e tente novamente mais tarde.",
+            "ru": "The game is about to undergo maintenance. Please confirm and get the refund.",
+            "ja": "システムはまもなくメンテナンス作業に入ります。[確認]をクリックして返金を受け、後ほどもう一度お試しください。",
+            "ko": "시스템 점검 중입니다. 환불을 받으려면 확인을 클릭하고 나중에 다시 시도하세요."
         },
         "5000": {
             "th": "เหรียญไม่เพียงพอสำหรับการเข้าร่วม",
@@ -24435,6 +24513,20 @@ export const Translation = {
             "ja": "You have been absent for 3 free MTT events and then restricted to play free MTT for 7 days. The restriction will be lifted on {$1}. If you have any enquiries, please contact CS team.",
             "ko": "You have been absent for 3 free MTT events and then restricted to play free MTT for 7 days. The restriction will be lifted on {$1}. If you have any enquiries, please contact CS team."
         },
+        "33113": {
+            "th": "เนื่องจากคุณได้ลงทะเบียนเข้าร่วมการแข่งขันนี้โดยอัตโนมัติ คุณจึงไม่สามารถถอนการลงทะเบียนได้",
+            "sc": "由于您已自动注册参加此比赛，您无法取消注册。",
+            "tc": "由於您已自動註冊參加此比賽，您無法取消註冊。",
+            "vn": "Bạn không thể hủy đăng ký tham gia giải đấu này do đã được đăng ký tự động.",
+            "en": "As you were automatically registered to this tournament, you are unable to unregister.",
+            "hi": "क्योंकि आपको इस टूर्नामेंट में स्वचालित रूप से पंजीकृत किया गया था, आप पंजीकरण रद्द नहीं कर सकते हैं।",
+            "es": "Como se registró en este torneo de manera automática, no puede darse de baja.",
+            "fr": "Étant donné que vous avez été automatiquement inscrit à ce tournoi, vous ne pouvez pas vous désinscrire.",
+            "pt": "Não é possível cancelar a inscrição, já que você foi registrado automaticamente neste torneio.",
+            "ru": "Поскольку вы были автоматически зарегистрированы на этот турнир, вы не можете отменить регистрацию.",
+            "ja": "このトーナメントに自動的に登録されたため、登録を解除することはできません。",
+            "ko": "이 토너먼트에 자동으로 등록되었으므로 등록을 취소할 수 없습니다."
+        },
         "40004": {
             "10000062": {
                 "th": "เงินทุนไม่เพียงพอ",
@@ -24984,18 +25076,18 @@ export const Translation = {
             "ko": "포인트 부족"
         },
         "60102": {
-            "th": "เกมอยู่ในช่วงหยุด ยังสมัครหรือคืนชีพไม่ได้",
-            "sc": "牌局暂停中，暂时不能进行报名",
-            "tc": "牌局暂停中，暂时不能进行报名",
-            "vn": "Ván bài đang tạm ngưng , tạm thời không thể đăng ký hoặc phục hồi",
+            "th": "เกมหยุดชั่วคราว ไม่สามารถลงทะเบียนหรือซื้อซ้ำได้ชั่วคราว",
+            "sc": "牌局暂停中，暂时不能进行报名或复活",
+            "tc": "牌局暫停中，暫時不能進行報名或復活",
+            "vn": "Trò chơi tạm dừng, không thể đăng ký hoặc mua lại tạm thời.",
             "en": "Game is paused, unable to register or rebuy temporarily.",
             "hi": "खेल स्थगित है, पंजीकृत करने या पुनः खरीदने में अस्थायी रूप से असमर्थ।",
-            "es": "Game is paused, unable to register or rebuy temporarily.",
-            "fr": "Game is paused, unable to register or rebuy temporarily.",
-            "pt": "Game is paused, unable to register or rebuy temporarily.",
-            "ru": "Game is paused, unable to register or rebuy temporarily.",
-            "ja": "Game is paused, unable to register or rebuy temporarily.",
-            "ko": "Game is paused, unable to register or rebuy temporarily."
+            "es": "El juego está en pausa, no se puede registrar ni recomprar temporalmente.",
+            "fr": "Le jeu est mis en pause, il est temporairement impossible de s’inscrire ou de procéder à un rachat.",
+            "pt": "O jogo está pausado, não é possível registrar ou recomprar temporariamente.",
+            "ru": "Игра приостановлена, регистрация или ребай временно невозможны.",
+            "ja": "ゲームが一時停止し、一時的に登録やリバイができない。",
+            "ko": "게임이 일시 중지되었습니다. 일시적으로 등록하거나 다시 구입할 수 없습니다."
         },
         "210010": {
             "th": "คุณยังไม่บรรลุเงื่อนไข",
@@ -26824,7 +26916,7 @@ export const Translation = {
                 "fr": "Les tours Global sont des tables à 3 joueurs de Sit-and-go avec une structure hyper. Au début de chaque partie, un multiplicateur est décerné au hasard et vous pourriez être l’heureux chanceux qui joue pour 10 000x son prix d’entrée! Ces tournois au rythme rapide sont remplis d’actions, ce qui est parfait pour les joueurs à la recherche de ce type de poker!",
                 "pt": "As Partidas Globais são Sit and Gos de 3 mãos com uma hiperestrutura. No início de cada jogo, um multiplicador aleatório será girado e você poderá ter a sorte de jogar para tentar ganhar até 10.000x o seu buy-in! Esses torneios de ritmo acelerado são rápidos de jogar e repletos de ação: perfeitos para os jogadores de pôquer viciados em ação!",
                 "ru": "Global Spins are 3 handed sit n gos with a hyper structure. At the start of each game, a random multiplier will be spun and you could be lucky enough to find yourself playing for anything up to 10,000x your buy in! These fast paced tournaments are quick to play and action packed - perfect for the action-junkie poker player!",
-                "ja": "グローバルスピンは、ハイパー構造が備わった3ハンド済みのシットンゴーです。各ゲームの開始時に、ランダムなマルチプライヤーがスピンされ、最高でバイイン額の1万倍の賞金を獲得する幸運に恵まれるかもしれません！これらのペースが速いトーナメントは、素早くプレイでき、アクションが満載なので、アクション好きなポーカープレイヤーに最適です！",
+                "ja": "グローバルスピンは、3人のプレイヤーで開始するシット＆ゴーのポーカーゲームです。ゲーム開始時にルーレットで賞金が決定します。賞金は最大バイイン額の1万倍！最後の一人に残ると賞金を獲得！短時間のプレイで高額賞金をゲットするチャンスがあります。",
                 "ko": "글로벌 스핀은 하이퍼 게임 구조를 갖춘 3인용 싯앤고 게임입니다. 각 게임이 시작될 때 무작위 승수가 계산되며, 내 바이인의 최대 10,000배에 달하는 상금을 위해 플레이할 수 있는 기회가 주어집니다! 빠르게 진행되는 이 토너먼트는 속도감 있는 플레이와 액션이 가득합니다. 빠른 액션에 큰 재미를 느끼는 포커 플레이어에게 매우 적합합니다!" 
             },
             "PRIZE_POOL_DES":{
@@ -26838,8 +26930,8 @@ export const Translation = {
                 "fr": "Chaque tour Global offre une cagnotte de prix entre 2 $ et 500 000 $!",
                 "pt": "Cada Partida Global tem uma premiação diferente que varia de $ 2 até $ 500.000!",
                 "ru": "Each Global Spin has a varied prizepool ranging from $2 to over $500,000!",
-                "ja": "各グローバルスピンには、$2から$50万以上までの様々なプライズプールがあります！",
-                "ko": "각 글로벌 스핀에는 $2부터 $500,000 이상까지 다양한 상금풀이 있습니다!" 
+                "ja": "グローバルスピンでは、$2から$50万以上の賞金を獲得することができます。",
+                "ko": "각 글로벌 스핀에는 $2부터 $500,000 이상까지 다양한 상금풀이 있습니다!"
             },
             "STRUCTURE":{
                 "th": "โครงสร้าง",
@@ -26924,7 +27016,7 @@ export const Translation = {
                 "fr": "Paiement",
                 "pt": "Pagamento",
                 "ru": "Payment",
-                "ja": "支払い",
+                "ja": "参加費",
                 "ko": "결제" 
             },
             "TICKETS":{
@@ -26952,7 +27044,7 @@ export const Translation = {
                 "fr": "Argent",
                 "pt": "Dinheiro",
                 "ru": "Money",
-                "ja": "マネー",
+                "ja": "金額",
                 "ko": "금액" 
             },
             "NEW_TAKE_IN":{
@@ -27068,7 +27160,7 @@ export const Translation = {
                 "fr": "Placement terminé",
                 "pt": "Colocação finalizada",
                 "ru": "Размещение завершено",
-                "ja": "配置完了",
+                "ja": "終了しました",
                 "ko": "배치 완료"
             },
             "TOTAL_PRIZE": {
@@ -27096,7 +27188,7 @@ export const Translation = {
                 "fr": "Vous avez terminé",
                 "pt": "Você terminou",
                 "ru": "Вы закончили",
-                "ja": "あなたは終了しました",
+                "ja": "順位",
                 "ko": "당신이 완료했습니다"
             },
             "LEAVE": {
