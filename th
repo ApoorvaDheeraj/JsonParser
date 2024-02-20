@@ -1,0 +1,34 @@
+[
+    {
+        "identifier": "key1",
+        "source_string": "Hello",
+        "translation": "สวัสดี",
+        "context": " -> key1",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "key2",
+        "source_string": "Thank you",
+        "translation": "ขอบคุณ",
+        "context": " -> key2",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "Hi",
+        "source_string": "Hi",
+        "translation": "Hi",
+        "context": " -> Hi",
+        "labels": null,
+        "max_length": null
+    },
+    {
+        "identifier": "TestKey",
+        "source_string": "Test Key",
+        "translation": "Test Key",
+        "context": " -> TestKey",
+        "labels": null,
+        "max_length": null
+    }
+]
