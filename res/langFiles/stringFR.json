@@ -6742,8 +6742,11 @@
     "Register_Scene_empty_schema": {
       "-value": "Impossible de recevoir les données d’inscription"
     },
-    "Register_Scene_verification_code_sent": {
+    "Register_Scene_verification_code_sent_Email": {
       "-value": "Si un compte n'est pas déjà enregistré à cette adresse e-mail, un code de vérification pour l'enregistrement a été envoyé."
+    },
+    "Register_Scene_verification_code_sent_Phone": {
+      "-value": "Si aucun compte n'est déjà enregistré sur ce numéro de téléphone, un code de vérification pour l'enregistrement a été envoyé."
     },
     "MainScene_Scene_discover_panel_title_text": {
       "-value": "DÉCOUVRIR"
@@ -6838,6 +6841,9 @@
     "MainScene_Scene_pokerPage_panel_mygame_button_text": {
       "-value": "Mes jeux"
     },
+    "MainScene_Scene_WPT_Live": {
+      "-value": "${cv.appConfig.getGeneralConfig().BrandName} LIVE"
+    },
     "MainScene_Scene_menu_lobby": {
       "-value": "Hall"
     },
@@ -6878,7 +6884,7 @@
       "-value": "Mini-Games are available in the Poker King mobile application. Download at pk9.com."
     },
     "MainScene_Casino_Loading_text": {
-      "-value": "Veuillez patienter, les jeux sont en cours de chargement..."
+      "-value": "Cette opération peut prendre jusqu’à 60 secondes, veuillez patienter."
     },
     "MainScene_Promotion_Loading_text": {
       "-value": "Veuillez patienter, nous recherchons les dernières promotions."
@@ -7238,7 +7244,7 @@
       "-value": "My Gallery"
     },
     "roleInfoSet_chooseHead_button_system_text": {
-      "-value": "%s Avatars"
+      "-value": "${cv.appConfig.getAppTitle()} Avatars"
     },
     "roleInfoSet_uploadAvatar": {
       "-value": "télécharger depuis la galerie"
@@ -9358,6 +9364,36 @@
     "backpack_noItems_description": {
       "-value": "Obtenez des objets en jouant et échangez avec des amis"
     },
+    "selfView_ScrollView_Button_my_tickets": {
+      "-value": "Mes billets"
+    },
+    "my_tickets_Title": {
+      "-value": "Mes billets"
+    },
+    "my_tickets_noItems_title": {
+      "-value": "Vous n’avez aucun billet"
+    },
+    "my_tickets_noItems_description": {
+      "-value": "Participez aux promotions ou jouez lors des événements satellites de poker pour gagner des billets de tournoi!"
+    },
+    "my_tickets_page_loading": {
+      "-value": "Veuillez patienter, les billets sont en cours de chargement…"
+    },
+    "my_tickets_valid_until": {
+      "-value": "Valable jusqu’au"
+    },
+    "my_tickets_total_tickets": {
+      "-value": "Nombre total de billets"
+    },
+    "my_tickets_total_value": {
+      "-value": "Valeur totale"
+    },
+    "my_tickets_tournament": {
+      "-value": "Billets de tournoi"
+    },
+    "my_tickets_global_spins": {
+      "-value": "Global Spins Tickets"
+    },
     "ResponseAuthApi_231": {
       "-value": "La connexion au serveur MTT a échoué"
     },
@@ -10816,6 +10852,9 @@
     "ErrorValidOnlyLettersAndNumbers": {
       "-value": "%s doit commencer par des lettres et ne doit contenir que des caractères latins et des chiffres"
     },
+    "ErrorValidUsername_KR": {
+      "-value": "Le nom d’utilisateur doit commencer par des lettres et ne doit contenir que des caractères et des chiffres latins ou coréens"
+    },
     "ErrorValidAcceptTermsAndCond": {
       "-value": "Vous devez accepter les conditions générales"
     },
@@ -11368,6 +11407,9 @@
     "ErrorValidPassword_Symbol": {
       "-value": "Le mot de passe doit comporter au moins un caractère spécial"
     },
+    "ErrorValidPassword_KR": {
+      "-value": "La contraseña debe tener al menos 2 letras, 1 número y 1 carácter especial" 
+    },
     "Reset_password": {
       "-value": "Réinitialiser le mot de passe"
     },
@@ -11880,7 +11922,10 @@
       "-value":"Clavardez avec nous"
    },
     "FAQ_button_text_KR":{
-      "-value":"Contactez-nous sur Telegram - @wptgkr"
+      "-value":"Clavardage en direct"
+    },
+    "FAQ_button_text_MY":{
+      "-value":"Clavardage en direct"
     },
     "PlayerComplaint_main_text": {
       "-value":  "Si vous avez besoin d'aide, communiquez avec l’un de nos services de soutien."
@@ -13045,6 +13090,9 @@
     "Invite_Friend_Information":{
       "-value": "Copiez et partagez le lien ci-dessous pour inviter vos amis et recevoir 50 % de leur rake pendant 3 mois maximum !"
     },
+    "Invite_Friend_Information_Asia":{
+      "-value": "Copiez et partagez votre lien personnel ci-dessous pour inviter vos amis à s’inscrire et à rejoindre automatiquement votre équipe. Vous recevrez toujours 10 % de plus du bonus de Tournoi gratuit de tous les membres de l’équipe.\n(Tournoi gratuit quotidien avec une garantie de 10 000 $ US tous les jours, uniquement pour les joueurs coréens)"
+    },
     "Invite_Friend_Fetch_error": {
       "-value": "Désolé, une erreur interne du serveur s'est produite lors de la récupération de la liste d'amis invités. Veuillez réessayer plus tard !"
     },
@@ -13650,21 +13698,21 @@
         "Les services de localisation sont présentement désactivés, ce qui pourrait vous empêcher d’accéder à certaines fonctionnalités. Pour garantir une expérience optimale, veuillez activer le Wifi et la localisation de votre appareil. Pour y arriver, accédez aux paramètres ou suivez les étapes suivantes :",
         "Activer la localisation de votre appareil : allez aux paramètres > Localisation > activez « Localisation de votre appareil ».",
         "Activer le Wifi : allez aux paramètres > Réseau & Internet > sélectionnez « Internet » > activez le « Wifi ».",
-        "Activer l’emplacement précis : allez aux paramètres > Localisation > sélectionnez « Permissions de l’application » > choisissez WPTG > sélectionnez « Permettre lorsque l’application est active » > activez « Partage de l’emplacement précis ».",
+        "Activer l’emplacement précis : allez aux paramètres > Localisation > sélectionnez « Permissions de l’application » > choisissez ${cv.appConfig.getAppTitle()} > sélectionnez « Permettre lorsque l’application est active » > activez « Partage de l’emplacement précis ».",
         "Activer le balayage : allez aux paramètres > Localisation > activez « Localisation précise de Google », « Balayage Wifi » et « Balayage Bluetooth »."        
       ]
     },
     "GeoComplyErrorLocationErrorWithStep_IOS" : {
       "-value": [
         "Les services de localisation sont présentement désactivés, ce qui pourrait vous empêcher d’accéder à certaines fonctionnalités. Pour garantir une expérience optimale, veuillez activer le Wifi et la localisation de votre appareil. Pour y arriver, accédez aux paramètres ou suivez les étapes suivantes :",
-        "Activer la localisation : allez aux paramètres > WPTGlobal > Localisation > sélectionnez « Durant l’utilisation » ou « Toujours » > activez « Emplacement précis ».",
+        "Activer la localisation : allez aux paramètres > ${cv.appConfig.getAppTitle()} > Localisation > sélectionnez « Durant l’utilisation » ou « Toujours » > activez « Emplacement précis ».",
         "Activer le Wifi : allez aux paramètres > Wifi > activez « Wifi »."
       ]
     },
     "GeoComplyError_LocationPermission_615_android": {
       "-value": [
-        "Vous avez choisi de refuser le partage de votre emplacement. Pour accéder aux jeux avec de l’argent réel, vous devez ouvrir les paramètres de localisation et activer la localisation de votre appareil par WPTG. \n\nSi le problème persiste, veuillez contacter le service à la clientèle pour obtenir de l’aide.",
-        "Pour activer la localisation : Allez aux paramètres > Emplacement > sélectionnez « permissions de partage de l’emplacement » > sélectionnez WPTG > activez le partage « durant l’utilisation »."
+        "Vous avez choisi de refuser le partage de votre emplacement. Pour accéder aux jeux avec de l’argent réel, vous devez ouvrir les paramètres de localisation et activer la localisation de votre appareil par ${cv.appConfig.getAppTitle()}. \n\nSi le problème persiste, veuillez contacter le service à la clientèle pour obtenir de l’aide.",
+        "Pour activer la localisation : Allez aux paramètres > Emplacement > sélectionnez « permissions de partage de l’emplacement » > sélectionnez ${cv.appConfig.getAppTitle()} > activez le partage « durant l’utilisation »."
       ]
     },
     "OpenSettings" : {
@@ -13989,7 +14037,7 @@
       "-value": "Afin d’assurer des jeux équitables, nous effectuons un contrôle de sécurité routinière sur votre appareil. Cette fenêtre se fermera automatiquement après quelques secondes."
     },
     "GeoComplyError_PLC_Redownload_Instructions" : {
-      "-value": ["Nous ne sommes pas en mesure de valider votre compte sur MacOS, car nous ne détectons pas l’application PLC sur votre appareil. Cette erreur peut survenir lorsque les autorisations de localisation ne sont pas activées. Veuillez vous assurer que l’application PLC est installée et que les autorisations des services de localisation pour PLC et WPTG sont activées. Après l’activation de la localisation, veuillez redémarrer l’application PLC et WPTG. \n\nSi vous continuez à rencontrer des problèmes, veuillez communiquer avec le service à la clientèle. Pour l’instant, vous pouvez accéder à votre compte via un appareil mobile.",
+      "-value": ["Nous ne sommes pas en mesure de valider votre compte sur MacOS, car nous ne détectons pas l’application PLC sur votre appareil. Cette erreur peut survenir lorsque les autorisations de localisation ne sont pas activées. Veuillez vous assurer que l’application PLC est installée et que les autorisations des services de localisation pour PLC et ${cv.appConfig.getAppTitle()} sont activées. Après l’activation de la localisation, veuillez redémarrer l’application PLC et ${cv.appConfig.getAppTitle()}. \n\nSi vous continuez à rencontrer des problèmes, veuillez communiquer avec le service à la clientèle. Pour l’instant, vous pouvez accéder à votre compte via un appareil mobile.",
         "Pour télécharger l’application PLC à nouveau,<on click=\"openPage\" param=\"download_plc\"> |cliquez ici#2B63F3|</on>.",
         "Pour activer les autorisations de partage de l’emplacement, allez dans les paramètres du système > Confidentialité et sécurité > Service de localisation > Activez « PlayerLocationCheck ».",
         "Redémarrer l’application PLC.",
@@ -14186,7 +14234,7 @@
       "-value": "Vous devez maintenant jouer avec des Jetons d’or, une monnaie unique au jeu."
     },
     "minigame_intro_2": {
-      "-value": "<color=#DDC3C3>Lorsque vous accédez à Poker Flips, le solde</color> en argent de votre compte WPT® Global et le solde de vos Jetons de Casino sont convertis en Jetons d’or. <color=#DDC3C3>Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Flips.</color>"
+      "-value": "Lorsque vous accédez à Poker Flips, le solde de votre compte ${cv.appConfig.getAppTitle()} est converti en Jetons d’or. Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Flips."
     },
     "minigame_intro_3": {
       "-value": "Vous avez maintenant l’occasion de comparer vos compétences avec des joueurs de Poker Flips issus de partout dans le monde - gardez un œil sur le tableau de classement pour connaître votre position!"
@@ -14207,7 +14255,7 @@
       "-value": "<color=#DDC3C3>Vous devez jouer avec des Jetons d’or, la propre monnaie du jeu.</color>"
     },
     "minigame_pokermaster_intro_2": {
-      "-value": "<color=#DDC3C3>Lorsque vous accédez à Poker Master, le solde</color> en argent de votre compte WPT® Global et le solde de vos Jetons de Casino sont convertis en Jetons d’or. <color=#DDC3C3>Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Master.</color>"
+      "-value": "<color=#DDC3C3>Lorsque vous accédez à Poker Master, le solde de votre compte ${cv.appConfig.getAppTitle()} est converti en Jetons d’or. Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Master.</color>"
     },
     "minigame_pokermaster_intro_3": {
       "-value": "<color=#DDC3C3>Vous avez l’occasion de comparer vos compétences avec des joueurs de Poker Master issus de partout dans le monde : gardez un œil sur le classement pour connaître votre position!</color>"
@@ -14238,6 +14286,12 @@
     },
     "ServerErrorCode515_low_re_buyin": {
       "-value": "Afin de protéger l’intégrité du jeu, vous devez acheter un Buy-in d’un montant égal ou supérieur au montant avec lequel vous avez quitté le jeu. Sinon, vous devez attendre 30 minutes pour vous joindre à nouveau."
+    },
+    "KR_PromoBannerBody": {
+      "-value": "15,000,000 GTD Tournament every day, 365 days a year"
+    },
+    "AsiaServerError_Block_Lobby_Locked": {
+      "-value": "Vous ne pouvez pas vous joindre à la salle de jeu pour des raisons de sécurité. Veuillez communiquer avec le service à la clientèle pour obtenir plus d’informations."
     }
   }
 }

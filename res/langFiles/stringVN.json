@@ -6270,8 +6270,11 @@
     "Register_Scene_empty_schema": {
       "-value": "Không thể nhận dữ liệu đăng ký"
     },
-    "Register_Scene_verification_code_sent": {
+    "Register_Scene_verification_code_sent_Email": {
       "-value": "Nếu chưa có tài khoản nào được đăng ký với địa chỉ email này, một mã xác thực đăng ký được gửi đi."
+    },
+    "Register_Scene_verification_code_sent_Phone": {
+      "-value": "Nếu tài khoản chưa được đăng ký với số điện thoại này thì mã xác minh để đăng ký đã được gửi."
     },
     "MainScene_Scene_discover_panel_title_text": {
       "-value": "KHÁM PHÁ"
@@ -6366,6 +6369,9 @@
     "MainScene_Scene_pokerPage_panel_mygame_button_text": {
       "-value": "My games"
     },
+    "MainScene_Scene_WPT_Live": {
+      "-value": "${cv.appConfig.getGeneralConfig().BrandName} LIVE"
+    },
     "MainScene_Scene_menu_lobby": {
       "-value": "Sảnh"
     },
@@ -6403,7 +6409,7 @@
       "-value": "Đã có Mini-Game trên ứng dụng di động Poker King. Tải xuống tại pk9.com."
     },
     "MainScene_Casino_Loading_text": {
-      "-value": "Vui lòng chờ, đang tải trò chơi..."
+      "-value": "Việc này có thể mất đến 60 giây, vui lòng chờ."
     },
     "ModifyPassword_ModifyPassword_panel_enter_phone_Panel_forget_setInvateCode_text": {
       "-value": "Vui lòng nhập mã xác thực"
@@ -6754,7 +6760,7 @@
       "-value": "Bộ sưu tập của tôi"
     },
     "roleInfoSet_chooseHead_button_system_text": {
-      "-value": "%s Hình đại diện"
+      "-value": "${cv.appConfig.getAppTitle()} Hình đại diện"
     },
     "roleInfoSet_uploadAvatar": {
       "-value": "Tải ảnh đại diện lên"
@@ -8851,6 +8857,36 @@
     "backpack_noItems_description": {
       "-value": "Nhận các vật phẩm bằng cách chơi và trao đổi với bạn bè"
     },
+    "selfView_ScrollView_Button_my_tickets": {
+      "-value": "Vé Của Tôi"
+    },
+    "my_tickets_Title": {
+      "-value": "Vé Của Tôi"
+    },
+    "my_tickets_noItems_title": {
+      "-value": "Bạn không có bất kỳ vé nào"
+    },
+    "my_tickets_noItems_description": {
+      "-value": "Tham gia các chương trình khuyến mại hoặc chơi các vòng sơ loại xì tố để kiếm vé giải đấu!"
+    },
+    "my_tickets_page_loading": {
+      "-value": "Xin đợi, đang tải vé…"
+    },
+    "my_tickets_valid_until": {
+      "-value": "Có hiệu lực đến"
+    },
+    "my_tickets_total_tickets": {
+      "-value": "Tổng Vé"
+    },
+    "my_tickets_total_value": {
+      "-value": "Tổng Giá Trị"
+    },
+    "my_tickets_tournament": {
+      "-value": "Vé Giải Đấu"
+    },
+    "my_tickets_global_spins": {
+      "-value": "Global Spins Tickets"
+    },
     "ResponseAuthApi_231": {
       "-value": "Kết nối đến máy chủ MTT không thành công"
     },
@@ -10303,6 +10339,9 @@
     "ErrorValidOnlyLettersAndNumbers": {
       "-value": "%s nên bắt đầu bằng chữ cái và chỉ được chứa chữ và số"
     },
+    "ErrorValidUsername_KR": {
+      "-value": "Tên người dùng phải bắt đầu bằng các chữ cái và chỉ được chứa các ký tự và số Latinh hoặc Hàn Quốc"
+    },
     "ErrorValidAcceptTermsAndCond": {
       "-value": "Bạn phải chấp nhận Điều khoản Dịch vụ"
     },
@@ -10854,6 +10893,9 @@
     },
     "ErrorValidPassword_Symbol": {
       "-value": "Mật khẩu phải có ít nhất 1 ký tự đặc biệt"
+    },
+    "ErrorValidPassword_KR": {
+      "-value": "Mật khẩu phải có ít nhất 2 chữ cái, 1 chữ số và 1 ký tự đặc biệt" 
     },
     "Reset_password": {
       "-value": "Đặt lại mật khẩu"
@@ -12517,6 +12559,9 @@
     "Invite_Friend_Information":{
       "-value": "Sao chép và chia sẻ liên kết bên dưới để mời bạn bè của bạn và nhận 50 % tiền cào của họ trong tối đa 3 tháng!"
     },
+    "Invite_Friend_Information_Asia":{
+      "-value": "Sao chép và chia sẻ liên kết cá nhân của bạn bên dưới để mời bạn bè đăng ký và tự động tham gia nhóm của bạn. Bạn sẽ luôn nhận được thêm 10% từ tiền thưởng giải đấu miễn phí của tất cả các thành viên trong nhóm.\n(Giải đấu miễn phí hằng ngày với giải thưởng đảm bảo lên đến 10.000 USD hằng ngày, chỉ dành cho người chơi Hàn Quốc)"
+    },
     "Invite_Friend_Fetch_error": {
       "-value": "Rất tiếc, đã xảy ra lỗi máy chủ nội bộ khi tìm nạp danh sách bạn bè đã mời - vui lòng thử lại sau!"
     },
@@ -13076,7 +13121,10 @@
     "-value":"Trò chuyện với chúng tôi"
    },
     "FAQ_button_text_KR":{
-      "-value":"Liên hệ với chúng tôi trên Telegram - @wptgkr"
+      "-value":"Trò chuyện trực tiếp"
+    },
+    "FAQ_button_text_MY":{
+      "-value":"Trò chuyện trực tiếp"
     },
    "PKWMTT_LIST_TABNAME_MY_MTT":{
       "-value":"MY MTT’s"
@@ -13194,21 +13242,21 @@
         "Dịch vụ định vị hiện đang bị vô hiệu hóa, điều này có thể khiến bạn không thể truy cập vào một số tính năng. Để có trải nghiệm người dùng tốt nhất, vui lòng đảm bảo bạn đã bật quyền truy cập Wi-Fi và vị trí. Vui lòng mở mục cài đặt hoặc thử các mẹo dưới đây:",
         "Bật truy cập vị trí: Chuyển đến mục cài đặt > Vị trí > bật \"Sử dụng định vị\".",
         "Bật Wi-Fi: Chuyển đến mục cài đặt > Mạng & Internet > nhấp vào \"Internet\" > bật \"Wi-Fi\".",
-        "Bật vị trí chính xác: Chuyển đến mục cài đặt > Vị trí > chọn \"quyền truy cập vị trí ứng dụng\" > chọn WPTG > chọn \"cho phép khi đang sử dụng\" > bật \"sử dụng vị trí chính xác\".",
+        "Bật vị trí chính xác: Chuyển đến mục cài đặt > Vị trí > chọn \"quyền truy cập vị trí ứng dụng\" > chọn ${cv.appConfig.getAppTitle()} > chọn \"cho phép khi đang sử dụng\" > bật \"sử dụng vị trí chính xác\".",
         "Bật chức năng quét: \"chuyển đến mục cài đặt > vị trí > dịch vụ vị trí > bật \"độ chính xác của vị trí trên Google\", quét Wi-Fi\" và \"quét Bluetooth\"."
       ]
     },
     "GeoComplyErrorLocationErrorWithStep_IOS" : {
       "-value": [
         "Dịch vụ định vị hiện đang bị vô hiệu hóa, điều này có thể khiến bạn không thể truy cập vào một số tính năng. Để có trải nghiệm người dùng tốt nhất, vui lòng đảm bảo bạn đã bật quyền truy cập Wi-Fi và vị trí. Vui lòng mở mục cài đặt hoặc thử các mẹo dưới đây:",
-        "Bật Vị trí: chuyển đến mục cài đặt > WPTGlobal > Vị trí > \"Trong khi sử dụng\" hoặc \"luôn luôn\" > bật \"vị trí chính xác\".",
+        "Bật Vị trí: chuyển đến mục cài đặt > ${cv.appConfig.getAppTitle()} > Vị trí > \"Trong khi sử dụng\" hoặc \"luôn luôn\" > bật \"vị trí chính xác\".",
         "Kích hoạt Wi-Fi: chuyển đến mục cài đặt > Wi-Fi > Bật \"Wi-Fi\"."
       ]
     },
     "GeoComplyError_LocationPermission_615_android": {
       "-value": [
-        "Bạn đã chọn từ chối quyền truy cập vị trí. Để truy cập các trò chơi tiền thật, bạn cần mở mục cài đặt vị trí bên dưới và cho phép quyền truy cập vị trí đối với WPTG.\n\nNếu sự cố vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng để được trợ giúp.",
-        "Cho phép vị trí: Chuyển đến mục cài đặt > Vị trí > chọn \"quyền vị trí ứng dụng\" > chọn WPTG > chọn \"cho phép trong khi sử dụng\"."
+        "Bạn đã chọn từ chối quyền truy cập vị trí. Để truy cập các trò chơi tiền thật, bạn cần mở mục cài đặt vị trí bên dưới và cho phép quyền truy cập vị trí đối với ${cv.appConfig.getAppTitle()}.\n\nNếu sự cố vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng để được trợ giúp.",
+        "Cho phép vị trí: Chuyển đến mục cài đặt > Vị trí > chọn \"quyền vị trí ứng dụng\" > chọn ${cv.appConfig.getAppTitle()} > chọn \"cho phép trong khi sử dụng\"."
       ]
     },
     "OpenSettings" : {
@@ -13533,7 +13581,7 @@
       "-value":"Để đảm bảo các trò chơi công bằng, chúng tôi đang thực hiện kiểm tra bảo mật định kỳ trên thiết bị của bạn. Cửa sổ này sẽ tự động đóng sau vài giây."
     },
     "GeoComplyError_PLC_Redownload_Instructions" : {
-      "-value": ["Chúng tôi không thể xác thực tài khoản của bạn trên MacOS bởi vì chúng tôi không thể phát hiện ứng dụng PLC trên thiết bị của bạn. Lỗi này đôi khi cũng xảy ra bởi vì quyền định vị không được cấp. Xin đảm bảo ứng dụng PLC đã được cài đặt và quyền dịch vụ định vị cho PLC và WPTG được bật. Sau khi cấp quyền, xin đảm bảo khởi động lại cả PLC và WPTG. \n\nNếu bạn tiếp tục gặp phải vấn đề, vui lòng liên hệ đội ngũ chăm sóc khách hàng. Như một giải pháp tạm thời, bạn hãy truy cập vào tài khoản của mình trên di động.",
+      "-value": ["Chúng tôi không thể xác thực tài khoản của bạn trên MacOS bởi vì chúng tôi không thể phát hiện ứng dụng PLC trên thiết bị của bạn. Lỗi này đôi khi cũng xảy ra bởi vì quyền định vị không được cấp. Xin đảm bảo ứng dụng PLC đã được cài đặt và quyền dịch vụ định vị cho PLC và ${cv.appConfig.getAppTitle()} được bật. Sau khi cấp quyền, xin đảm bảo khởi động lại cả PLC và ${cv.appConfig.getAppTitle()}. \n\nNếu bạn tiếp tục gặp phải vấn đề, vui lòng liên hệ đội ngũ chăm sóc khách hàng. Như một giải pháp tạm thời, bạn hãy truy cập vào tài khoản của mình trên di động.",
         "Để tải ứng dụng PLC xuống lại, vui lòng<on click=\"openPage\" param=\"download_plc\"> |nhấp vào đây#2B63F3|</on>.",
         "Để bật quyền định vị, hãy chuyển tới mục cài đặt hệ thống > Quyền riêng tư & Bảo mật > Dịch vụ định vị > Bật “PlayerLocationCheck”.",
         "Khởi động lại ứng dụng PLC.",
@@ -13730,7 +13778,7 @@
       "-value": "<color=#DDC3C3>Trò chơi này hiện được chơi bằng </color>Xu Vàng<color=#DDC3C3>, đơn vị tiền tệ độc nhất riêng của trò chơi.</color>"
     },
     "minigame_intro_2": {
-      "-value": "<color=#DDC3C3>Khi bạn mở trò chơi Lật Xì Tố, toàn bộ</color> số dư tiền mặt WPT® Global và số dư xu Sòng bạc của bạn được chuyển đổi thành Xu Vàng. \n<color=#DDC3C3>Nếu bạn muốn thử vận may ở nơi khác trong sòng bạc hoặc tại các bàn xì tố, đừng quên đóng bàn chơi Lật Xì Tố này trước.</color>"
+      "-value": "<color=#DDC3C3>Khi bạn mở trò chơi Poker Flips, toàn bộ số dư</color> ${cv.appConfig.getAppTitle()} của bạn được chuyển đổi thành các Xu Vàng, <color=#DDC3C3>vì vậy nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Poker Flips này trước.</color>"
     },
     "minigame_intro_3": {
       "-value": "<color=#DDC3C3>Bạn hiện có cơ hội so sánh kỹ năng của mình với các người chơi Poker Flips từ khắp nơi trên thế giới - hãy theo dõi </color>bảng xếp hạng của chúng tôi để biết trình độ của bạn như thế nào!"
@@ -13751,7 +13799,7 @@
       "-value": "<color=#DDC3C3>Trò chơi này được chơi bằng Xu Vàng, đơn vị tiền tệ độc nhất riêng của trò chơi.</color>"
     },
     "minigame_pokermaster_intro_2": {
-      "-value": "<color=#DDC3C3>Khi bạn mở trò chơi Trùm Xì Tố, toàn bộ</color> số dư tiền mặt WPT® Global và số dư xu Sòng bạc của bạn được chuyển đổi thành Xu Vàng.\n<color=#DDC3C3>Nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Trùm Xì Tố này trước.</color>"
+      "-value": "<color=#DDC3C3>Khi bạn mở trò chơi Poker Master, toàn bộ số dư ${cv.appConfig.getAppTitle()} của bạn được chuyển đổi thành các Xu Vàng, vì vậy nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Poker Master này trước.</color>"
     },
     "minigame_pokermaster_intro_3": {
       "-value": "<color=#DDC3C3>Bạn có cơ hội so sánh kỹ năng của mình với các người chơi Poker Master từ khắp nơi trên thế giới – hãy theo dõi bảng xếp hạng của chúng tôi để biết trình độ của bạn như thế nào!</color>"
@@ -13782,6 +13830,12 @@
     },
     "ServerErrorCode515_low_re_buyin": {
       "-value": "Để bảo vệ tính toàn vẹn của trò chơi, bạn phải buy-in với số tiền bằng hoặc nhiều hơn số tiền bạn còn lại. Nếu không, bạn phải đợi 30 phút để tham gia lại."
+    },
+    "KR_PromoBannerBody": {
+      "-value": "15,000,000 GTD Tournament every day, 365 days a year"
+    },
+    "AsiaServerError_Block_Lobby_Locked": {
+      "-value": "Bạn không thể vào phòng vì lý do bảo mật. Vui lòng liên hệ bộ phận hỗ trợ khách hàng để biết thêm chi tiết."
     }
   }
 }

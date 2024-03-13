@@ -6743,8 +6743,11 @@
     "Register_Scene_empty_schema": {
       "-value": "Não foi possível receber os dados do registro"
     },
-    "Register_Scene_verification_code_sent": {
+    "Register_Scene_verification_code_sent_Email": {
       "-value": "Se uma conta ainda não estiver registrada neste endereço de e-mail, um código de verificação para registro foi enviado."
+    },
+    "Register_Scene_verification_code_sent_Phone": {
+      "-value": "Se uma conta ainda não estiver registrada neste número de telefone, um código de verificação para registro será enviado."
     },
     "MainScene_Scene_discover_panel_title_text": {
       "-value": "DESCUBRA"
@@ -6839,6 +6842,9 @@
     "MainScene_Scene_pokerPage_panel_mygame_button_text": {
       "-value": "Meus jogos"
     },
+    "MainScene_Scene_WPT_Live": {
+      "-value": "${cv.appConfig.getGeneralConfig().BrandName} LIVE"
+    },
     "MainScene_Scene_menu_lobby": {
       "-value": "Lobby"
     },
@@ -6879,7 +6885,7 @@
       "-value": "Mini-Games are available in the Poker King mobile application. Download at pk9.com."
     },
     "MainScene_Casino_Loading_text": {
-      "-value": "Aguarde, os jogos estão carregando..."
+      "-value": "Isso pode levar até 60s. Aguarde."
     },
     "MainScene_Promotion_Loading_text": {
       "-value": "Aguarde, estamos recebendo as promoções mais recentes."
@@ -7239,7 +7245,7 @@
       "-value": "My Gallery"
     },
     "roleInfoSet_chooseHead_button_system_text": {
-      "-value": "%s Avatars"
+      "-value": "${cv.appConfig.getAppTitle()} Avatars"
     },
     "roleInfoSet_uploadAvatar": {
       "-value": "carregar da galeria"
@@ -9359,6 +9365,36 @@
     "backpack_noItems_description": {
       "-value": "Obtenha itens jogando e troque com amigos"
     },
+    "selfView_ScrollView_Button_my_tickets": {
+      "-value": "Meus ingressos"
+    },
+    "my_tickets_Title": {
+      "-value": "Meus ingressos"
+    },
+    "my_tickets_noItems_title": {
+      "-value": "Você não tem ingressos"
+    },
+    "my_tickets_noItems_description": {
+      "-value": "Participe de promoções ou jogue satélites de poker para ganhar ingressos de torneio!"
+    },
+    "my_tickets_page_loading": {
+      "-value": "Aguarde, os ingressos estão carregando…"
+    },
+    "my_tickets_valid_until": {
+      "-value": "Válido até"
+    },
+    "my_tickets_total_tickets": {
+      "-value": "Total de ingressos"
+    },
+    "my_tickets_total_value": {
+      "-value": "Valor Total"
+    },
+    "my_tickets_tournament": {
+      "-value": "Ingressos de torneio"
+    },
+    "my_tickets_global_spins": {
+      "-value": "Global Spins Tickets"
+    },
     "ResponseAuthApi_231": {
       "-value": "Não foi possível se conectar ao servidor MTT"
     },
@@ -10817,6 +10853,9 @@
     "ErrorValidOnlyLettersAndNumbers": {
       "-value": "%s deve começar com letras e deve conter apenas caracteres e números latinos"
     },
+    "ErrorValidUsername_KR": {
+      "-value": "O nome de usuário deve começar com letras e conter apenas caracteres e números latinos ou coreanos"
+    },
     "ErrorValidAcceptTermsAndCond": {
       "-value": "Você deve aceitar os termos e condições"
     },
@@ -11369,6 +11408,9 @@
     "ErrorValidPassword_Symbol": {
       "-value": "A senha deve ter pelo menos 1 caractere especial"
     },
+    "ErrorValidPassword_KR": {
+      "-value": "A senha deve ter pelo menos 2 letras, 1 número e 1 caractere especial" 
+    },
     "Reset_password": {
       "-value": "Redefinir senha"
     },
@@ -11884,7 +11926,10 @@
       "-value":"Converse conosco"
    },
     "FAQ_button_text_KR":{
-      "-value":"Contate-nos no Telegram - @wptgkr"
+      "-value":"Chat ao vivo"
+    },
+    "FAQ_button_text_MY":{
+      "-value":"Chat ao vivo"
     },
     "PlayerComplaint_main_Info": {
       "-value":  "Consulte nossas perguntas frequentes no site. Se você não encontrar a resposta para sua pergunta, entre em contato com um de nossos departamentos de suporte."
@@ -13046,6 +13091,9 @@
     "Invite_Friend_Information":{
       "-value": "Copie e compartilhe o link abaixo para convidar seus amigos e receber 50% do rake deles por até 3 meses!"
     },
+    "Invite_Friend_Information_Asia":{
+      "-value": "Copie e compartilhe seu link pessoal abaixo para convidar seus amigos a se registrarem e se juntarem automaticamente à sua equipe. Você sempre receberá um adicional de 10% do bônus de freeroll de todos os membros da equipe.\n(Freeroll diário com garantia de 10.000 USD todos os dias, apenas para jogadores coreanos)"
+    },
     "Invite_Friend_Fetch_error": {
       "-value": "Desculpe, ocorreu um erro interno do servidor ao buscar a lista de amigos convidados - tente novamente mais tarde!"
     },
@@ -13651,21 +13699,21 @@
         "Os serviços de localização estão desabilitados no momento, o que pode impedir o seu acesso a alguns recursos. Para garantir a melhor experiência do usuário, certifique-se que o wi-fi e as permissões de localização estejam habilitados. Abra as configurações ou tente as dicas abaixo:",
         "Habilite o acesso a localização: vá para Configurações > Localização > habilite \"Usar Localização\".",
         "Habilite o wi-fi: vá para Configurações > Redes e internet > clique em \"Internet\" > habilite o \"Wi-Fi\".",
-        "Habilite a localização precisa: vá para Configurações > Localização > selecione \"permissões de localização do app\" > selecione WPTG > selecione \"permitir enquanto usar\" > habilite \"utilizar localização precisa\".",
+        "Habilite a localização precisa: vá para Configurações > Localização > selecione \"permissões de localização do app\" > selecione ${cv.appConfig.getAppTitle()} > selecione \"permitir enquanto usar\" > habilite \"utilizar localização precisa\".",
         "Habilite a varredura: \"vá para configurações > localização > serviços de localização > habilite \"precisão da localização do Google\", varredura de wi-fi\" e \"varredura de Bluetooth\"."
       ]
     },
     "GeoComplyErrorLocationErrorWithStep_IOS" : {
       "-value": [
         "Os serviços de localização estão desabilitados no momento, o que pode impedir o seu acesso a alguns recursos. Para garantir a melhor experiência do usuário, certifique-se que o wi-fi e as permissões de localização estejam habilitados. Abra as configurações ou tente as dicas abaixo:",
-        "Habilite a Localização: vá para Ajustes > WPTGlobal > Localização > \"Durante o uso\" ou \"sempre\" > habilite \"localização precisa\".",
+        "Habilite a Localização: vá para Ajustes > ${cv.appConfig.getAppTitle()} > Localização > \"Durante o uso\" ou \"sempre\" > habilite \"localização precisa\".",
         "Habilite o wi-fi: vá para ajustes > Wi-Fi > habilite \"Wi-Fi\"."
       ]
     },
     "GeoComplyError_LocationPermission_615_android": {
       "-value": [
-        "Você selecionou bloquear as permissões de localização. Para poder acessar os jogos em dinheiro real, você precisa abrir as configurações de localização abaixo e permitir as permissões de localização para o WPTG.\n\nSe o problema persistir, entre em contato com o suporte ao cliente para obter assistência.",
-        "Habilitar localização: Vá para configurações > Localização > selecione \"permissões de localização do app\" > selecione WPTG > selecione \"permitir enquanto usa\"."
+        "Você selecionou bloquear as permissões de localização. Para poder acessar os jogos em dinheiro real, você precisa abrir as configurações de localização abaixo e permitir as permissões de localização para o ${cv.appConfig.getAppTitle()}.\n\nSe o problema persistir, entre em contato com o suporte ao cliente para obter assistência.",
+        "Habilitar localização: Vá para configurações > Localização > selecione \"permissões de localização do app\" > selecione ${cv.appConfig.getAppTitle()} > selecione \"permitir enquanto usa\"."
       ]
     },
     "OpenSettings" : {
@@ -13990,7 +14038,7 @@
       "-value": "Para garantir jogos justos, estamos executando uma verificação de segurança de rotina no seu dispositivo. Esta janela será fechada automaticamente após alguns segundos."
     },
     "GeoComplyError_PLC_Redownload_Instructions" : {
-      "-value": ["Não foi possível verificar a sua conta no MacOS porque não conseguimos detectar o aplicativo PLC no seu dispositivo. Este erro às vezes também ocorre porque as permissões de localização não estão habilitadas. Verifique se o aplicativo PLC está instalado e se as permissões dos serviços de localização para o PLC e o WPTG estão habilitadas. Após habilitar as permissões, lembre-se de reiniciar o PLC e o WPTG. \n\nSe o problema persistir, entre em contato com o atendimento ao cliente. Como uma solução temporária, você pode acessar a sua conta pelo celular.",
+      "-value": ["Não foi possível verificar a sua conta no MacOS porque não conseguimos detectar o aplicativo PLC no seu dispositivo. Este erro às vezes também ocorre porque as permissões de localização não estão habilitadas. Verifique se o aplicativo PLC está instalado e se as permissões dos serviços de localização para o PLC e o ${cv.appConfig.getAppTitle()} estão habilitadas. Após habilitar as permissões, lembre-se de reiniciar o PLC e o ${cv.appConfig.getAppTitle()}. \n\nSe o problema persistir, entre em contato com o atendimento ao cliente. Como uma solução temporária, você pode acessar a sua conta pelo celular.",
         "Para baixar o aplicativo PLC novamente,<on click=\"openPage\" param=\"download_plc\"> |clique aqui#2B63F3|</on>.",
         "Para habilitar as permissões de localização, vá para as configurações do sistema > Privacidade e segurança > serviços de localização > habilite “PlayerLocationCheck”.",
         "Reinicie o aplicativo PLC.",
@@ -14187,7 +14235,7 @@
       "-value": "Este jogo agora é jogado em Moedas de Ouro, sua própria moeda exclusiva ."
     },
     "minigame_intro_2": {
-      "-value": "<color=#DDC3C3>Quando você abre o Flips de Poker, todo</color> o seu saldo de caixa WPT® Global e o seu saldo de moedas do cassino são convertidos em Moedas de Ouro. <color=#DDC3C3>Se você quiser tentar a sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa de Flips de Poker primeiro.</color>"
+      "-value": "Quando você abre o Poker Flips, todo o seu saldo do ${cv.appConfig.getAppTitle()} é convertido em Moedas de Ouro, por isso, se quiser tentar a sua sorte em outro jogo do cassino ou nas mesas de pôquer, não se esqueça de fechar esta mesa do Poker Flips primeiro."
     },
     "minigame_intro_3": {
       "-value": "Agora você tem a oportunidade de comparar as suas habilidades com as de jogadores de Poker Flips do mundo todo. Fique de olho na nossa tabela de classificação para ver como você está se saindo!"
@@ -14208,7 +14256,7 @@
       "-value": "<color=#DDC3C3>Este jogo é jogado em Moedas de Ouro, sua própria moeda exclusiva.</color>"
     },
     "minigame_pokermaster_intro_2": {
-      "-value": "<color=#DDC3C3>Quando você abre o Poker Master, todo</color> o seu saldo de caixa WPT® Global e o seu saldo de moedas do cassino são convertidos em Moedas de Ouro. <color=#DDC3C3>Se você quiser tentar a sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa de Poker Master primeiro."
+      "-value": "<color=#DDC3C3>Quando você abre o Poker Master, todo o seu saldo do ${cv.appConfig.getAppTitle()} é convertido em Moedas de Ouro, por isso, se quiser tentar a sua sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa do Poker Master primeiro.</color>"
     },
     "minigame_pokermaster_intro_3": {
       "-value": "<color=#DDC3C3>Você tem a oportunidade de comparar as suas habilidades com as de jogadores de Poker Master do mundo todo. Fique de olho na nossa tabela de classificação para ver como você está se saindo!</color>"
@@ -14239,6 +14287,12 @@
     },
     "ServerErrorCode515_low_re_buyin": {
       "-value": "Para proteger a integridade do jogo, você deve fazer um buy-in de valor igual ou superior ao que deixou. Caso contrário, você deve esperar 30 minutos para participar novamente."
+    },
+    "KR_PromoBannerBody": {
+      "-value": "15,000,000 GTD Tournament every day, 365 days a year"
+    },
+    "AsiaServerError_Block_Lobby_Locked": {
+      "-value": "Você não pode entrar nas salas de jogos por motivos de segurança. Entre em contato com o serviço de apoio ao cliente para obter mais informações."
     }
   }
 }

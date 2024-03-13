@@ -6249,8 +6249,11 @@
     "Register_Scene_empty_schema": {
       "-value": "등록 데이터를 받을 수 없습니다"
     },
-    "Register_Scene_verification_code_sent": {
+    "Register_Scene_verification_code_sent_Email": {
       "-value": "계정이 아직 이 이메일 주소에 등록되지 않은 경우, 등록을 위한 확인 코드가 전송되었습니다."
+    },
+    "Register_Scene_verification_code_sent_Phone": {
+      "-value": "이 전화번호에 아직 계정이 등록되지 않은 경우 등록을 위한 인증 코드가 전송되었습니다."
     },
     "MainScene_Scene_discover_panel_title_text": {
       "-value": "검색"
@@ -6345,6 +6348,9 @@
     "MainScene_Scene_pokerPage_panel_mygame_button_text": {
       "-value": "내 게임"
     },
+    "MainScene_Scene_WPT_Live": {
+      "-value": "${cv.appConfig.getGeneralConfig().BrandName} LIVE"
+    },
     "MainScene_Scene_menu_lobby": {
       "-value": "로비"
     },
@@ -6385,7 +6391,7 @@
       "-value": "미니 게임은 포커 킹 모바일 애플리케이션에서 이용할 수 있습니다. pk9.com에서 다운로드."
     },
     "MainScene_Casino_Loading_text": {
-      "-value": "잠시 기다리세요. 게임을 로드하는 중입니다..."
+      "-value": "최대 60초가 소요될 수 있습니다. 잠시만 기다려주세요."
     },
     "MainScene_Promotion_Loading_text": {
       "-value": "잠시만 기다려 주세요. 최신 프로모션을 가져오는 중입니다"
@@ -6745,7 +6751,7 @@
       "-value": "내 갤러리"
     },
     "roleInfoSet_chooseHead_button_system_text": {
-      "-value": "%s 아바타"
+      "-value": "${cv.appConfig.getAppTitle()} 아바타"
     },
     "roleInfoSet_uploadAvatar": {
       "-value": "갤러리에서 업로드"
@@ -8866,6 +8872,36 @@
     "backpack_noItems_description": {
       "-value": "친구와 플레이하고 교환하여 아이템 받기"
     },
+    "selfView_ScrollView_Button_my_tickets": {
+      "-value": "내 티켓"
+    },
+    "my_tickets_Title": {
+      "-value": "내 티켓"
+    },
+    "my_tickets_noItems_title": {
+      "-value": "티켓이 없습니다"
+    },
+    "my_tickets_noItems_description": {
+      "-value": "프로모션에 참여하거나 포커 새틀라이트를 플레이하여 토너먼트 티켓을 획득하세요!"
+    },
+    "my_tickets_page_loading": {
+      "-value": "잠시만 기다려주세요. 티켓을 불러오는 중입니다..."
+    },
+    "my_tickets_valid_until": {
+      "-value": "유효 기간"
+    },
+    "my_tickets_total_tickets": {
+      "-value": "총 티켓"
+    },
+    "my_tickets_total_value": {
+      "-value": "총 금액"
+    },
+    "my_tickets_tournament": {
+      "-value": "토너먼트 티켓"
+    },
+    "my_tickets_global_spins": {
+      "-value": "Global Spins Tickets"
+    },
     "ResponseAuthApi_231": {
       "-value": "MTT 서버에 연결하지 못했습니다"
     },
@@ -10324,6 +10360,9 @@
     "ErrorValidOnlyLettersAndNumbers": {
       "-value": "%s은(는) 문자로 시작해야 하며 영문과 숫자만 포함해야 합니다"
     },
+    "ErrorValidUsername_KR": {
+      "-value": "유저네임은 문자로 시작해야 하며 영문 또는 한글 문자와 숫자만 사용 가능합니다"
+    },
     "ErrorValidAcceptTermsAndCond": {
       "-value": "서비스 약관에 동의해야 합니다"
     },
@@ -10875,6 +10914,9 @@
     },
     "ErrorValidPassword_Symbol": {
       "-value": "비밀번호에는 특수 문자 1개 이상을 포함해야 합니다"
+    },
+    "ErrorValidPassword_KR": {
+      "-value": "비밀번호는 문자 2개, 숫자 1개, 특수 문자 1개 이상이어야 합니다" 
     },
     "Reset_password": {
       "-value": "비밀번호 초기화"
@@ -11430,7 +11472,10 @@
       "-value": "채팅 상담"
     },
     "FAQ_button_text_KR":{
-      "-value":"텔레그램 고객센터 문의 : @wptgkr"
+      "-value":"라이브 채팅"
+    },
+    "FAQ_button_text_MY":{
+      "-value":"라이브 채팅"
     },
     "PlayerComplaint_main_Info": {
       "-value": "웹 사이트에서 자주 묻는 질문을 참조하십시오. 질문에 대한 답변을 찾을 수 없는 경우, 지원 부서에 문의하세요."
@@ -12598,6 +12643,9 @@
     "Invite_Friend_Information": {
       "-value": "아래 링크를 복사하여 공유하여 친구를 초대하고 최대 3개월 동안 이들의 수익의 50%를 받으세요!"
     },
+    "Invite_Friend_Information_Asia":{
+      "-value": "친구 초대링크를 복사 및 공유하여 친구들을 초대하고 자동으로 팀에 합류시키세요. 매일 매일 한국 선수들만 참가할수 있는 데일리 15,000,000KRW GTD 프리롤 토너먼트에 모든 팀원의 ITM의 10%를 보너스로 받을 수 있습니다."
+    },
     "Invite_Friend_Fetch_error": {
       "-value": "죄송합니다. 초대된 친구 목록을 가져오는 동안 내부 서버 오류가 발생했습니다. 나중에 다시 시도하세요!"
     },
@@ -13197,21 +13245,21 @@
         "현재 위치 서비스가 비활성화되어 있어 일부 기능에 접근할 수 없을 수도 있습니다. 오류를 방지하고 최상의 사용자 경험을 보장하려면 Wi-Fi 및 위치 권한이 모두 활성화되어 있는지 확인하세요. 설정을 열거나 아래의 팁을 시도해 보시기를 바랍니다.",
         "위치 액세스 허용: 설정 > 위치로 이동 > \"위치 사용\" 켜기",
         "Wi-Fi 활성화: 설정으로 이동 > 네트워크 및 인터넷 > \"인터넷\" 클릭 > \"Wi-Fi\" 켜기",
-        "정확한 위치 활성화: 설정 > 위치로 이동 > \"앱 위치 권한\" 선택 > WPTG 선택 > \"앱을 사용할 때만 허용\" 선택 > \"정확한 위치 사용\" 켜기",
+        "정확한 위치 활성화: 설정 > 위치로 이동 > \"앱 위치 권한\" 선택 > ${cv.appConfig.getAppTitle()} 선택 > \"앱을 사용할 때만 허용\" 선택 > \"정확한 위치 사용\" 켜기",
         "스캔 활성화: 설정 > 위치로 이동 > 위치 서비스 > \"Google 위치 정확도\" , \"Wi-Fi 스캔\" 및 \"Bluetooth 스캔\" 켜기"
       ]
     },
     "GeoComplyErrorLocationErrorWithStep_IOS": {
       "-value": [
         "현재 위치 서비스가 비활성화되어 있어 일부 기능에 접근할 수 없을 수도 있습니다. 오류를 방지하고 최상의 사용자 경험을 보장하려면 Wi-Fi 및 위치 권한이 모두 활성화되어 있는지 확인하세요. 설정을 열거나 아래의 팁을 시도해 보시기를 바랍니다.",
-        "위치 활성화: 설정 > WPTGlobal > 위치로 이동 > \"앱을 사용할 때만 허용\" 또는 \"항상\" > \"정확한 위치\" 활성화",
+        "위치 활성화: 설정 > ${cv.appConfig.getAppTitle()} > 위치로 이동 > \"앱을 사용할 때만 허용\" 또는 \"항상\" > \"정확한 위치\" 활성화",
         "Wi-Fi 활성화: 설정 > Wi-Fi로 이동 > \"Wi-Fi\" 활성화"
       ]
     },
     "GeoComplyError_LocationPermission_615_android": {
       "-value": [
-        "위치 권한을 거부하셨습니다. 실제 금액 게임에 액세스하려면 아래의 위치 설정을 열고 WPTG에 대한 위치 권한을 허용해야 합니다.\n\n문제가 지속되면 고객 지원에 도움을 요청하십시오.",
-        "위치 활성화: 설정 > 위치로 이동 > \"앱 위치 권한\" 선택 > WPTG 선택 > \"앱을 사용할 때만 허용\" 선택"
+        "위치 권한을 거부하셨습니다. 실제 금액 게임에 액세스하려면 아래의 위치 설정을 열고 ${cv.appConfig.getAppTitle()}에 대한 위치 권한을 허용해야 합니다.\n\n문제가 지속되면 고객 지원에 도움을 요청하십시오.",
+        "위치 활성화: 설정 > 위치로 이동 > \"앱 위치 권한\" 선택 > ${cv.appConfig.getAppTitle()} 선택 > \"앱을 사용할 때만 허용\" 선택"
       ]
     },
     "OpenSettings": {
@@ -13536,7 +13584,7 @@
       "-value": "공정한 게임을 보장하기 위해 귀하의 장치에 보안 검사를 정기적으로 수행하고 있습니다. 이 창은 몇 초 후에 자동으로 닫힙니다."
     },
     "GeoComplyError_PLC_Redownload_Instructions" : {
-      "-value": ["기기에서 PLC(플레이어 위치 확인) 앱을 감지할 수 없기 때문에 MacOS에서 계정을 인증할 수 없습니다. 이 오류도 위치 권한이 활성화되지 않았기 때문에 가끔 발생하게 됩니다. PLC 앱이 설치 여부와 함께 PLC 및 WPTG에 대한 위치 서비스 권한이 활성화되어 있는지 확인하세요. 권한을 활성화한 후 PLC와 WPTG를 모두 재시작하세요. \n\n문제가 계속되는 경우 고객 지원 팀에 문의하세요. 일시적인 문제 해결의 일환으로 계정에 모바일로 액세스할 수 있습니다.",
+      "-value": ["기기에서 PLC(플레이어 위치 확인) 앱을 감지할 수 없기 때문에 MacOS에서 계정을 인증할 수 없습니다. 이 오류도 위치 권한이 활성화되지 않았기 때문에 가끔 발생하게 됩니다. PLC 앱이 설치 여부와 함께 PLC 및 ${cv.appConfig.getAppTitle()}에 대한 위치 서비스 권한이 활성화되어 있는지 확인하세요. 권한을 활성화한 후 PLC와 ${cv.appConfig.getAppTitle()}를 모두 재시작하세요. \n\n문제가 계속되는 경우 고객 지원 팀에 문의하세요. 일시적인 문제 해결의 일환으로 계정에 모바일로 액세스할 수 있습니다.",
         "PLC 앱을 다시 다운로드하려면 다음<on click=\"openPage\" param=\"download_plc\"> |링크를 클릭하세요#2B63F3|</on>.",
         "위치 권한을 활성화하려면 시스템 설정 > 개인정보 보호 및 보안 > 위치 서비스 > “플레이어 위치 확인”을 사용으로 설정하십시오.",
         "PLC 앱을 재시작합니다.",
@@ -13718,7 +13766,7 @@
       "-value": "본 게임은 이제 고유 통화인 황금 코인으로 플레이됩니다(일일 환율 적용)."
     },
     "minigame_intro_2": {
-      "-value": "<color=#DDC3C3>포커 플립을 열면 전체</color> WPT® Global 현금 잔액과 카지노 코인 잔액이 골드 코인으로 전환됩니다. <color=#DDC3C3>카지노의 다른 곳이나 포커 테이블에서 행운을 시험해보고 싶다면 이 포커 플립 테이블을 먼저 닫아야 한다는 것을 잊지 마세요.</color>"
+      "-value": "포커 플립을 열면 ${cv.appConfig.getAppTitle()}의 전체 잔액이 황금 코인으로 전환됩니다. 다른 카지노 게임 또는 포커 테이블에서 플레이를 하고 싶은 경우엔 포커 플립 테이블을 닫아야 다른 게임을 즐길 수 있습니다."
     },
     "minigame_intro_3": {
       "-value": "이제 전 세계 포커 플립 플레이어와 실력을 겨뤄볼 수 있게 되었습니다. 리더보드를 계속 주시하면서 자신의 실력을 확인해 보세요!"
@@ -13739,7 +13787,7 @@
       "-value": "<color=#DDC3C3>본 게임은 고유 통화인 황금 코인으로 진행됩니다.</color>"
     },
     "minigame_pokermaster_intro_2": {
-      "-value": "<color=#DDC3C3>포커 마스터를 열면 전체</color> WPT® Global 현금 잔액과 카지노 코인 잔액이 골드 코인으로 전환됩니다. <color=#DDC3C3>카지노의 다른 곳이나 포커 테이블에서 행운을 시험해보고 싶다면 포커 마스터를 테이블을 먼저 닫아야 한다는 것을 잊지 마세요.</color>"
+      "-value": "<color=#DDC3C3>포커 마스터를 열면 전체 ${cv.appConfig.getAppTitle()}의 전체 잔액이 황금 코인으로 전환됩니다. 다른 카지노 게임이나 포커 테이블에서 플레이를 하고 싶은 경우엔 포커 마스터 테이블을 닫아야 다른 게임을 즐길 수 있습니다.</color>"
     },
     "minigame_pokermaster_intro_3": {
       "-value": "<color=#DDC3C3>전 세계 포커 마스터 플레이어와 실력을 겨뤄볼 수 있게 되었습니다. 리더보드를 계속 주시하면서 자신의 실력을 확인해 보세요!</color>"
@@ -13770,6 +13818,12 @@
     },
     "ServerErrorCode515_low_re_buyin": {
       "-value": "게임 무결성을 보호하기 위해 바이인할 때 남은 금액과 동일한 금액 이상으로 바이인해야 합니다. 그렇지 않으면 30분 동안 기다렸다가 다시 참여해야 합니다."
+    },
+    "KR_PromoBannerBody": {
+      "-value": "365일 매일 매일 15,000,000 GTD 토너먼트"
+    },
+    "AsiaServerError_Block_Lobby_Locked": {
+      "-value": "보안 문제로 인해 게임 방에 참가할 수 없습니다. 자세한 정보는 고객 서비스팀에 문의하십시오."
     }
   }
 }

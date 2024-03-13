@@ -6257,8 +6257,11 @@
     "Register_Scene_empty_schema": {
       "-value": "无法接收注册数据"
     },
-    "Register_Scene_verification_code_sent": {
+    "Register_Scene_verification_code_sent_Email": {
       "-value": "如果帐户尚未注册到此电子邮件地址，则已发送注册验证码。"
+    },
+    "Register_Scene_verification_code_sent_Phone": {
+      "-value": "If an account is not already registered to this phone number, a verification code for registration has been sent."
     },
     "MainScene_Scene_discover_panel_title_text": {
       "-value": "发  现"
@@ -6352,6 +6355,9 @@
     },
     "MainScene_Scene_pokerPage_panel_mygame_button_text": {
       "-value": "My games"
+    },
+    "MainScene_Scene_WPT_Live": {
+      "-value": "${cv.appConfig.getGeneralConfig().BrandName} LIVE"
     },
     "MainScene_Scene_menu_lobby": {
       "-value": "牌桌"
@@ -6754,7 +6760,7 @@
       "-value": "My Gallery"
     },
     "roleInfoSet_chooseHead_button_system_text": {
-      "-value": "%s Avatars"
+      "-value": "${cv.appConfig.getAppTitle()} Avatars"
     },
     "roleInfoSet_uploadAvatar": {
       "-value": "从图库上传"
@@ -8875,6 +8881,36 @@
     "backpack_noItems_description": {
       "-value": "Get items by playing and exchange with friends"
     },
+    "selfView_ScrollView_Button_my_tickets": {
+      "-value": "My Tickets"
+    },
+    "my_tickets_Title": {
+      "-value": "My Tickets"
+    },
+    "my_tickets_noItems_title": {
+      "-value": "You don’t have any tickets"
+    },
+    "my_tickets_noItems_description": {
+      "-value": "Join promotions or play poker satellites to earn tournament tickets!"
+    },
+    "my_tickets_page_loading": {
+      "-value": "Please wait, tickets are loading…"
+    },
+    "my_tickets_valid_until": {
+      "-value": "Valid until"
+    },
+    "my_tickets_total_tickets": {
+      "-value": "Total Tickets"
+    },
+    "my_tickets_total_value": {
+      "-value": "Total Value"
+    },
+    "my_tickets_tournament": {
+      "-value": "Tournament Tickets"
+    },
+    "my_tickets_global_spins": {
+      "-value": "Global Spins Tickets"
+    },
     "ResponseAuthApi_231": {
       "-value": "访问MTT服务器失败"
     },
@@ -10324,6 +10360,9 @@
     "ErrorValidOnlyLettersAndNumbers": {
       "-value": "%s 應該以字母開頭，並且只能包含拉丁字母和數字"
     },
+    "ErrorValidUsername_KR": {
+      "-value": "Username should start with letters and must contain only Latin or Korean characters and numbers"
+    },
     "ErrorValidAcceptTermsAndCond": {
       "-value": "您必须接受服务条款"
     },
@@ -10876,6 +10915,9 @@
     "ErrorValidPassword_Symbol": {
       "-value": "密码应至少包含 1 个特殊字符"
     },
+    "ErrorValidPassword_KR": {
+      "-value": "Password should have at least 2 letters, 1 number, and 1 special character" 
+    },
     "Reset_password": {
       "-value": "重设密码"
     },
@@ -11394,7 +11436,10 @@
       "-value":"与我们聊天"
    },
     "FAQ_button_text_KR":{
-      "-value":"通过 Telegram 联系我们 - @wptgkr"
+      "-value":"在线聊天"
+    },
+    "FAQ_button_text_MY":{
+      "-value":"在线聊天"
     },
     "PlayerComplaint_main_Info": {
       "-value":  "请在网站上查看我们的常见问题解答。 如果找不到问题的答案，请联系我们的支持部门之一。"
@@ -12550,6 +12595,9 @@
     "Invite_Friend_Invitation": {
       "-value": "邀請函"
     },
+    "Invite_Friend_Information_Asia":{
+      "-value": "Copy and share your personal link below to invite your friends to register, and automatically join your team. You will always get an additional 10% of all the team members’ freeroll bonus.\n(Daily freeroll with 10,000 USD guaranteed everyday ,only for Korean players)"
+    },
     "Invite_Friend_Information":{
       "-value": "复制并分享下面的链接以邀请您的朋友并在长达 3 个月的时间内获得 50% 的抽成！"
     },
@@ -13149,21 +13197,21 @@
         "位置服务当前已禁用，这可能会导致您无法使用某些功能。为了确保最佳用户体验，请确保已启用Wi-Fi和位置权限。请打开设置或尝试根据以下提示进行操作：",
         "启用位置权限：前往设置>位置>打开\"使用位置\"。",
         "启用Wi-Fi：前往设置>网络和互联网>单击\"互联网\">打开\"Wi-Fi\"。",
-        "启用精确位置：前往设置>位置>选择\"应用程序位置权限\">选择WPTG>选择\"使用时允许\">打开\"使用精确位置\"。",
+        "启用精确位置：前往设置>位置>选择\"应用程序位置权限\">选择${cv.appConfig.getAppTitle()}>选择\"使用时允许\">打开\"使用精确位置\"。",
         "启用扫描：前往设置>位置>位置服务>打开\"Google Location Accuracy\"、\"Wi-Fi扫描\"和\"蓝牙扫描\"。"
       ]
     },
     "GeoComplyErrorLocationErrorWithStep_IOS" : {
       "-value": [
         "位置服务当前已禁用，这可能会导致您无法使用某些功能。为了确保最佳用户体验，请确保已启用Wi-Fi和位置权限。请打开设置或尝试根据以下提示进行操作：",
-        "启用位置：前往设置>WPTGlobal>位置>\"使用时\"或\"始终\">启用\"精确位置\"。",
+        "启用位置：前往设置>${cv.appConfig.getAppTitle()}>位置>\"使用时\"或\"始终\">启用\"精确位置\"。",
         "启用Wi-Fi：前往设置>Wi-Fi>启用\"Wi-Fi\"。"
       ]
     },
     "GeoComplyError_LocationPermission_615_android": {
       "-value": [
-        "您已选择拒绝位置权限。如要获得真钱游戏权限，您需要打开以下位置设置，并允许WPTG的位置权限。\n\n如果问题仍然存在，请联系客服获取帮助。",
-        "启用位置：前往设置>位置>选择\"应用程序位置权限\">选择WPTG>选择\"使用时允许\"。"
+        "您已选择拒绝位置权限。如要获得真钱游戏权限，您需要打开以下位置设置，并允许${cv.appConfig.getAppTitle()}的位置权限。\n\n如果问题仍然存在，请联系客服获取帮助。",
+        "启用位置：前往设置>位置>选择\"应用程序位置权限\">选择${cv.appConfig.getAppTitle()}>选择\"使用时允许\"。"
       ]
     },
     "OpenSettings" : {
@@ -13488,7 +13536,7 @@
       "-value": "为了确保公平游戏，我们正在对您的设备进行例行安全检查。此窗口将在几秒钟后自动关闭。"
     },
     "GeoComplyError_PLC_Redownload_Instructions" : {
-      "-value": ["We are unable to verify your account on MacOS because we can not detect the PLC app on your device. This error also sometimes occurs because location permissions are not enabled. Please make sure the PLC app is installed and location service permissions for PLC and WPTG are enabled. After enabling permissions, please make sure to restart both PLC and WPTG.\n\nIf you continue to experience issues, please reach out to customer support. As a temporary solution, you access your account on mobile.",
+      "-value": ["We are unable to verify your account on MacOS because we can not detect the PLC app on your device. This error also sometimes occurs because location permissions are not enabled. Please make sure the PLC app is installed and location service permissions for PLC and ${cv.appConfig.getAppTitle()} are enabled. After enabling permissions, please make sure to restart both PLC and ${cv.appConfig.getAppTitle()}.\n\nIf you continue to experience issues, please reach out to customer support. As a temporary solution, you access your account on mobile.",
         "To re-download the PLC app, please<on click=\"openPage\" param=\"download_plc\"> |click here#2B63F3|</on>.",
         "To enable location permissions, go to system settings > Privacy & Security > location services > enable \"PlayerLocationCheck\".",
         "Restart PLC app.",
@@ -13661,7 +13709,7 @@
       "-value": "<color=#DDC3C3>This game is now played in </color>Gold Coins<color=#DDC3C3>, its own unique currency.</color>"
     },
     "minigame_intro_2": {
-      "-value": "<color=#DDC3C3>When you open Poker Flips, your whole</color> WPT® Global balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don't forget to close this Poker Flips table first.</color>"
+      "-value": "<color=#DDC3C3>When you open Poker Flips, your whole</color> ${cv.appConfig.getAppTitle()} balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don't forget to close this Poker Flips table first.</color>"
     },
     "minigame_intro_3": {
       "-value": "<color=#DDC3C3>You now have the chance to compare your skills to Poker Flips players from across the world - keep an eye on </color>our leaderboard to see how you measure up!"
@@ -13682,7 +13730,7 @@
       "-value": "<color=#DDC3C3>This game is now played in </color>Gold Coins<color=#DDC3C3>, its own unique currency.</color>"
     },
     "minigame_pokermaster_intro_2": {
-      "-value": "<color=#DDC3C3>When you open Poker Master, your whole</color> WPT® Global balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Master table first.</color>"
+      "-value": "<color=#DDC3C3>When you open Poker Master, your whole</color> ${cv.appConfig.getAppTitle()} balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Master table first.</color>"
     },
     "minigame_pokermaster_intro_3": {
       "-value": "<color=#DDC3C3>You now have the chance to compare your skills to Poker Master players from across the world - keep an eye on </color>our leaderboard to see how you measure up!"
