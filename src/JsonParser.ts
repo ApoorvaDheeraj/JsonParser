@@ -1,6 +1,42 @@
 import { assert } from "console";
 import * as fs from "fs";
 
+
+export enum LANGUAGE_TYPE {
+  /** Hindi, Traditional Chinese - Chinese (S) */
+  zh_CN = "zh_CN",
+
+  /** English (US) */
+  en_US = "en_US",
+
+  /** Vietnamese */
+  vi_VN = "vi_VN",
+
+  /** Thai (Thailand) */
+  th_PH = "th_PH",
+
+  /** Arabic (Saudi Arabia) */
+  ar_SA = "ar_SA",
+
+  /** Hindi (India) */
+  hi_IN = "hi_IN",
+
+  /** Portuguese (Brazil) */
+  pt_BR = "pt_BR",
+
+  /** French (Canada) */
+  fr_CA = "fr_CA",
+
+  /** Spanish (Mexico) */
+  es_MX = "es_MX",
+
+  /** Nihongo (Japan) */
+  ja_JP = "ja_JP",
+
+  /** Korean */
+  ko_KR = "ko_KR",
+
+}
 export class JsonParser {
   private jsonData: Record<string, Record<string, Record<string, string>>>;
 
@@ -11,24 +47,51 @@ export class JsonParser {
   private missingKeyArray: string[] = [];
   private keysArray: string[] = [];
   private fileName: string;
-  private LANG_FILE_PATH:string = "res/langFiles/"
+  private writeFileName: string;
+  private LANG_FILE_PATH: string = "res/langFiles/";
 
   constructor(fileName: string) {
+    this.writeFileName = this.getFileName(fileName);
     this.fileName = fileName;
     this.readJsonFile();
     // Initilize map with Json String File
     this.createMap();
   }
-  private assignKeysForArray(){
+
+  private getFileName(localFileName: string): string {
+    switch (localFileName) {
+      case "stringCH.json":
+        return `${LANGUAGE_TYPE.zh_CN}.json`;
+      case "stringEN.json":
+        return `${LANGUAGE_TYPE.en_US}.json`;
+      case "stringES.json":
+        return `${LANGUAGE_TYPE.es_MX}.json`;
+      case "stringFR.json":
+        return `${LANGUAGE_TYPE.fr_CA}.json`;
+      case "stringJP.json":
+        return `${LANGUAGE_TYPE.ja_JP}.json`;
+      case "stringKO.json":
+        return `${LANGUAGE_TYPE.ko_KR}.json`;
+      case "stringPT.json":
+        return `${LANGUAGE_TYPE.pt_BR}.json`;
+      case "stringTH.json":
+        return `${LANGUAGE_TYPE.th_PH}.json`;
+      case "stringVN.json":
+        return `${LANGUAGE_TYPE.vi_VN}.json`;
+    }
+    return `LangCodeNotDefined.json`;
+  }
+
+  private assignKeysForArray() {
     this.keysArray = Array.from(this.resultMap.keys());
   }
-  public getKeysArray():string[]{
+  public getKeysArray(): string[] {
     return this.keysArray;
   }
 
   private writeMapToFile() {
     const finalString = JSON.stringify(Object.fromEntries(this.resultMap), null, 4);
-    const filePath = "res/formatted/" + this.fileName;
+    const filePath = "res/formatted/" + this.writeFileName;
     fs.writeFile(filePath, finalString, "utf-8", (err) => {
       if (err) {
         console.error("Error writing to file:", err);
@@ -81,7 +144,7 @@ export class JsonParser {
     //     }
     //   }
 
-    // this.writeMapToFile();
+    this.writeMapToFile();
     this.assignKeysForArray();
   }
 
@@ -109,7 +172,7 @@ export class JsonParser {
     return value;
   }
 
-  missingKeyForLangFile(){
+  missingKeyForLangFile() {
     const finalString = JSON.stringify(this.missingKeyArray, null, 4);
     const filePath = "res/missingKey/" + this.fileName;
     fs.writeFile(filePath, finalString, "utf-8", (err) => {
@@ -121,7 +184,7 @@ export class JsonParser {
     });
   }
 
-  writeKeysForJson(){
+  writeKeysForJson() {
     const keyArrayStr = JSON.stringify(this.keysArray, null, 4);
 
     const filePath = "res/keysJson/" + this.fileName;
@@ -133,5 +196,4 @@ export class JsonParser {
       }
     });
   }
-
 }

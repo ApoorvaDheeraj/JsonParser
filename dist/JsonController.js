@@ -22,7 +22,7 @@ countryCode.forEach(function (value) {
     jsonParserRecord.set(value, jsonParserObj);
     fileArrayIndex++;
     // Write StringEN.. Keys Only to file
-    // jsonParserObj.writeKeysForJson();
+    jsonParserObj.writeKeysForJson();
 });
 // let missing = a1.filter(item => a2.indexOf(item) < 0);
 // console.log(missing);
@@ -43,10 +43,10 @@ for (const keyValue of enKeyItr) {
     // console.log(
     //   `Value for Key ${keyValue} = ${enValueForKey}, ${zhValueForKey}, ${vnValueForKey},${thValueForKey},${ptValueForKey},${frValueForKey},${esValueForKey},${jpValueForKey},${koValueForKey},`
     // );
-    // langInstanch.addToMap(keyValue, new LangModel(zhValueForKey,enValueForKey,vnValueForKey,thValueForKey,ptValueForKey,frValueForKey,esValueForKey,jpValueForKey,koValueForKey));
+    langInstanch.addToMap(keyValue, new LanguaggeUtil_1.LangModel(zhValueForKey, enValueForKey, vnValueForKey, thValueForKey, ptValueForKey, frValueForKey, esValueForKey, jpValueForKey, koValueForKey));
 }
 // Create Master Lang file for String.EN ... JSONS
-// langInstanch.createMasterJsonFile();
+langInstanch.createMasterJsonFile();
 // Fill JsonParser Object with key value pair
 countryCode.forEach(function (value) {
     // jsonParserRecord.get(value)?.missingKeyForLangFile();

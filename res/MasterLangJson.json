@@ -24909,7 +24909,7 @@
         "ja_JP": "登録データを受信できませんでした",
         "ko_KR": "등록 데이터를 받을 수 없습니다"
     },
-    "Register_Scene_verification_code_sent": {
+    "Register_Scene_verification_code_sent_Email": {
         "zh_CN": "如果帐户尚未注册到此电子邮件地址，则已发送注册验证码。",
         "en_US": "If an account is not already registered to this email address, a verification code for registration has been sent.",
         "vi_VN": "Nếu chưa có tài khoản nào được đăng ký với địa chỉ email này, một mã xác thực đăng ký được gửi đi.",
@@ -24919,6 +24919,17 @@
         "es_MX": "Si una cuenta aún no está registrada en esta dirección de correo electrónico, se ha enviado un código de verificación para el registro.",
         "ja_JP": "このメールアドレスがアカウント登録されている場合、登録用の認証コードは送信されません。",
         "ko_KR": "계정이 아직 이 이메일 주소에 등록되지 않은 경우, 등록을 위한 확인 코드가 전송되었습니다."
+    },
+    "Register_Scene_verification_code_sent_Phone": {
+        "zh_CN": "If an account is not already registered to this phone number, a verification code for registration has been sent.",
+        "en_US": "If an account is not already registered to this phone number, a verification code for registration has been sent.",
+        "vi_VN": "Nếu tài khoản chưa được đăng ký với số điện thoại này thì mã xác minh để đăng ký đã được gửi.",
+        "th_PH": "หากบัญชียังไม่ได้ลงทะเบียนกับหมายเลขโทรศัพท์นี้ ระบบจะส่งรหัสยืนยันสำหรับการลงทะเบียนไปแล้ว",
+        "pt_BR": "Se uma conta ainda não estiver registrada neste número de telefone, um código de verificação para registro será enviado.",
+        "fr_CA": "Si aucun compte n'est déjà enregistré sur ce numéro de téléphone, un code de vérification pour l'enregistrement a été envoyé.",
+        "es_MX": "Si no hay ninguna cuenta registrada con este número de teléfono, se ha enviado un código de verificación para el registro.",
+        "ja_JP": "この電話番号にアカウントがまだ登録されていない場合は、登録用の確認コードが送信されています。",
+        "ko_KR": "이 전화번호에 아직 계정이 등록되지 않은 경우 등록을 위한 인증 코드가 전송되었습니다."
     },
     "MainScene_Scene_discover_panel_title_text": {
         "zh_CN": "发  现",
@@ -25261,6 +25272,17 @@
         "ja_JP": "マイゲーム",
         "ko_KR": "내 게임"
     },
+    "MainScene_Scene_WPT_Live": {
+        "zh_CN": "${cv.appConfig.getGeneralConfig().BrandName} LIVE",
+        "en_US": "${cv.appConfig.getGeneralConfig().BrandName} LIVE",
+        "vi_VN": "${cv.appConfig.getGeneralConfig().BrandName} LIVE",
+        "th_PH": "${cv.appConfig.getGeneralConfig().BrandName} LIVE",
+        "pt_BR": "${cv.appConfig.getGeneralConfig().BrandName} LIVE",
+        "fr_CA": "${cv.appConfig.getGeneralConfig().BrandName} LIVE",
+        "es_MX": "${cv.appConfig.getGeneralConfig().BrandName} LIVE",
+        "ja_JP": "${cv.appConfig.getGeneralConfig().BrandName} LIVE",
+        "ko_KR": "${cv.appConfig.getGeneralConfig().BrandName} LIVE"
+    },
     "MainScene_Scene_menu_lobby": {
         "zh_CN": "牌桌",
         "en_US": "Lobby",
@@ -25406,14 +25428,14 @@
     },
     "MainScene_Casino_Loading_text": {
         "zh_CN": "Please wait, games are loading...",
-        "en_US": "Please wait, games are loading...",
-        "vi_VN": "Vui lòng chờ, đang tải trò chơi...",
-        "th_PH": "โปรดรอสักครู่เกมกำลังโหลด...",
-        "pt_BR": "Aguarde, os jogos estão carregando...",
-        "fr_CA": "Veuillez patienter, les jeux sont en cours de chargement...",
-        "es_MX": "Por favor espera, los juegos se están cargando...",
-        "ja_JP": "お待ちください。ゲームをロードしています...",
-        "ko_KR": "잠시 기다리세요. 게임을 로드하는 중입니다..."
+        "en_US": "This can take up to 60 seconds, please wait.",
+        "vi_VN": "Việc này có thể mất đến 60 giây, vui lòng chờ.",
+        "th_PH": "การดำเนินการนี้อาจใช้เวลานานถึง 60 วินาที โปรดรอสักครู่",
+        "pt_BR": "Isso pode levar até 60s. Aguarde.",
+        "fr_CA": "Cette opération peut prendre jusqu’à 60 secondes, veuillez patienter.",
+        "es_MX": "Esto puede tardar hasta 60 segundos. Espera.",
+        "ja_JP": "最大60秒ほどかかる場合があります。お待ちください。",
+        "ko_KR": "최대 60초가 소요될 수 있습니다. 잠시만 기다려주세요."
     },
     "MainScene_Promotion_Loading_text": {
         "zh_CN": "Please wait, we’re just getting the latest promotions",
@@ -26725,15 +26747,15 @@
         "ko_KR": "내 갤러리"
     },
     "roleInfoSet_chooseHead_button_system_text": {
-        "zh_CN": "%s Avatars",
-        "en_US": "%s Avatars",
-        "vi_VN": "%s Hình đại diện",
-        "th_PH": "%s อวตาร",
-        "pt_BR": "%s Avatars",
-        "fr_CA": "%s Avatars",
-        "es_MX": "%s Avatars",
-        "ja_JP": "%s アバター",
-        "ko_KR": "%s 아바타"
+        "zh_CN": "${cv.appConfig.getAppTitle()} Avatars",
+        "en_US": "${cv.appConfig.getAppTitle()} Avatars",
+        "vi_VN": "${cv.appConfig.getAppTitle()} Hình đại diện",
+        "th_PH": "${cv.appConfig.getAppTitle()} อวตาร",
+        "pt_BR": "${cv.appConfig.getAppTitle()} Avatars",
+        "fr_CA": "${cv.appConfig.getAppTitle()} Avatars",
+        "es_MX": "${cv.appConfig.getAppTitle()} Avatars",
+        "ja_JP": "${cv.appConfig.getAppTitle()} アバター",
+        "ko_KR": "${cv.appConfig.getAppTitle()} 아바타"
     },
     "roleInfoSet_uploadAvatar": {
         "zh_CN": "从图库上传",
@@ -34501,6 +34523,116 @@
         "ja_JP": "プレイしてアイテムをゲット、友達と交換",
         "ko_KR": "친구와 플레이하고 교환하여 아이템 받기"
     },
+    "selfView_ScrollView_Button_my_tickets": {
+        "zh_CN": "My Tickets",
+        "en_US": "My Tickets",
+        "vi_VN": "Vé Của Tôi",
+        "th_PH": "ตั๋วของฉัน",
+        "pt_BR": "Meus ingressos",
+        "fr_CA": "Mes billets",
+        "es_MX": "Mis tickets",
+        "ja_JP": "マイチケット",
+        "ko_KR": "내 티켓"
+    },
+    "my_tickets_Title": {
+        "zh_CN": "My Tickets",
+        "en_US": "My Tickets",
+        "vi_VN": "Vé Của Tôi",
+        "th_PH": "ตั๋วของฉัน",
+        "pt_BR": "Meus ingressos",
+        "fr_CA": "Mes billets",
+        "es_MX": "Mis tickets",
+        "ja_JP": "マイチケット",
+        "ko_KR": "내 티켓"
+    },
+    "my_tickets_noItems_title": {
+        "zh_CN": "You don’t have any tickets",
+        "en_US": "You don’t have any tickets",
+        "vi_VN": "Bạn không có bất kỳ vé nào",
+        "th_PH": "คุณไม่มีตั๋วเลย",
+        "pt_BR": "Você não tem ingressos",
+        "fr_CA": "Vous n’avez aucun billet",
+        "es_MX": "No tienes ningún ticket",
+        "ja_JP": "チケットはありません",
+        "ko_KR": "티켓이 없습니다"
+    },
+    "my_tickets_noItems_description": {
+        "zh_CN": "Join promotions or play poker satellites to earn tournament tickets!",
+        "en_US": "Join promotions or play poker satellites to earn tournament tickets!",
+        "vi_VN": "Tham gia các chương trình khuyến mại hoặc chơi các vòng sơ loại xì tố để kiếm vé giải đấu!",
+        "th_PH": "เข้าร่วมโปรโมชั่นหรือเล่นเกมแซตเทิลไลต์โป๊กเกอร์เพื่อรับตั๋วการแข่งขัน!",
+        "pt_BR": "Participe de promoções ou jogue satélites de poker para ganhar ingressos de torneio!",
+        "fr_CA": "Participez aux promotions ou jouez lors des événements satellites de poker pour gagner des billets de tournoi!",
+        "es_MX": "¡Únete a las promociones o participa de los torneos satélite de póker a fin de ganar tickets para torneos!",
+        "ja_JP": "プロモーションに参加するか、ポーカーサテライトをプレイしてトーナメントチケットを獲得しましょう！",
+        "ko_KR": "프로모션에 참여하거나 포커 새틀라이트를 플레이하여 토너먼트 티켓을 획득하세요!"
+    },
+    "my_tickets_page_loading": {
+        "zh_CN": "Please wait, tickets are loading…",
+        "en_US": "Please wait, tickets are loading…",
+        "vi_VN": "Xin đợi, đang tải vé…",
+        "th_PH": "โปรดรอสักครู่ กำลังโหลดตั๋ว...",
+        "pt_BR": "Aguarde, os ingressos estão carregando…",
+        "fr_CA": "Veuillez patienter, les billets sont en cours de chargement…",
+        "es_MX": "Espera, los tickets se están cargando…",
+        "ja_JP": "お待ちください。チケットを読み込んでいます…",
+        "ko_KR": "잠시만 기다려주세요. 티켓을 불러오는 중입니다..."
+    },
+    "my_tickets_valid_until": {
+        "zh_CN": "Valid until",
+        "en_US": "Valid until",
+        "vi_VN": "Có hiệu lực đến",
+        "th_PH": "ใช้ได้จนถึง",
+        "pt_BR": "Válido até",
+        "fr_CA": "Valable jusqu’au",
+        "es_MX": "Válido hasta",
+        "ja_JP": "有効期限",
+        "ko_KR": "유효 기간"
+    },
+    "my_tickets_total_tickets": {
+        "zh_CN": "Total Tickets",
+        "en_US": "Total Tickets",
+        "vi_VN": "Tổng Vé",
+        "th_PH": "ตั๋วรวม",
+        "pt_BR": "Total de ingressos",
+        "fr_CA": "Nombre total de billets",
+        "es_MX": "Tickets totales",
+        "ja_JP": "チケットの合計",
+        "ko_KR": "총 티켓"
+    },
+    "my_tickets_total_value": {
+        "zh_CN": "Total Value",
+        "en_US": "Total Value",
+        "vi_VN": "Tổng Giá Trị",
+        "th_PH": "มูลค่ารวม",
+        "pt_BR": "Valor Total",
+        "fr_CA": "Valeur totale",
+        "es_MX": "Valor total",
+        "ja_JP": "合計額",
+        "ko_KR": "총 금액"
+    },
+    "my_tickets_tournament": {
+        "zh_CN": "Tournament Tickets",
+        "en_US": "Tournament Tickets",
+        "vi_VN": "Vé Giải Đấu",
+        "th_PH": "ตั๋วการแข่งขัน",
+        "pt_BR": "Ingressos de torneio",
+        "fr_CA": "Billets de tournoi",
+        "es_MX": "Tickets para torneos",
+        "ja_JP": "トーナメントチケット",
+        "ko_KR": "토너먼트 티켓"
+    },
+    "my_tickets_global_spins": {
+        "zh_CN": "Global Spins Tickets",
+        "en_US": "Global Spins Tickets",
+        "vi_VN": "Global Spins Tickets",
+        "th_PH": "Global Spins Tickets",
+        "pt_BR": "Global Spins Tickets",
+        "fr_CA": "Global Spins Tickets",
+        "es_MX": "Global Spins Tickets",
+        "ja_JP": "Global Spins Tickets",
+        "ko_KR": "Global Spins Tickets"
+    },
     "ResponseAuthApi_231": {
         "zh_CN": "访问MTT服务器失败",
         "en_US": "The connection to MTT server failed",
@@ -39975,6 +40107,17 @@
         "ja_JP": "%sは文字で始まる必要があり、使用できるのはラテン文字と数字のみです",
         "ko_KR": "%s은(는) 문자로 시작해야 하며 영문과 숫자만 포함해야 합니다"
     },
+    "ErrorValidUsername_KR": {
+        "zh_CN": "Username should start with letters and must contain only Latin or Korean characters and numbers",
+        "en_US": "Username should start with letters and must contain only Latin or Korean characters and numbers",
+        "vi_VN": "Tên người dùng phải bắt đầu bằng các chữ cái và chỉ được chứa các ký tự và số Latinh hoặc Hàn Quốc",
+        "th_PH": "ชื่อผู้ใช้ควรขึ้นต้นด้วยตัวอักษรและต้องมีเฉพาะตัวอักษรและตัวเลขละตินหรือเกาหลีเท่านั้น",
+        "pt_BR": "O nome de usuário deve começar com letras e conter apenas caracteres e números latinos ou coreanos",
+        "fr_CA": "Le nom d’utilisateur doit commencer par des lettres et ne doit contenir que des caractères et des chiffres latins ou coréens",
+        "es_MX": "El nombre de usuario debe comenzar con letras y debe contener únicamente caracteres y números latinos o coreanos",
+        "ja_JP": "ユーザーネームはアルファベットで始まり、アルファベットもしくは数字のみ利用することができます",
+        "ko_KR": "유저네임은 문자로 시작해야 하며 영문 또는 한글 문자와 숫자만 사용 가능합니다"
+    },
     "ErrorValidAcceptTermsAndCond": {
         "zh_CN": "您必须接受服务条款",
         "en_US": "You must accept the Terms of Service",
@@ -41998,6 +42141,17 @@
         "es_MX": "La contraseña debe tener al menos un carácter especial",
         "ja_JP": "パスワードには少なくとも1つの特殊文字が必要です。",
         "ko_KR": "비밀번호에는 특수 문자 1개 이상을 포함해야 합니다"
+    },
+    "ErrorValidPassword_KR": {
+        "zh_CN": "Password should have at least 2 letters, 1 number, and 1 special character",
+        "en_US": "Password should have at least 2 letters, 1 number, and 1 special character",
+        "vi_VN": "Mật khẩu phải có ít nhất 2 chữ cái, 1 chữ số và 1 ký tự đặc biệt",
+        "th_PH": "รหัสผ่านควรมีตัวอักษรอย่างน้อย 2 ตัว, ตัวเลข 1 ตัว, และอักขระพิเศษ 1 ตัว",
+        "pt_BR": "A senha deve ter pelo menos 2 letras, 1 número e 1 caractere especial",
+        "fr_CA": "La contraseña debe tener al menos 2 letras, 1 número y 1 carácter especial",
+        "es_MX": "La contraseña debe tener al menos 2 letras, 1 número y 1 carácter especial",
+        "ja_JP": "パスワードには少なくとも2文字、数字1字、特殊文字1字を含めて設定してください。",
+        "ko_KR": "비밀번호는 문자 2개, 숫자 1개, 특수 문자 1개 이상이어야 합니다"
     },
     "Reset_password": {
         "zh_CN": "重设密码",
@@ -44172,15 +44326,26 @@
         "ko_KR": "채팅 상담"
     },
     "FAQ_button_text_KR": {
-        "zh_CN": "通过 Telegram 联系我们 - @wptgkr",
-        "en_US": "Contact us on Telegram - @wptgkr",
-        "vi_VN": "Liên hệ với chúng tôi trên Telegram - @wptgkr",
-        "th_PH": "ติดต่อเราทางโทรเลข - @wptgkr",
-        "pt_BR": "Contate-nos no Telegram - @wptgkr",
-        "fr_CA": "Contactez-nous sur Telegram - @wptgkr",
-        "es_MX": "Contacta con nosotros en Telegram - @wptgkr",
-        "ja_JP": "テレグラムでお問い合わせください - @wptgkr",
-        "ko_KR": "텔레그램 고객센터 문의 : @wptgkr"
+        "zh_CN": "在线聊天",
+        "en_US": "Live chat",
+        "vi_VN": "Trò chuyện trực tiếp",
+        "th_PH": "แชทสด",
+        "pt_BR": "Chat ao vivo",
+        "fr_CA": "Clavardage en direct",
+        "es_MX": "Chat en vivo",
+        "ja_JP": "ライブチャット",
+        "ko_KR": "라이브 채팅"
+    },
+    "FAQ_button_text_MY": {
+        "zh_CN": "在线聊天",
+        "en_US": "Live chat",
+        "vi_VN": "Trò chuyện trực tiếp",
+        "th_PH": "แชทสด",
+        "pt_BR": "Chat ao vivo",
+        "fr_CA": "Clavardage en direct",
+        "es_MX": "Chat en vivo",
+        "ja_JP": "ライブチャット",
+        "ko_KR": "라이브 채팅"
     },
     "PlayerComplaint_main_Info": {
         "zh_CN": "请在网站上查看我们的常见问题解答。 如果找不到问题的答案，请联系我们的支持部门之一。",
@@ -48500,6 +48665,17 @@
         "ja_JP": "以下のリンクをコピーして共有し、お友達を招待すると、最大3ヶ月間、そのレーキの50％を受け取ることができます。",
         "ko_KR": "아래 링크를 복사하여 공유하여 친구를 초대하고 최대 3개월 동안 이들의 수익의 50%를 받으세요!"
     },
+    "Invite_Friend_Information_Asia": {
+        "zh_CN": "Copy and share your personal link below to invite your friends to register, and automatically join your team. You will always get an additional 10% of all the team members’ freeroll bonus.\n(Daily freeroll with 10,000 USD guaranteed everyday ,only for Korean players)",
+        "en_US": "Copy and share your personal link below to invite your friends to register, and automatically join your team. You will always get an additional 10% of all the team members’ freeroll bonus.\n(Daily freeroll with 10,000 USD guaranteed everyday ,only for Korean players)",
+        "vi_VN": "Sao chép và chia sẻ liên kết cá nhân của bạn bên dưới để mời bạn bè đăng ký và tự động tham gia nhóm của bạn. Bạn sẽ luôn nhận được thêm 10% từ tiền thưởng giải đấu miễn phí của tất cả các thành viên trong nhóm.\n(Giải đấu miễn phí hằng ngày với giải thưởng đảm bảo lên đến 10.000 USD hằng ngày, chỉ dành cho người chơi Hàn Quốc)",
+        "th_PH": "คัดลอกและแชร์ลิงก์ส่วนตัวของคุณด้านล่างเพื่อชวนเพื่อนของคุณให้ลงทะเบียนและเข้าร่วมทีมของคุณโดยอัตโนมัติ คุณจะได้รับโบนัสฟรีโรลเพิ่มขึ้นอีก 10% ของโบนัสฟรีโรลของสมาชิกในทีมทั้งหมดเสมอ\n(ฟรีโรลรายวันพร้อมรับประกัน 10,000 USD ทุกวัน สำหรับผู้เล่นชาวเกาหลีเท่านั้น)",
+        "pt_BR": "Copie e compartilhe seu link pessoal abaixo para convidar seus amigos a se registrarem e se juntarem automaticamente à sua equipe. Você sempre receberá um adicional de 10% do bônus de freeroll de todos os membros da equipe.\n(Freeroll diário com garantia de 10.000 USD todos os dias, apenas para jogadores coreanos)",
+        "fr_CA": "Copiez et partagez votre lien personnel ci-dessous pour inviter vos amis à s’inscrire et à rejoindre automatiquement votre équipe. Vous recevrez toujours 10 % de plus du bonus de Tournoi gratuit de tous les membres de l’équipe.\n(Tournoi gratuit quotidien avec une garantie de 10 000 $ US tous les jours, uniquement pour les joueurs coréens)",
+        "es_MX": "Copia y comparte tu enlace personal, que se encuentra a continuación, para invitar a tus amigos a registrarse y unirse automáticamente a tu equipo. Siempre obtendrás un 10% adicional de la bonificación de freeroll de todos los miembros del equipo.\n(Freeroll diario con USD 10.000 garantizados todos los días, solo para jugadores coreanos)",
+        "ja_JP": "下の個人用リンクをコピーしてお友達に共有して登録に招待すると、お友達は自動的にチームに参加できます。常時チームメンバー全員のフリーロールボーナスの10%を追加で取得できます。\n（韓国人プレイヤー限定で、毎日10,000 USD保証のデイリーフリーロールが用意されています）",
+        "ko_KR": "친구 초대링크를 복사 및 공유하여 친구들을 초대하고 자동으로 팀에 합류시키세요. 매일 매일 한국 선수들만 참가할수 있는 데일리 15,000,000KRW GTD 프리롤 토너먼트에 모든 팀원의 ITM의 10%를 보너스로 받을 수 있습니다."
+    },
     "Invite_Friend_Fetch_error": {
         "zh_CN": "抱歉，在獲取受邀好友列表時出現內部服務器錯誤 - 請稍後重試！",
         "en_US": "Sorry, there's been an internal server error about fetching invited friends list - please try again later!",
@@ -52159,149 +52335,149 @@
             "位置服务当前已禁用，这可能会导致您无法使用某些功能。为了确保最佳用户体验，请确保已启用Wi-Fi和位置权限。请打开设置或尝试根据以下提示进行操作：",
             "启用位置权限：前往设置>位置>打开\"使用位置\"。",
             "启用Wi-Fi：前往设置>网络和互联网>单击\"互联网\">打开\"Wi-Fi\"。",
-            "启用精确位置：前往设置>位置>选择\"应用程序位置权限\">选择WPTG>选择\"使用时允许\">打开\"使用精确位置\"。",
+            "启用精确位置：前往设置>位置>选择\"应用程序位置权限\">选择${cv.appConfig.getAppTitle()}>选择\"使用时允许\">打开\"使用精确位置\"。",
             "启用扫描：前往设置>位置>位置服务>打开\"Google Location Accuracy\"、\"Wi-Fi扫描\"和\"蓝牙扫描\"。"
         ],
         "en_US": [
             "Location services are currently disabled which may cause you to not have access to some features. To ensure the best user experience, please make sure Wi-Fi and location permissions are enabled. Please open settings or try these tips below:",
             "Enable location access: Go to settings > Location > switch on \"Use Location\".",
             "Enable Wi-fi: Go to settings > Network & internet > click  \"Internet\" > switch on  \"Wi-Fi\".",
-            "Enable precise location: Go to settings > Location > select  \"app location permissions\" > select WPTG > select  \"allow while using\" > switch on  \"use precise location\".",
+            "Enable precise location: Go to settings > Location > select  \"app location permissions\" > select ${cv.appConfig.getAppTitle()} > select  \"allow while using\" > switch on  \"use precise location\".",
             "Enable scanning:  \"go to settings > location > location services > switch on  \"google location accuracy\", Wi-fi scanning\", and  \"Bluetooth scanning\"."
         ],
         "vi_VN": [
             "Dịch vụ định vị hiện đang bị vô hiệu hóa, điều này có thể khiến bạn không thể truy cập vào một số tính năng. Để có trải nghiệm người dùng tốt nhất, vui lòng đảm bảo bạn đã bật quyền truy cập Wi-Fi và vị trí. Vui lòng mở mục cài đặt hoặc thử các mẹo dưới đây:",
             "Bật truy cập vị trí: Chuyển đến mục cài đặt > Vị trí > bật \"Sử dụng định vị\".",
             "Bật Wi-Fi: Chuyển đến mục cài đặt > Mạng & Internet > nhấp vào \"Internet\" > bật \"Wi-Fi\".",
-            "Bật vị trí chính xác: Chuyển đến mục cài đặt > Vị trí > chọn \"quyền truy cập vị trí ứng dụng\" > chọn WPTG > chọn \"cho phép khi đang sử dụng\" > bật \"sử dụng vị trí chính xác\".",
+            "Bật vị trí chính xác: Chuyển đến mục cài đặt > Vị trí > chọn \"quyền truy cập vị trí ứng dụng\" > chọn ${cv.appConfig.getAppTitle()} > chọn \"cho phép khi đang sử dụng\" > bật \"sử dụng vị trí chính xác\".",
             "Bật chức năng quét: \"chuyển đến mục cài đặt > vị trí > dịch vụ vị trí > bật \"độ chính xác của vị trí trên Google\", quét Wi-Fi\" và \"quét Bluetooth\"."
         ],
         "th_PH": [
             "ขณะนี้บริการตำแหน่งถูกปิดการใช้งานซึ่งอาจทำให้คุณไม่สามารถเข้าถึงฟีเจอร์บางอย่างได้ เพื่อให้แน่ใจว่าผู้ใช้ได้รับประสบการณ์ที่ดีที่สุด โปรดตรวจสอบให้แน่ใจว่าได้เปิดใช้งาน Wi-Fi และให้สิทธิ์ในการระบุตำแหน่ง โปรดเปิดการตั้งค่าหรือลองใช้เคล็ดลับด้านล่าง:",
             "เปิดใช้งานการเข้าถึงตำแหน่ง: ไปที่การตั้งค่า > ตำแหน่ง > เปิดสวิตช์ \"ใช้ตำแหน่ง\"",
             "เปิดใช้งาน Wi-Fi: ไปที่การตั้งค่า > เครือข่ายและอินเทอร์เน็ต > คลิก \"อินเทอร์เน็ต\" > เปิดสวิตช์ \"Wi-Fi\"",
-            "เปิดใช้งานตำแหน่งที่แม่นยำ: ไปที่การตั้งค่า > ตำแหน่ง > เลือก \"การอนุญาตตำแหน่งแอป\" > เลือก WPTG > เลือก \"อนุญาตขณะใช้งาน\" > เปิดสวิตช์ \"ใช้ตำแหน่งที่แม่นยำ\"",
+            "เปิดใช้งานตำแหน่งที่แม่นยำ: ไปที่การตั้งค่า > ตำแหน่ง > เลือก \"การอนุญาตตำแหน่งแอป\" > เลือก ${cv.appConfig.getAppTitle()} > เลือก \"อนุญาตขณะใช้งาน\" > เปิดสวิตช์ \"ใช้ตำแหน่งที่แม่นยำ\"",
             "เปิดใช้งานการสแกน: \"ไปที่การตั้งค่า > ตำแหน่ง > บริการระบุตำแหน่ง > เปิด \"ความแม่นยำของตำแหน่งของ Google\", การสแกน Wi-Fi\" และ \"การสแกนบลูทูธ\""
         ],
         "pt_BR": [
             "Os serviços de localização estão desabilitados no momento, o que pode impedir o seu acesso a alguns recursos. Para garantir a melhor experiência do usuário, certifique-se que o wi-fi e as permissões de localização estejam habilitados. Abra as configurações ou tente as dicas abaixo:",
             "Habilite o acesso a localização: vá para Configurações > Localização > habilite \"Usar Localização\".",
             "Habilite o wi-fi: vá para Configurações > Redes e internet > clique em \"Internet\" > habilite o \"Wi-Fi\".",
-            "Habilite a localização precisa: vá para Configurações > Localização > selecione \"permissões de localização do app\" > selecione WPTG > selecione \"permitir enquanto usar\" > habilite \"utilizar localização precisa\".",
+            "Habilite a localização precisa: vá para Configurações > Localização > selecione \"permissões de localização do app\" > selecione ${cv.appConfig.getAppTitle()} > selecione \"permitir enquanto usar\" > habilite \"utilizar localização precisa\".",
             "Habilite a varredura: \"vá para configurações > localização > serviços de localização > habilite \"precisão da localização do Google\", varredura de wi-fi\" e \"varredura de Bluetooth\"."
         ],
         "fr_CA": [
             "Les services de localisation sont présentement désactivés, ce qui pourrait vous empêcher d’accéder à certaines fonctionnalités. Pour garantir une expérience optimale, veuillez activer le Wifi et la localisation de votre appareil. Pour y arriver, accédez aux paramètres ou suivez les étapes suivantes :",
             "Activer la localisation de votre appareil : allez aux paramètres > Localisation > activez « Localisation de votre appareil ».",
             "Activer le Wifi : allez aux paramètres > Réseau & Internet > sélectionnez « Internet » > activez le « Wifi ».",
-            "Activer l’emplacement précis : allez aux paramètres > Localisation > sélectionnez « Permissions de l’application » > choisissez WPTG > sélectionnez « Permettre lorsque l’application est active » > activez « Partage de l’emplacement précis ».",
+            "Activer l’emplacement précis : allez aux paramètres > Localisation > sélectionnez « Permissions de l’application » > choisissez ${cv.appConfig.getAppTitle()} > sélectionnez « Permettre lorsque l’application est active » > activez « Partage de l’emplacement précis ».",
             "Activer le balayage : allez aux paramètres > Localisation > activez « Localisation précise de Google », « Balayage Wifi » et « Balayage Bluetooth »."
         ],
         "es_MX": [
             "Los servicios de ubicación se encuentran desactivados, lo que puede impedirte el acceso a ciertas funcionalidades. Para tener la mejor experiencia de usuario, por favor asegúrate de tener el Wi-Fi y los permisos de ubicación habilitados. Por favor, revisa la configuración o intenta los siguientes pasos:",
             "Habilita el acceso a la ubicación: Ve a Configuraciones > Ubicación > activa la opción \"Usar ubicación\".",
             "Activa el Wi-Fi: Ve a Configuraciones > Redes e Internet > haz clic en \"Internet\" > y activa la opción \"Wi-Fi\".",
-            "Habilita la opción de ubicación exacta: Ve a Configuraciones > Ubicación > selecciona \"Permisos de ubicación de la app\" > selecciona WPTG > selecciona \"Permitir durante el uso\" > y activa la opción \"Usar la ubicación exacta\".",
+            "Habilita la opción de ubicación exacta: Ve a Configuraciones > Ubicación > selecciona \"Permisos de ubicación de la app\" > selecciona ${cv.appConfig.getAppTitle()} > selecciona \"Permitir durante el uso\" > y activa la opción \"Usar la ubicación exacta\".",
             "Habilita el escáner: \"ve a Configuraciones > Ubicación > Servicios de ubicación > activa la opción \"Precisión de ubicación de Google\", \"Escáner de Wi-Fi\" y \"Escáner de Bluetooth\"."
         ],
         "ja_JP": [
             "現在位置情報サービスがオフに設定されているため、いくつかの機能はご利用いただけない可能性があります。最高の状態でプレイをお楽しみいただくためにも、Wi-Fiと位置情報の許可が有効化されていることを確認してください。[設定]を開いて以下のアドバイスをお試し下さい：",
             "位置情報のアクセスを有効にする：[設定] > [位置情報]へ移動して、> 「位置情報の使用」をオンに設定します。",
             "Wi-Fiを有効にする：[設定] > [ネットワーク & インターネット]へ移動し、> 「インターネット」をクリックして、> 「Wi-Fi」をオンに設定します。",
-            "正確な位置情報を有効にする：[設定] > [位置情報]へ移動し、> 「アプリの位置情報の許可」を選択し、> WPTGを選択し、> 「アプリを使用中にのみ許可」を選択して、> 「正確な位置情報を使用」をオンに設定します。",
+            "正確な位置情報を有効にする：[設定] > [位置情報]へ移動し、> 「アプリの位置情報の許可」を選択し、> ${cv.appConfig.getAppTitle()} を選択し、> 「アプリを使用中にのみ許可」を選択して、> 「正確な位置情報を使用」をオンに設定します。",
             "スキャンを有効にする： [設定] > [位置情報] > [位置情報サービス]へ移動し、> 「Google位置情報の精度」、「Wi-Fiスキャン」、「Bluetoothスキャン」をオンに設定します。"
         ],
         "ko_KR": [
             "현재 위치 서비스가 비활성화되어 있어 일부 기능에 접근할 수 없을 수도 있습니다. 오류를 방지하고 최상의 사용자 경험을 보장하려면 Wi-Fi 및 위치 권한이 모두 활성화되어 있는지 확인하세요. 설정을 열거나 아래의 팁을 시도해 보시기를 바랍니다.",
             "위치 액세스 허용: 설정 > 위치로 이동 > \"위치 사용\" 켜기",
             "Wi-Fi 활성화: 설정으로 이동 > 네트워크 및 인터넷 > \"인터넷\" 클릭 > \"Wi-Fi\" 켜기",
-            "정확한 위치 활성화: 설정 > 위치로 이동 > \"앱 위치 권한\" 선택 > WPTG 선택 > \"앱을 사용할 때만 허용\" 선택 > \"정확한 위치 사용\" 켜기",
+            "정확한 위치 활성화: 설정 > 위치로 이동 > \"앱 위치 권한\" 선택 > ${cv.appConfig.getAppTitle()} 선택 > \"앱을 사용할 때만 허용\" 선택 > \"정확한 위치 사용\" 켜기",
             "스캔 활성화: 설정 > 위치로 이동 > 위치 서비스 > \"Google 위치 정확도\" , \"Wi-Fi 스캔\" 및 \"Bluetooth 스캔\" 켜기"
         ]
     },
     "GeoComplyErrorLocationErrorWithStep_IOS": {
         "zh_CN": [
             "位置服务当前已禁用，这可能会导致您无法使用某些功能。为了确保最佳用户体验，请确保已启用Wi-Fi和位置权限。请打开设置或尝试根据以下提示进行操作：",
-            "启用位置：前往设置>WPTGlobal>位置>\"使用时\"或\"始终\">启用\"精确位置\"。",
+            "启用位置：前往设置>${cv.appConfig.getAppTitle()}>位置>\"使用时\"或\"始终\">启用\"精确位置\"。",
             "启用Wi-Fi：前往设置>Wi-Fi>启用\"Wi-Fi\"。"
         ],
         "en_US": [
             "Location services are currently disabled which may cause you to not have access to some features. To ensure the best user experience, please make sure Wi-Fi and location permissions are enabled. Please open settings or try these tips below:",
-            "Enable Location: go to settings > WPTGlobal > Location > \"While using\" or \"always\" > enable \"precise location\".",
+            "Enable Location: go to settings > ${cv.appConfig.getAppTitle()} > Location > \"While using\" or \"always\" > enable \"precise location\".",
             "Enable Wi-fi: go to settings > Wi-Fi > Enable \"Wi-Fi\"."
         ],
         "vi_VN": [
             "Dịch vụ định vị hiện đang bị vô hiệu hóa, điều này có thể khiến bạn không thể truy cập vào một số tính năng. Để có trải nghiệm người dùng tốt nhất, vui lòng đảm bảo bạn đã bật quyền truy cập Wi-Fi và vị trí. Vui lòng mở mục cài đặt hoặc thử các mẹo dưới đây:",
-            "Bật Vị trí: chuyển đến mục cài đặt > WPTGlobal > Vị trí > \"Trong khi sử dụng\" hoặc \"luôn luôn\" > bật \"vị trí chính xác\".",
+            "Bật Vị trí: chuyển đến mục cài đặt > ${cv.appConfig.getAppTitle()} > Vị trí > \"Trong khi sử dụng\" hoặc \"luôn luôn\" > bật \"vị trí chính xác\".",
             "Kích hoạt Wi-Fi: chuyển đến mục cài đặt > Wi-Fi > Bật \"Wi-Fi\"."
         ],
         "th_PH": [
             "ขณะนี้บริการตำแหน่งถูกปิดการใช้งานซึ่งอาจทำให้คุณไม่สามารถเข้าถึงฟีเจอร์บางอย่างได้ เพื่อให้แน่ใจว่าผู้ใช้ได้รับประสบการณ์ที่ดีที่สุด โปรดตรวจสอบให้แน่ใจว่าได้เปิดใช้งาน Wi-Fi และให้สิทธิ์ในการระบุตำแหน่ง โปรดเปิดการตั้งค่าหรือลองใช้เคล็ดลับด้านล่าง:",
-            "เปิดใช้งานตำแหน่ง: ไปที่การตั้งค่า > WPTGlobal > ตำแหน่ง > \"ขณะใช้งาน\" หรือ \"ตลอดเวลา\" > เปิดใช้งาน \"ตำแหน่งที่แม่นยำ\"",
+            "เปิดใช้งานตำแหน่ง: ไปที่การตั้งค่า > ${cv.appConfig.getAppTitle()} > ตำแหน่ง > \"ขณะใช้งาน\" หรือ \"ตลอดเวลา\" > เปิดใช้งาน \"ตำแหน่งที่แม่นยำ\"",
             "เปิดใช้งาน Wi-Fi: ไปที่การตั้งค่า > Wi-Fi > เปิดใช้งาน \"Wi-Fi\""
         ],
         "pt_BR": [
             "Os serviços de localização estão desabilitados no momento, o que pode impedir o seu acesso a alguns recursos. Para garantir a melhor experiência do usuário, certifique-se que o wi-fi e as permissões de localização estejam habilitados. Abra as configurações ou tente as dicas abaixo:",
-            "Habilite a Localização: vá para Ajustes > WPTGlobal > Localização > \"Durante o uso\" ou \"sempre\" > habilite \"localização precisa\".",
+            "Habilite a Localização: vá para Ajustes > ${cv.appConfig.getAppTitle()} > Localização > \"Durante o uso\" ou \"sempre\" > habilite \"localização precisa\".",
             "Habilite o wi-fi: vá para ajustes > Wi-Fi > habilite \"Wi-Fi\"."
         ],
         "fr_CA": [
             "Les services de localisation sont présentement désactivés, ce qui pourrait vous empêcher d’accéder à certaines fonctionnalités. Pour garantir une expérience optimale, veuillez activer le Wifi et la localisation de votre appareil. Pour y arriver, accédez aux paramètres ou suivez les étapes suivantes :",
-            "Activer la localisation : allez aux paramètres > WPTGlobal > Localisation > sélectionnez « Durant l’utilisation » ou « Toujours » > activez « Emplacement précis ».",
+            "Activer la localisation : allez aux paramètres > ${cv.appConfig.getAppTitle()} > Localisation > sélectionnez « Durant l’utilisation » ou « Toujours » > activez « Emplacement précis ».",
             "Activer le Wifi : allez aux paramètres > Wifi > activez « Wifi »."
         ],
         "es_MX": [
             "Los servicios de ubicación se encuentran desactivados, lo que puede impedirte el acceso a ciertas funcionalidades. Para tener la mejor experiencia de usuario, por favor asegúrate de tener el Wi-Fi y los permisos de ubicación habilitados. Por favor, revisa la configuración o intenta los siguientes pasos:",
-            "Habilita la ubicación: ve a Configuraciones > WPTGlobal > Ubicación > \"Durante el uso\" o \"Siempre\" > y habilita la \"Localización exacta\".",
+            "Habilita la ubicación: ve a Configuraciones > ${cv.appConfig.getAppTitle()} > Ubicación > \"Durante el uso\" o \"Siempre\" > y habilita la \"Localización exacta\".",
             "Activa el Wi-Fi: ve a Configuraciones > Wi-Fi > y habilita el \"Wi-Fi\"."
         ],
         "ja_JP": [
             "現在位置情報サービスがオフに設定されているため、いくつかの機能はご利用いただけない可能性があります。最高の状態でプレイをお楽しみいただくためにも、Wi-Fiと位置情報の許可が有効化されていることを確認してください。[設定]を開いて以下のアドバイスをお試し下さい：",
-            "位置情報を有効にする：[設定] > [WPTGlobal] > [位置情報]へ移動し、「アプリを使用中」または「常時」を選択して、> 「正確な位置情報を使用」をオンに設定します。",
+            "位置情報を有効にする：[設定] > [${cv.appConfig.getAppTitle()}] > [位置情報]へ移動し、「アプリを使用中」または「常時」を選択して、> 「正確な位置情報を使用」をオンに設定します。",
             "Wi-Fiを有効にする：[設定] > [Wi-Fi] >「Wi-Fi」をオンに設定します。"
         ],
         "ko_KR": [
             "현재 위치 서비스가 비활성화되어 있어 일부 기능에 접근할 수 없을 수도 있습니다. 오류를 방지하고 최상의 사용자 경험을 보장하려면 Wi-Fi 및 위치 권한이 모두 활성화되어 있는지 확인하세요. 설정을 열거나 아래의 팁을 시도해 보시기를 바랍니다.",
-            "위치 활성화: 설정 > WPTGlobal > 위치로 이동 > \"앱을 사용할 때만 허용\" 또는 \"항상\" > \"정확한 위치\" 활성화",
+            "위치 활성화: 설정 > ${cv.appConfig.getAppTitle()} > 위치로 이동 > \"앱을 사용할 때만 허용\" 또는 \"항상\" > \"정확한 위치\" 활성화",
             "Wi-Fi 활성화: 설정 > Wi-Fi로 이동 > \"Wi-Fi\" 활성화"
         ]
     },
     "GeoComplyError_LocationPermission_615_android": {
         "zh_CN": [
-            "您已选择拒绝位置权限。如要获得真钱游戏权限，您需要打开以下位置设置，并允许WPTG的位置权限。\n\n如果问题仍然存在，请联系客服获取帮助。",
-            "启用位置：前往设置>位置>选择\"应用程序位置权限\">选择WPTG>选择\"使用时允许\"。"
+            "您已选择拒绝位置权限。如要获得真钱游戏权限，您需要打开以下位置设置，并允许${cv.appConfig.getAppTitle()}的位置权限。\n\n如果问题仍然存在，请联系客服获取帮助。",
+            "启用位置：前往设置>位置>选择\"应用程序位置权限\">选择${cv.appConfig.getAppTitle()}>选择\"使用时允许\"。"
         ],
         "en_US": [
-            "You have selected to deny location permissions. In order to access real money games you need to open the location settings below and allow location permissions for WPTG.\n\nIf the problem persists please contact customer support for assistance.",
-            "Enable location: Go to settings > Location > select \"app location permissions\" > select WPTG > select \"allow while using\"."
+            "You have selected to deny location permissions. In order to access real money games you need to open the location settings below and allow location permissions for ${cv.appConfig.getAppTitle()}.\n\nIf the problem persists please contact customer support for assistance.",
+            "Enable location: Go to settings > Location > select \"app location permissions\" > select ${cv.appConfig.getAppTitle()} > select \"allow while using\"."
         ],
         "vi_VN": [
-            "Bạn đã chọn từ chối quyền truy cập vị trí. Để truy cập các trò chơi tiền thật, bạn cần mở mục cài đặt vị trí bên dưới và cho phép quyền truy cập vị trí đối với WPTG.\n\nNếu sự cố vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng để được trợ giúp.",
-            "Cho phép vị trí: Chuyển đến mục cài đặt > Vị trí > chọn \"quyền vị trí ứng dụng\" > chọn WPTG > chọn \"cho phép trong khi sử dụng\"."
+            "Bạn đã chọn từ chối quyền truy cập vị trí. Để truy cập các trò chơi tiền thật, bạn cần mở mục cài đặt vị trí bên dưới và cho phép quyền truy cập vị trí đối với ${cv.appConfig.getAppTitle()}.\n\nNếu sự cố vẫn tiếp diễn, vui lòng liên hệ với bộ phận hỗ trợ khách hàng để được trợ giúp.",
+            "Cho phép vị trí: Chuyển đến mục cài đặt > Vị trí > chọn \"quyền vị trí ứng dụng\" > chọn ${cv.appConfig.getAppTitle()} > chọn \"cho phép trong khi sử dụng\"."
         ],
         "th_PH": [
-            "คุณได้เลือกที่จะปฏิเสธการอนุญาตการระบุตำแหน่ง ในการเข้าถึงเกมที่ใช้เงินจริง คุณต้องเปิดการตั้งค่าตำแหน่งด้านล่าง แล้วอนุญาตการอนุญาตการระบุตำแหน่งสำหรับ WPTG\n\nหากยังประสบปัญหาอยู่ กรุณาติดต่อฝ่ายบริการลูกค้าเพื่อขอความช่วยเหลือ",
-            "เปิดใช้งานการระบุตำแหน่ง: ไปที่การตั้งค่า > ตำแหน่ง > เลือก \"การอนุญาตการระบุตำแหน่งสำหรับแอป\" > เลือก WPTG > เลือก \"อนุญาตขณะใช้งาน\""
+            "คุณได้เลือกที่จะปฏิเสธการอนุญาตการระบุตำแหน่ง ในการเข้าถึงเกมที่ใช้เงินจริง คุณต้องเปิดการตั้งค่าตำแหน่งด้านล่าง แล้วอนุญาตการอนุญาตการระบุตำแหน่งสำหรับ ${cv.appConfig.getAppTitle()}\n\nหากยังประสบปัญหาอยู่ กรุณาติดต่อฝ่ายบริการลูกค้าเพื่อขอความช่วยเหลือ",
+            "เปิดใช้งานการระบุตำแหน่ง: ไปที่การตั้งค่า > ตำแหน่ง > เลือก \"การอนุญาตการระบุตำแหน่งสำหรับแอป\" > เลือก ${cv.appConfig.getAppTitle()} > เลือก \"อนุญาตขณะใช้งาน\""
         ],
         "pt_BR": [
-            "Você selecionou bloquear as permissões de localização. Para poder acessar os jogos em dinheiro real, você precisa abrir as configurações de localização abaixo e permitir as permissões de localização para o WPTG.\n\nSe o problema persistir, entre em contato com o suporte ao cliente para obter assistência.",
-            "Habilitar localização: Vá para configurações > Localização > selecione \"permissões de localização do app\" > selecione WPTG > selecione \"permitir enquanto usa\"."
+            "Você selecionou bloquear as permissões de localização. Para poder acessar os jogos em dinheiro real, você precisa abrir as configurações de localização abaixo e permitir as permissões de localização para o ${cv.appConfig.getAppTitle()}.\n\nSe o problema persistir, entre em contato com o suporte ao cliente para obter assistência.",
+            "Habilitar localização: Vá para configurações > Localização > selecione \"permissões de localização do app\" > selecione ${cv.appConfig.getAppTitle()} > selecione \"permitir enquanto usa\"."
         ],
         "fr_CA": [
-            "Vous avez choisi de refuser le partage de votre emplacement. Pour accéder aux jeux avec de l’argent réel, vous devez ouvrir les paramètres de localisation et activer la localisation de votre appareil par WPTG. \n\nSi le problème persiste, veuillez contacter le service à la clientèle pour obtenir de l’aide.",
-            "Pour activer la localisation : Allez aux paramètres > Emplacement > sélectionnez « permissions de partage de l’emplacement » > sélectionnez WPTG > activez le partage « durant l’utilisation »."
+            "Vous avez choisi de refuser le partage de votre emplacement. Pour accéder aux jeux avec de l’argent réel, vous devez ouvrir les paramètres de localisation et activer la localisation de votre appareil par ${cv.appConfig.getAppTitle()}. \n\nSi le problème persiste, veuillez contacter le service à la clientèle pour obtenir de l’aide.",
+            "Pour activer la localisation : Allez aux paramètres > Emplacement > sélectionnez « permissions de partage de l’emplacement » > sélectionnez ${cv.appConfig.getAppTitle()} > activez le partage « durant l’utilisation »."
         ],
         "es_MX": [
-            "Has seleccionado no autorizar los permisos de ubicación. Para acceder a los juegos con dinero real, debes abrir las configuraciones de ubicación a continuación y permitir el acceso de WPTG a los servicios de ubicación.\n\nSi el problema persiste, ponte en contacto con el servicio de atención al cliente para recibir ayuda.",
-            "Habilita la ubicación: Ve a Configuraciones > Ubicación > selecciona \"Permisos de ubicación de la app\" > selecciona WPTG > selecciona \"Permitir durante el uso\"."
+            "Has seleccionado no autorizar los permisos de ubicación. Para acceder a los juegos con dinero real, debes abrir las configuraciones de ubicación a continuación y permitir el acceso de ${cv.appConfig.getAppTitle()} a los servicios de ubicación.\n\nSi el problema persiste, ponte en contacto con el servicio de atención al cliente para recibir ayuda.",
+            "Habilita la ubicación: Ve a Configuraciones > Ubicación > selecciona \"Permisos de ubicación de la app\" > selecciona ${cv.appConfig.getAppTitle()} > selecciona \"Permitir durante el uso\"."
         ],
         "ja_JP": [
-            "位置情報の提供を拒否するように設定されています。リアルマネーゲームにアクセスする場合、以下の方法でお客様の位置情報の提供を許可して、WPTGに位置情報の利用を許可しなければなりません。\n\nそれでもこの問題が解決しない場合は、カスタマーサポートまでご連絡ください。",
-            "位置情報を有効にする：[設定] > [位置情報]へ移動し、> 「アプリの位置情報の許可」を選択し、> WPTGを選択し、> 「アプリを使用中にのみ許可」を選択します。"
+            "位置情報の提供を拒否するように設定されています。リアルマネーゲームにアクセスする場合、以下の方法でお客様の位置情報の提供を許可して、${cv.appConfig.getAppTitle()}に位置情報の利用を許可しなければなりません。\n\nそれでもこの問題が解決しない場合は、カスタマーサポートまでご連絡ください。",
+            "位置情報を有効にする：[設定] > [位置情報]へ移動し、> 「アプリの位置情報の許可」を選択し、> ${cv.appConfig.getAppTitle()}を選択し、> 「アプリを使用中にのみ許可」を選択します。"
         ],
         "ko_KR": [
-            "위치 권한을 거부하셨습니다. 실제 금액 게임에 액세스하려면 아래의 위치 설정을 열고 WPTG에 대한 위치 권한을 허용해야 합니다.\n\n문제가 지속되면 고객 지원에 도움을 요청하십시오.",
-            "위치 활성화: 설정 > 위치로 이동 > \"앱 위치 권한\" 선택 > WPTG 선택 > \"앱을 사용할 때만 허용\" 선택"
+            "위치 권한을 거부하셨습니다. 실제 금액 게임에 액세스하려면 아래의 위치 설정을 열고 ${cv.appConfig.getAppTitle()}에 대한 위치 권한을 허용해야 합니다.\n\n문제가 지속되면 고객 지원에 도움을 요청하십시오.",
+            "위치 활성화: 설정 > 위치로 이동 > \"앱 위치 권한\" 선택 > ${cv.appConfig.getAppTitle()} 선택 > \"앱을 사용할 때만 허용\" 선택"
         ]
     },
     "OpenSettings": {
@@ -53483,63 +53659,63 @@
     },
     "GeoComplyError_PLC_Redownload_Instructions": {
         "zh_CN": [
-            "We are unable to verify your account on MacOS because we can not detect the PLC app on your device. This error also sometimes occurs because location permissions are not enabled. Please make sure the PLC app is installed and location service permissions for PLC and WPTG are enabled. After enabling permissions, please make sure to restart both PLC and WPTG.\n\nIf you continue to experience issues, please reach out to customer support. As a temporary solution, you access your account on mobile.",
+            "We are unable to verify your account on MacOS because we can not detect the PLC app on your device. This error also sometimes occurs because location permissions are not enabled. Please make sure the PLC app is installed and location service permissions for PLC and ${cv.appConfig.getAppTitle()} are enabled. After enabling permissions, please make sure to restart both PLC and ${cv.appConfig.getAppTitle()}.\n\nIf you continue to experience issues, please reach out to customer support. As a temporary solution, you access your account on mobile.",
             "To re-download the PLC app, please<on click=\"openPage\" param=\"download_plc\"> |click here#2B63F3|</on>.",
             "To enable location permissions, go to system settings > Privacy & Security > location services > enable \"PlayerLocationCheck\".",
             "Restart PLC app.",
             "Restart ${cv.appConfig.getAppTitle()} app."
         ],
         "en_US": [
-            "We are unable to verify your account on MacOS because we can not detect the PLC app on your device. This error also sometimes occurs because location permissions are not enabled. Please make sure the PLC app is installed and location service permissions for PLC and WPTG are enabled. After enabling permissions, please make sure to restart both PLC and WPTG.\n\nIf you continue to experience issues, please reach out to customer support. As a temporary solution, you access your account on mobile.",
+            "We are unable to verify your account on MacOS because we can not detect the PLC app on your device. This error also sometimes occurs because location permissions are not enabled. Please make sure the PLC app is installed and location service permissions for PLC and ${cv.appConfig.getAppTitle()} are enabled. After enabling permissions, please make sure to restart both PLC and ${cv.appConfig.getAppTitle()}.\n\nIf you continue to experience issues, please reach out to customer support. As a temporary solution, you access your account on mobile.",
             "To re-download the PLC app, please<on click=\"openPage\" param=\"download_plc\"> |click here#2B63F3|</on>.",
             "To enable location permissions, go to system settings > Privacy & Security > location services > enable \"PlayerLocationCheck\".",
             "Restart PLC app.",
             "Restart ${cv.appConfig.getAppTitle()} app."
         ],
         "vi_VN": [
-            "Chúng tôi không thể xác thực tài khoản của bạn trên MacOS bởi vì chúng tôi không thể phát hiện ứng dụng PLC trên thiết bị của bạn. Lỗi này đôi khi cũng xảy ra bởi vì quyền định vị không được cấp. Xin đảm bảo ứng dụng PLC đã được cài đặt và quyền dịch vụ định vị cho PLC và WPTG được bật. Sau khi cấp quyền, xin đảm bảo khởi động lại cả PLC và WPTG. \n\nNếu bạn tiếp tục gặp phải vấn đề, vui lòng liên hệ đội ngũ chăm sóc khách hàng. Như một giải pháp tạm thời, bạn hãy truy cập vào tài khoản của mình trên di động.",
+            "Chúng tôi không thể xác thực tài khoản của bạn trên MacOS bởi vì chúng tôi không thể phát hiện ứng dụng PLC trên thiết bị của bạn. Lỗi này đôi khi cũng xảy ra bởi vì quyền định vị không được cấp. Xin đảm bảo ứng dụng PLC đã được cài đặt và quyền dịch vụ định vị cho PLC và ${cv.appConfig.getAppTitle()} được bật. Sau khi cấp quyền, xin đảm bảo khởi động lại cả PLC và ${cv.appConfig.getAppTitle()}. \n\nNếu bạn tiếp tục gặp phải vấn đề, vui lòng liên hệ đội ngũ chăm sóc khách hàng. Như một giải pháp tạm thời, bạn hãy truy cập vào tài khoản của mình trên di động.",
             "Để tải ứng dụng PLC xuống lại, vui lòng<on click=\"openPage\" param=\"download_plc\"> |nhấp vào đây#2B63F3|</on>.",
             "Để bật quyền định vị, hãy chuyển tới mục cài đặt hệ thống > Quyền riêng tư & Bảo mật > Dịch vụ định vị > Bật “PlayerLocationCheck”.",
             "Khởi động lại ứng dụng PLC.",
             "Khởi động lại ứng dụng ${cv.appConfig.getAppTitle()}."
         ],
         "th_PH": [
-            "เราไม่สามารถยืนยันบัญชีของคุณบน MacOS ได้ เนื่องจากเราตรวจไม่พบแอป PLC ในอุปกรณ์ของคุณ บางครั้งข้อผิดพลาดนี้อาจเกิดขึ้นเนื่องจากไม่ได้เปิดใช้งานการอนุญาตระบุตำแหน่ง โปรดตรวจสอบว่าได้ติดตั้งแอป PLC และเปิดใช้งานการอนุญาตบริการระบุตำแหน่งสำหรับ PLC และ WPTG หลังจากเปิดใช้งานการอนุญาต โปรดตรวจสอบให้แน่ใจว่าได้ปิดแล้วรีสตาร์ททั้ง PLC และ WPTG ใหม่แล้ว \n\nหากคุณยังคงประสบปัญหา โปรดติดต่อฝ่ายบริการลูกค้า เพื่อเป็นการแก้ปัญหาชั่วคราว ให้คุณเข้าถึงบัญชีของคุณบนโทรศัพท์มือถือ",
+            "เราไม่สามารถยืนยันบัญชีของคุณบน MacOS ได้ เนื่องจากเราตรวจไม่พบแอป PLC ในอุปกรณ์ของคุณ บางครั้งข้อผิดพลาดนี้อาจเกิดขึ้นเนื่องจากไม่ได้เปิดใช้งานการอนุญาตระบุตำแหน่ง โปรดตรวจสอบว่าได้ติดตั้งแอป PLC และเปิดใช้งานการอนุญาตบริการระบุตำแหน่งสำหรับ PLC และ ${cv.appConfig.getAppTitle()} หลังจากเปิดใช้งานการอนุญาต โปรดตรวจสอบให้แน่ใจว่าได้ปิดแล้วรีสตาร์ททั้ง PLC และ ${cv.appConfig.getAppTitle()} ใหม่แล้ว \n\nหากคุณยังคงประสบปัญหา โปรดติดต่อฝ่ายบริการลูกค้า เพื่อเป็นการแก้ปัญหาชั่วคราว ให้คุณเข้าถึงบัญชีของคุณบนโทรศัพท์มือถือ",
             "ทำการดาวน์โหลดแอป PLC ใหม่อีกครั้ง กรุณ<on click=\"openPage\" param=\"download_plc\"> |าคลิกที่นี่#2B63F3|</on>.",
             "เปิดใช้งานเซอร์วิสการระบุตำแหน่งได้โดย ไปที่การตั้งค่า > ความเป็นส่วนตัวและการรักษาความปลอดภัย > เซอร์วิสการระบุตำแหน่ง > เปิดใช้งาน\"PlayerLocationCheck\"",
             "รีสตาร์ทแอป PLC",
             "รีสตาร์ทแอป ${cv.appConfig.getAppTitle()}"
         ],
         "pt_BR": [
-            "Não foi possível verificar a sua conta no MacOS porque não conseguimos detectar o aplicativo PLC no seu dispositivo. Este erro às vezes também ocorre porque as permissões de localização não estão habilitadas. Verifique se o aplicativo PLC está instalado e se as permissões dos serviços de localização para o PLC e o WPTG estão habilitadas. Após habilitar as permissões, lembre-se de reiniciar o PLC e o WPTG. \n\nSe o problema persistir, entre em contato com o atendimento ao cliente. Como uma solução temporária, você pode acessar a sua conta pelo celular.",
+            "Não foi possível verificar a sua conta no MacOS porque não conseguimos detectar o aplicativo PLC no seu dispositivo. Este erro às vezes também ocorre porque as permissões de localização não estão habilitadas. Verifique se o aplicativo PLC está instalado e se as permissões dos serviços de localização para o PLC e o ${cv.appConfig.getAppTitle()} estão habilitadas. Após habilitar as permissões, lembre-se de reiniciar o PLC e o ${cv.appConfig.getAppTitle()}. \n\nSe o problema persistir, entre em contato com o atendimento ao cliente. Como uma solução temporária, você pode acessar a sua conta pelo celular.",
             "Para baixar o aplicativo PLC novamente,<on click=\"openPage\" param=\"download_plc\"> |clique aqui#2B63F3|</on>.",
             "Para habilitar as permissões de localização, vá para as configurações do sistema > Privacidade e segurança > serviços de localização > habilite “PlayerLocationCheck”.",
             "Reinicie o aplicativo PLC.",
             "Reinicie o aplicativo ${cv.appConfig.getAppTitle()}."
         ],
         "fr_CA": [
-            "Nous ne sommes pas en mesure de valider votre compte sur MacOS, car nous ne détectons pas l’application PLC sur votre appareil. Cette erreur peut survenir lorsque les autorisations de localisation ne sont pas activées. Veuillez vous assurer que l’application PLC est installée et que les autorisations des services de localisation pour PLC et WPTG sont activées. Après l’activation de la localisation, veuillez redémarrer l’application PLC et WPTG. \n\nSi vous continuez à rencontrer des problèmes, veuillez communiquer avec le service à la clientèle. Pour l’instant, vous pouvez accéder à votre compte via un appareil mobile.",
+            "Nous ne sommes pas en mesure de valider votre compte sur MacOS, car nous ne détectons pas l’application PLC sur votre appareil. Cette erreur peut survenir lorsque les autorisations de localisation ne sont pas activées. Veuillez vous assurer que l’application PLC est installée et que les autorisations des services de localisation pour PLC et ${cv.appConfig.getAppTitle()} sont activées. Après l’activation de la localisation, veuillez redémarrer l’application PLC et ${cv.appConfig.getAppTitle()}. \n\nSi vous continuez à rencontrer des problèmes, veuillez communiquer avec le service à la clientèle. Pour l’instant, vous pouvez accéder à votre compte via un appareil mobile.",
             "Pour télécharger l’application PLC à nouveau,<on click=\"openPage\" param=\"download_plc\"> |cliquez ici#2B63F3|</on>.",
             "Pour activer les autorisations de partage de l’emplacement, allez dans les paramètres du système > Confidentialité et sécurité > Service de localisation > Activez « PlayerLocationCheck ».",
             "Redémarrer l’application PLC.",
             "Redémarrer l’application ${cv.appConfig.getAppTitle()}."
         ],
         "es_MX": [
-            "No hemos podido verificar su cuenta en MacOS porque no pudimos detectar la aplicación de PLC en su dispositivo. Este error suele ocurrir cuando los permisos de ubicación no están habilitados. Asegúrese de que la aplicación de PLC esté instalada y de que estén habilitados los permisos de los servicios de ubicación para la aplicación de PLC y de WPTG. Luego de habilitar dichos permisos, asegúrese de reiniciar tanto la aplicación de PLC como la de WPTG. \n\nSi eso no soluciona el problema, comuníquese con atención al cliente. Como solución temporal, puede acceder a su cuenta desde su celular.",
+            "No hemos podido verificar su cuenta en MacOS porque no pudimos detectar la aplicación de PLC en su dispositivo. Este error suele ocurrir cuando los permisos de ubicación no están habilitados. Asegúrese de que la aplicación de PLC esté instalada y de que estén habilitados los permisos de los servicios de ubicación para la aplicación de PLC y de ${cv.appConfig.getAppTitle()}. Luego de habilitar dichos permisos, asegúrese de reiniciar tanto la aplicación de PLC como la de ${cv.appConfig.getAppTitle()}. \n\nSi eso no soluciona el problema, comuníquese con atención al cliente. Como solución temporal, puede acceder a su cuenta desde su celular.",
             "Para volver a descargar la aplicación de PLC, <on click=\"openPage\" param=\"download_plc\"> |haz clic aquí#2B63F3|</on>.",
             "Para habilitar los permisos de ubicación, ve a la Configuración del sistema > Privacidad y seguridad > Servicios de ubicación > Habilitar “PlayerLocationCheck”.",
             "Reiniciar aplicación de PLC.",
             "Reiniciar aplicación de ${cv.appConfig.getAppTitle()}."
         ],
         "ja_JP": [
-            "お使いのデバイスからPLCアプリが検出できないため、MacOSでアカウントを確認できません。このエラーは、位置情報の許可が有効になっていないために発生することがあります。PLCアプリがインストールされており、位置情報サービスのPLCとWPTGに対する許可が有効になっていることを確認してください。許可を有効にした後、必ずPLCとWPTGを再起動してください\n\n引き続き問題が発生する場合は、カスタマーサポートにお問い合わせください。一時的な解決策として、モバイルでアカウントを利用してください。",
+            "お使いのデバイスからPLCアプリが検出できないため、MacOSでアカウントを確認できません。このエラーは、位置情報の許可が有効になっていないために発生することがあります。PLCアプリがインストールされており、位置情報サービスのPLCと${cv.appConfig.getAppTitle()}に対する許可が有効になっていることを確認してください。許可を有効にした後、必ずPLCと${cv.appConfig.getAppTitle()}を再起動してください\n\n引き続き問題が発生する場合は、カスタマーサポートにお問い合わせください。一時的な解決策として、モバイルでアカウントを利用してください。",
             "PLCアプリを再ダウンロードするには、こちらを<on click=\"openPage\" param=\"download_plc\"> |クリックしてください。#2B63F3|</on>.",
             "位置情報の許可を有効にするには、システム設定>プライバシーとセキュリティ>位置情報サービスへ移動し、\"PlayerLocationCheck\"を有効にします。",
             "PLCアプリを再起動します。",
             "${cv.appConfig.getAppTitle()}アプリを再起動します。"
         ],
         "ko_KR": [
-            "기기에서 PLC(플레이어 위치 확인) 앱을 감지할 수 없기 때문에 MacOS에서 계정을 인증할 수 없습니다. 이 오류도 위치 권한이 활성화되지 않았기 때문에 가끔 발생하게 됩니다. PLC 앱이 설치 여부와 함께 PLC 및 WPTG에 대한 위치 서비스 권한이 활성화되어 있는지 확인하세요. 권한을 활성화한 후 PLC와 WPTG를 모두 재시작하세요. \n\n문제가 계속되는 경우 고객 지원 팀에 문의하세요. 일시적인 문제 해결의 일환으로 계정에 모바일로 액세스할 수 있습니다.",
+            "기기에서 PLC(플레이어 위치 확인) 앱을 감지할 수 없기 때문에 MacOS에서 계정을 인증할 수 없습니다. 이 오류도 위치 권한이 활성화되지 않았기 때문에 가끔 발생하게 됩니다. PLC 앱이 설치 여부와 함께 PLC 및 ${cv.appConfig.getAppTitle()}에 대한 위치 서비스 권한이 활성화되어 있는지 확인하세요. 권한을 활성화한 후 PLC와 ${cv.appConfig.getAppTitle()}를 모두 재시작하세요. \n\n문제가 계속되는 경우 고객 지원 팀에 문의하세요. 일시적인 문제 해결의 일환으로 계정에 모바일로 액세스할 수 있습니다.",
             "PLC 앱을 다시 다운로드하려면 다음<on click=\"openPage\" param=\"download_plc\"> |링크를 클릭하세요#2B63F3|</on>.",
             "위치 권한을 활성화하려면 시스템 설정 > 개인정보 보호 및 보안 > 위치 서비스 > “플레이어 위치 확인”을 사용으로 설정하십시오.",
             "PLC 앱을 재시작합니다.",
@@ -54240,15 +54416,15 @@
         "ko_KR": "본 게임은 이제 고유 통화인 황금 코인으로 플레이됩니다(일일 환율 적용)."
     },
     "minigame_intro_2": {
-        "zh_CN": "<color=#DDC3C3>When you open Poker Flips, your whole</color> WPT® Global balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don't forget to close this Poker Flips table first.</color>",
-        "en_US": "<color=#DDC3C3>When you open Poker Flips, your whole</color> WPT® Global cash balance and Casino coin balance are converted into Gold Coins. <color=#DDC3C3>If you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Flips table first.</color>",
-        "vi_VN": "<color=#DDC3C3>Khi bạn mở trò chơi Lật Xì Tố, toàn bộ</color> số dư tiền mặt WPT® Global và số dư xu Sòng bạc của bạn được chuyển đổi thành Xu Vàng. \n<color=#DDC3C3>Nếu bạn muốn thử vận may ở nơi khác trong sòng bạc hoặc tại các bàn xì tố, đừng quên đóng bàn chơi Lật Xì Tố này trước.</color>",
-        "th_PH": "<color=#DDC3C3>เมื่อคุณเปิดโป๊กเกอร์ฟลิป ยอดเงินสด</color> WPT® Global ทั้งหมดของคุณและยอดเหรียญคาสิโนจะถูกแปลงเป็นเหรียญทอง <color=#DDC3C3>หากคุณต้องการเสี่ยงโชคที่อื่นในคาสิโนหรือที่โต๊ะโป๊กเกอร์ อย่าลืมปิดโต๊ะโป๊กเกอร์ฟลิปนี้ก่อน</color>",
-        "pt_BR": "<color=#DDC3C3>Quando você abre o Flips de Poker, todo</color> o seu saldo de caixa WPT® Global e o seu saldo de moedas do cassino são convertidos em Moedas de Ouro. <color=#DDC3C3>Se você quiser tentar a sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa de Flips de Poker primeiro.</color>",
-        "fr_CA": "<color=#DDC3C3>Lorsque vous accédez à Poker Flips, le solde</color> en argent de votre compte WPT® Global et le solde de vos Jetons de Casino sont convertis en Jetons d’or. <color=#DDC3C3>Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Flips.</color>",
-        "es_MX": "<color=#DDC3C3>Cuando abras Póker Flips, todo</color> tu saldo en efectivo de WPT® Global y tu saldo de monedas del Casino se convertirán en Monedas de Oro. <color=#DDC3C3>Así que, si deseas probar suerte en algún otro juego del casino o en las mesas de póker, no te olvides de cerrar esta mesa de Póker Flips primero.</color>",
-        "ja_JP": "<color=#DDC3C3>ポーカーフリップを開くと、</color>WPT® Globalのキャッシュ残高とカジノコイン残高のすべてがゴールドコインに変換されます。<color=#DDC3C3>カジノやポーカーテーブルの他の場所で運試しをしたい場合は、忘れずに最初にこのポーカーフリップのテーブルを閉じるようにしてください。</color>",
-        "ko_KR": "<color=#DDC3C3>포커 플립을 열면 전체</color> WPT® Global 현금 잔액과 카지노 코인 잔액이 골드 코인으로 전환됩니다. <color=#DDC3C3>카지노의 다른 곳이나 포커 테이블에서 행운을 시험해보고 싶다면 이 포커 플립 테이블을 먼저 닫아야 한다는 것을 잊지 마세요.</color>"
+        "zh_CN": "<color=#DDC3C3>When you open Poker Flips, your whole</color> ${cv.appConfig.getAppTitle()} balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don't forget to close this Poker Flips table first.</color>",
+        "en_US": "<color=#DDC3C3>When you open Poker Flips, your whole</color> ${cv.appConfig.getAppTitle()} balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don't forget to close this Poker Flips table first.</color>",
+        "vi_VN": "<color=#DDC3C3>Khi bạn mở trò chơi Poker Flips, toàn bộ số dư</color> ${cv.appConfig.getAppTitle()} của bạn được chuyển đổi thành các Xu Vàng, <color=#DDC3C3>vì vậy nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Poker Flips này trước.</color>",
+        "th_PH": "<color=#DDC3C3>เมื่อคุณเปิดโป๊กเกอร์ฟลิป ยอดคงเหลือ ${cv.appConfig.getAppTitle()} ทั้งหมดของคุณจะถูกแปลงเป็นเหรียญทอง ดังนั้น หากคุณต้องการเสี่ยงโชคที่อื่นในคาสิโนหรือที่โต๊ะโป๊กเกอร์ อย่าลืมปิดโต๊ะโป๊กเกอร์ฟลิปนี้ก่อน</color>",
+        "pt_BR": "Quando você abre o Poker Flips, todo o seu saldo do ${cv.appConfig.getAppTitle()} é convertido em Moedas de Ouro, por isso, se quiser tentar a sua sorte em outro jogo do cassino ou nas mesas de pôquer, não se esqueça de fechar esta mesa do Poker Flips primeiro.",
+        "fr_CA": "Lorsque vous accédez à Poker Flips, le solde de votre compte ${cv.appConfig.getAppTitle()} est converti en Jetons d’or. Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Flips.",
+        "es_MX": "Cuando abra Póker Flips, todo su saldo de ${cv.appConfig.getAppTitle()} se convertirá en Monedas de Oro, así que si desea probar su suerte en algún otro juego del casino o en las mesas de póker, no se olvide de cerrar esta mesa de Póker Flips primero.",
+        "ja_JP": "ポーカーフリップを開くと、${cv.appConfig.getAppTitle()}の残高が全てゴールドコインに変換されます。従って、カジノやポーカーテーブルの他の場所で運試しをしたいのであれば、忘れずに最初にこのポーカーフリップのテーブルを閉じるようにしてください。",
+        "ko_KR": "포커 플립을 열면 ${cv.appConfig.getAppTitle()}의 전체 잔액이 황금 코인으로 전환됩니다. 다른 카지노 게임 또는 포커 테이블에서 플레이를 하고 싶은 경우엔 포커 플립 테이블을 닫아야 다른 게임을 즐길 수 있습니다."
     },
     "minigame_intro_3": {
         "zh_CN": "<color=#DDC3C3>You now have the chance to compare your skills to Poker Flips players from across the world - keep an eye on </color>our leaderboard to see how you measure up!",
@@ -54317,15 +54493,15 @@
         "ko_KR": "<color=#DDC3C3>본 게임은 고유 통화인 황금 코인으로 진행됩니다.</color>"
     },
     "minigame_pokermaster_intro_2": {
-        "zh_CN": "<color=#DDC3C3>When you open Poker Master, your whole</color> WPT® Global balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Master table first.</color>",
-        "en_US": "<color=#DDC3C3>When you open Poker Master, your whole</color> WPT® Global cash balance and Casino coin balance are converted into Gold Coins. <color=#DDC3C3>If you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Master table first.</color>",
-        "vi_VN": "<color=#DDC3C3>Khi bạn mở trò chơi Trùm Xì Tố, toàn bộ</color> số dư tiền mặt WPT® Global và số dư xu Sòng bạc của bạn được chuyển đổi thành Xu Vàng.\n<color=#DDC3C3>Nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Trùm Xì Tố này trước.</color>",
-        "th_PH": "<color=#DDC3C3>เมื่อคุณเปิดโป๊กเกอร์มาสเตอร์ ยอดคงเหลือ</color> WPT® Global ทั้งหมดของคุณและยอดเหรียญคาสิโนจะถูกแปลงเป็นเหรียญทอง <color=#DDC3C3>หากคุณต้องการเสี่ยงโชคกับเกมอื่นในคาสิโนหรือที่โต๊ะโป๊กเกอร์ อย่าลืมปิดโต๊ะโป๊กเกอร์มาสเตอร์นี้ก่อน</color>",
-        "pt_BR": "<color=#DDC3C3>Quando você abre o Poker Master, todo</color> o seu saldo de caixa WPT® Global e o seu saldo de moedas do cassino são convertidos em Moedas de Ouro. <color=#DDC3C3>Se você quiser tentar a sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa de Poker Master primeiro.",
-        "fr_CA": "<color=#DDC3C3>Lorsque vous accédez à Poker Master, le solde</color> en argent de votre compte WPT® Global et le solde de vos Jetons de Casino sont convertis en Jetons d’or. <color=#DDC3C3>Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Master.</color>",
-        "es_MX": "<color=#DDC3C3>Cuando abras Póker Máster, todo</color> tu saldo en efectivo de WPT® Global y tu saldo de monedas del Casino se convertirán en Monedas de Oro. <color=#DDC3C3>Así que, si deseas probar tu suerte en algún otro juego del casino o en las mesas de póker, no te olvides de cerrar esta mesa de Póker Máster primero.</color>",
-        "ja_JP": "<color=#DDC3C3>ポーカーマスターを開くと、</color>WPT® Globalのキャッシュ残高とカジノコイン残高のすべてがゴールドコインに変換されます。<color=#DDC3C3>カジノやポーカーテーブルの他の場所で運試しをしたい場合は、忘れずに最初にこのポーカーマスターのテーブルを閉じるようにしてください。</color>",
-        "ko_KR": "<color=#DDC3C3>포커 마스터를 열면 전체</color> WPT® Global 현금 잔액과 카지노 코인 잔액이 골드 코인으로 전환됩니다. <color=#DDC3C3>카지노의 다른 곳이나 포커 테이블에서 행운을 시험해보고 싶다면 포커 마스터를 테이블을 먼저 닫아야 한다는 것을 잊지 마세요.</color>"
+        "zh_CN": "<color=#DDC3C3>When you open Poker Master, your whole</color> ${cv.appConfig.getAppTitle()} balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don’t forget to close this Poker Master table first.</color>",
+        "en_US": "<color=#DDC3C3>When you open Poker Master, your whole</color> ${cv.appConfig.getAppTitle()} balance is converted into Gold Coins, <color=#DDC3C3>so if you want to try your luck elsewhere in the casino or at the poker tables, don't forget to close this Poker Master table first.</color>",
+        "vi_VN": "<color=#DDC3C3>Khi bạn mở trò chơi Poker Master, toàn bộ số dư ${cv.appConfig.getAppTitle()} của bạn được chuyển đổi thành các Xu Vàng, vì vậy nếu bạn muốn thử vận may của mình ở nơi khác trong sòng bạc hoặc tại các bàn chơi xì tố, đừng quên đóng bàn chơi Poker Master này trước.</color>",
+        "th_PH": "<color=#DDC3C3>เมื่อคุณเปิดโป๊กเกอร์มาสเตอร์ ยอดคงเหลือ ${cv.appConfig.getAppTitle()} ทั้งหมดของคุณจะถูกแปลงเป็นเหรียญทอง ดังนั้นแล้ว หากคุณต้องการเสี่ยงโชคกับเกมอื่นในคาสิโนหรือที่โต๊ะโป๊กเกอร์ อย่าลืมปิดโต๊ะโป๊กเกอร์มาสเตอร์นี้ก่อน</color>",
+        "pt_BR": "<color=#DDC3C3>Quando você abre o Poker Master, todo o seu saldo do ${cv.appConfig.getAppTitle()} é convertido em Moedas de Ouro, por isso, se quiser tentar a sua sorte em outro jogo do cassino ou nas mesas de poker, não se esqueça de fechar esta mesa do Poker Master primeiro.</color>",
+        "fr_CA": "<color=#DDC3C3>Lorsque vous accédez à Poker Master, le solde de votre compte ${cv.appConfig.getAppTitle()} est converti en Jetons d’or. Si vous désirez tenter votre chance ailleurs dans le casino ou aux tables de poker, n’oubliez pas de fermer votre page Poker Master.</color>",
+        "es_MX": "<color=#DDC3C3>Cuando abra Póker Máster, todo su saldo de ${cv.appConfig.getAppTitle()} se convertirá en Monedas de Oro, así que, si desea probar su suerte en algún otro juego del casino o en las mesas de póker, no se olvide de cerrar esta mesa de Póker Máster primero.</color>",
+        "ja_JP": "<color=#DDC3C3>ポーカーフリップを開くと、${cv.appConfig.getAppTitle()}の残高が全てゴールドコインに変換されます。従って、カジノやポーカーテーブルの他の場所で運試しをしたいのであれば、忘れずに最初にこのポーカーマスターのテーブルを閉じるようにしてください。</color>",
+        "ko_KR": "<color=#DDC3C3>포커 마스터를 열면 전체 ${cv.appConfig.getAppTitle()}의 전체 잔액이 황금 코인으로 전환됩니다. 다른 카지노 게임이나 포커 테이블에서 플레이를 하고 싶은 경우엔 포커 마스터 테이블을 닫아야 다른 게임을 즐길 수 있습니다.</color>"
     },
     "minigame_pokermaster_intro_3": {
         "zh_CN": "<color=#DDC3C3>You now have the chance to compare your skills to Poker Master players from across the world - keep an eye on </color>our leaderboard to see how you measure up!",
@@ -54436,5 +54612,27 @@
         "es_MX": "Para proteger la integridad del juego, debe volver a entrar con la misma cantidad de dinero con la que se marchó o más. De lo contrario, debe esperar 30 minutos para volver a unirse.",
         "ja_JP": "ゲームの完全性を守るために、残った金額と同額以上でバイインする必要があります。それ以外の場合、再度参加するには30分間待つ必要があります。",
         "ko_KR": "게임 무결성을 보호하기 위해 바이인할 때 남은 금액과 동일한 금액 이상으로 바이인해야 합니다. 그렇지 않으면 30분 동안 기다렸다가 다시 참여해야 합니다."
+    },
+    "KR_PromoBannerBody": {
+        "zh_CN": "",
+        "en_US": "15,000,000 GTD Tournament every day, 365 days a year",
+        "vi_VN": "15,000,000 GTD Tournament every day, 365 days a year",
+        "th_PH": "15,000,000 GTD Tournament every day, 365 days a year",
+        "pt_BR": "15,000,000 GTD Tournament every day, 365 days a year",
+        "fr_CA": "15,000,000 GTD Tournament every day, 365 days a year",
+        "es_MX": "15,000,000 GTD Tournament every day, 365 days a year",
+        "ja_JP": "15,000,000 GTD Tournament every day, 365 days a year",
+        "ko_KR": "365일 매일 매일 15,000,000 GTD 토너먼트"
+    },
+    "AsiaServerError_Block_Lobby_Locked": {
+        "zh_CN": "",
+        "en_US": "You can not join game rooms due to security reasons. Please contact customer services for more details.",
+        "vi_VN": "Bạn không thể vào phòng vì lý do bảo mật. Vui lòng liên hệ bộ phận hỗ trợ khách hàng để biết thêm chi tiết.",
+        "th_PH": "คุณไม่สามารถเข้าร่วมในห้องเกมเนื่องจากเหตุผลด้านความปลอดภัย โปรดติดต่อฝ่ายบริการลูกค้าเพื่อขอรายละเอียดเพิ่มเติม",
+        "pt_BR": "Você não pode entrar nas salas de jogos por motivos de segurança. Entre em contato com o serviço de apoio ao cliente para obter mais informações.",
+        "fr_CA": "Vous ne pouvez pas vous joindre à la salle de jeu pour des raisons de sécurité. Veuillez communiquer avec le service à la clientèle pour obtenir plus d’informations.",
+        "es_MX": "No puedes unirte a las salas de juegos por razones de seguridad. Contacte al servicio de atención al cliente para obtener más información.",
+        "ja_JP": "セキュリティ上の理由により、ゲームルームへの参加はできません。詳細についてはカスタマーサービスにお問い合わせください。",
+        "ko_KR": "보안 문제로 인해 게임 방에 참가할 수 없습니다. 자세한 정보는 고객 서비스팀에 문의하십시오."
     }
 }
